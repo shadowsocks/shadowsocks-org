@@ -1,2 +1,2 @@
 layout: homepage
-pageTitle: Spectacular Test Runner for Javascript
+pageTitle: A secured socks5 proxy
