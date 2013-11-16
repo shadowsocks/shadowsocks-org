@@ -5,7 +5,7 @@
 
   a.link {
     &:hover {
-      background: #00AEC8;
+      background: @green;
     }
   }
   blockquote {
@@ -14,8 +14,7 @@
     padding-bottom: 0;
   }
 
-  a.btn-github, a.btn-npm {
-    margin: 0 auto;
+  a.btn-download, a.btn-support {
 
     span {
       width: 205px;
@@ -24,19 +23,24 @@
     }
   }
 
-  a.btn-github {
+  a.btn-download {
     margin-bottom: 4px;
     &:hover {
-      background: #00AEC8;
+      background: @green;
     }
   }
 
-  a.btn-npm {
+  a.btn-support {
     background: #8d8d8d;
     &:hover {
       background: #8d8d8d;
     }
   }
+}
+
+#brand {
+  margin-top: 30px;
+  height: 60px;
 }
 
 #slider {
@@ -120,7 +124,7 @@ a.link {
   .icon-box i {
     display: block;
     text-align: center;
-    color: #00AEC8;
+    color: @green;
     margin-top: -3px;
     padding-left: 2px;
   }
