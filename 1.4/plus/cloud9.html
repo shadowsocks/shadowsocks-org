@@ -1,0 +1,124 @@
+<!DOCTYPE html><!--[if lt IE 7]>
+<html lang="en" class="ie ie6"></html><![endif]--><!--[if IE 7]>
+<html lang="en" class="ie ie7"></html><![endif]--><!--[if IE 8]>
+<html lang="en" class="ie ie8"></html><![endif]--><!--[if (gte IE 9)|!(IE)]>
+<html lang="en"></html>
+<head>
+  <!-- Basic Page Needs-->
+  <meta charset="utf-8">
+  <title>Karma - Cloud9</title>
+  <!-- Mobile specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Le styles-->
+  <link href="/assets/css/app.css" rel="stylesheet">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements--><!--[if lt IE 9]>
+  <script src="/assets/js/html5.js"></script><![endif]-->
+  <!-- Fav and touch icons-->
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+</head>
+<body>
+  <div id="wrap" class="boxed">
+    <header>
+      <div class="container clearfix">
+        <div class="six columns">
+          <div class="logo"><a href="/1.4/index.html">Karma</a><span>Spectacular Test Runner for JavaScript</span></div>
+        </div>
+        <div class="ten columns">
+          <nav id="menu" class="navigation">
+            <ul id="nav">
+              <li><a href="javascript:void" class="">intro</a>
+                <ul>
+                  <li><a href="/1.4/intro/installation.html">Installation</a></li>
+                  <li><a href="/1.4/intro/configuration.html">Configuration</a></li>
+                  <li><a href="/1.4/intro/how-it-works.html">How It Works</a></li>
+                  <li><a href="/1.4/intro/faq.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">config</a>
+                <ul>
+                  <li><a href="/1.4/config/configuration-file.html">Configuration File</a></li>
+                  <li><a href="/1.4/config/files.html">Files</a></li>
+                  <li><a href="/1.4/config/browsers.html">Browsers</a></li>
+                  <li><a href="/1.4/config/preprocessors.html">Preprocessors</a></li>
+                  <li><a href="/1.4/config/plugins.html">Plugins</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="active">plus</a>
+                <ul>
+                  <li><a href="/1.4/plus/requirejs.html">RequireJS</a></li>
+                  <li><a href="/1.4/plus/travis.html">Travis CI</a></li>
+                  <li><a href="/1.4/plus/jenkins.html">Jenkins CI</a></li>
+                  <li><a href="/1.4/plus/semaphore.html">Semaphore CI</a></li>
+                  <li><a href="/1.4/plus/cloud9.html">Cloud9</a></li>
+                  <li><a href="/1.4/plus/angularjs.html">AngularJS</a></li>
+                  <li><a href="/1.4/plus/yeoman.html">Yeoman</a></li>
+                  <li><a href="/1.4/plus/emberjs.html">Ember.js</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">dev</a>
+                <ul>
+                  <li><a href="/1.4/dev/public-api.html">Public Api</a></li>
+                  <li><a href="/1.4/dev/plugins.html">Plugins</a></li>
+                  <li><a href="/1.4/dev/contributing.html">Contributing</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">about</a>
+                <ul>
+                  <li><a href="/1.4/about/versioning.html">Versioning</a></li>
+                  <li><a href="/1.4/about/changelog.html">Changelog</a></li>
+                  <li><a href="/1.4/about/migration.html">Migration</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void">v1.4</a>
+                <ul>
+                  <li><a href="/1.4/index.html">v1.4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sixteen columns">
+          <hr>
+        </div>
+      </div>
+    </header>
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <h1 class="page-title">Cloud9<a href="https://github.com/karma-runner/karma/edit/master/docs/plus/05-cloud9.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
+        </h1>
+      </div>
+      <div class="page-columns">
+        <div id="markdown" class="sixteen columns bottom"><p><a href="https://c9.io/">Cloud9 IDE</a> is an open source web-based cloud integrated development environment that supports several programming languages, with a focus on the web stack (specifically JavaScript and <a href="http://nodejs.org/">NodeJS</a>). It is written almost entirely in JavaScript, and uses <a href="http://nodejs.org/">NodeJS</a> on the back-end.</p>
+<p>There are two possibilities in order to run unit tests with Karma in <a href="https://c9.io/">Cloud9 IDE</a>:</p>
+<h2>Capture the browser manually on the local machine</h2>
+<p>Open <code>http://&lt;projectName&gt;.&lt;cloud9User&gt;.c9.io/</code> in your browser.</p>
+<h2>Run Karma unit tests with PhantomJS in cloud9 IDE</h2>
+<h3>Install PhantomJS</h3>
+<p>PhantomJS must be installed with <code>npm install phantomjs</code>.</p>
+<h3>Configure Karma</h3>
+<p>The <code>karma.conf.js</code> file must include the following entries:</p>
+<pre><code class="language-javascript">browsers: [<span class="string">'PhantomJS'</span>],
+hostname: process.env.IP,
+port: process.env.PORT</code></pre>
+
+        </div>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="ten columns"><span class="copyright"><a href="https://github.com/karma-runner/karma">Karma</a>&nbsp;is released under the <a href="https://github.com/karma-runner/karma/blob/master/LICENSE">MIT license</a>. Site by&nbsp;<a href="https://github.com/Dignifiedquire">Friedel Ziegelmayer</a>.</span></div>
+      <div class="six columns">
+        <div class="social"><a href="https://github.com/karma-runner/karma/" data-tooltip="GitHub Repo"><i class="icon-github-alt icon-large"></i></a><a href="https://github.com/karma-runner/karma/issues" data-tooltip="Issues"><i class="icon-beaker icon-large"></i></a><a href="http://twitter.com/JsKarma" data-tooltip="@JsKarma"><i class="icon-twitter icon-large"></i></a><a href="https://groups.google.com/forum/#!forum/karma-users" data-tooltip="Mailing List"><i class="icon-envelope-alt icon-large"></i></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- Placed at the end of the document so the pages load faster-->
+<script src="/assets/js/app.js">;</script><![endif]-->

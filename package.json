@@ -1,0 +1,31 @@
+{
+  "name": "karma-runner.github.com",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "~0.5.0",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-connect": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-cssmin": "~0.4.1",
+    "q": "0.8.12",
+    "q-io": "1.5.2",
+    "namp": "0.2.25",
+    "jade": "0.28.1",
+    "marked": "~0.2.8",
+    "semver": "~2.0.10"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karma-runner/karma-runner.github.com.git"
+  },
+  "author": "Friedel Ziegelmayer",
+  "license": "MIT"
+}

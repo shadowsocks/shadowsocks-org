@@ -1,0 +1,154 @@
+<!DOCTYPE html><!--[if lt IE 7]>
+<html lang="en" class="ie ie6"></html><![endif]--><!--[if IE 7]>
+<html lang="en" class="ie ie7"></html><![endif]--><!--[if IE 8]>
+<html lang="en" class="ie ie8"></html><![endif]--><!--[if (gte IE 9)|!(IE)]>
+<html lang="en"></html>
+<head>
+  <!-- Basic Page Needs-->
+  <meta charset="utf-8">
+  <title>Karma - Jenkins CI</title>
+  <!-- Mobile specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Le styles-->
+  <link href="/assets/css/app.css" rel="stylesheet">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements--><!--[if lt IE 9]>
+  <script src="/assets/js/html5.js"></script><![endif]-->
+  <!-- Fav and touch icons-->
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+</head>
+<body>
+  <div id="wrap" class="boxed">
+    <header>
+      <div class="container clearfix">
+        <div class="six columns">
+          <div class="logo"><a href="/1.4/index.html">Karma</a><span>Spectacular Test Runner for JavaScript</span></div>
+        </div>
+        <div class="ten columns">
+          <nav id="menu" class="navigation">
+            <ul id="nav">
+              <li><a href="javascript:void" class="">intro</a>
+                <ul>
+                  <li><a href="/1.4/intro/installation.html">Installation</a></li>
+                  <li><a href="/1.4/intro/configuration.html">Configuration</a></li>
+                  <li><a href="/1.4/intro/how-it-works.html">How It Works</a></li>
+                  <li><a href="/1.4/intro/faq.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">config</a>
+                <ul>
+                  <li><a href="/1.4/config/configuration-file.html">Configuration File</a></li>
+                  <li><a href="/1.4/config/files.html">Files</a></li>
+                  <li><a href="/1.4/config/browsers.html">Browsers</a></li>
+                  <li><a href="/1.4/config/preprocessors.html">Preprocessors</a></li>
+                  <li><a href="/1.4/config/plugins.html">Plugins</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="active">plus</a>
+                <ul>
+                  <li><a href="/1.4/plus/requirejs.html">RequireJS</a></li>
+                  <li><a href="/1.4/plus/travis.html">Travis CI</a></li>
+                  <li><a href="/1.4/plus/jenkins.html">Jenkins CI</a></li>
+                  <li><a href="/1.4/plus/semaphore.html">Semaphore CI</a></li>
+                  <li><a href="/1.4/plus/cloud9.html">Cloud9</a></li>
+                  <li><a href="/1.4/plus/angularjs.html">AngularJS</a></li>
+                  <li><a href="/1.4/plus/yeoman.html">Yeoman</a></li>
+                  <li><a href="/1.4/plus/emberjs.html">Ember.js</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">dev</a>
+                <ul>
+                  <li><a href="/1.4/dev/public-api.html">Public Api</a></li>
+                  <li><a href="/1.4/dev/plugins.html">Plugins</a></li>
+                  <li><a href="/1.4/dev/contributing.html">Contributing</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">about</a>
+                <ul>
+                  <li><a href="/1.4/about/versioning.html">Versioning</a></li>
+                  <li><a href="/1.4/about/changelog.html">Changelog</a></li>
+                  <li><a href="/1.4/about/migration.html">Migration</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void">v1.4</a>
+                <ul>
+                  <li><a href="/1.4/index.html">v1.4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sixteen columns">
+          <hr>
+        </div>
+      </div>
+    </header>
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <h1 class="page-title">Jenkins CI<a href="https://github.com/karma-runner/karma/edit/master/docs/plus/03-jenkins.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
+        </h1>
+      </div>
+      <div class="page-columns">
+        <div id="markdown" class="sixteen columns bottom"><p><a href="http://jenkins-ci.org/">Jenkins CI</a> is one of the most popular continuous integration servers
+in the market today. At some point while developing your <a href="http://angularjs.org">AngularJS</a>
+project (hopefully early on), you might want to have automated tests run
+off your code versioning system. Jenkins will help you with this task.
+This tutorial assumes you have Jenkins already setup and running
+on your CI environment.</p>
+<h2>Install Prerequisites</h2>
+<p>You need the following tools installed on your Jenkins CI server:</p>
+<ul>
+<li>Node</li>
+<li>Karma</li>
+</ul>
+<p>Optional we highly suggest to install the following Jenkins plug-in:</p>
+<ul>
+<li><a href="https://wiki.jenkins-ci.org/display/JENKINS/EnvInject+Plugin">EnvInject</a> - it makes things easier under certain linux distributions and user permissions.</li>
+</ul>
+<h2>Configure Karma</h2>
+<p> Make the following additions and changes to your <code>karma.conf.js</code>
+ file as needed:</p>
+<pre><code class="language-javascript">singleRun: <span class="literal">true</span>,
+reporters: [<span class="string">'dots'</span>, <span class="string">'junit'</span>],
+junitReporter: {
+  outputFile: <span class="string">'test-results.xml'</span>
+},</code></pre>
+<p>Please note the <code>test-result.xml</code> file will be written to the present
+working directory (and you will need to tell Jenkins where to find it).</p>
+<h2>Create a new Jenkins Job</h2>
+<p>In Jenkins, start a new job for Angular/Karma with the basic
+settings (Name, description, parameters, source code repo to pull
+from, etc.)</p>
+<h2>Configure the Build Environment</h2>
+<p>First go to the job page and click on configure. Then in the Build
+Environment sub-section, check the “Inject environment
+variables to the build process” checkbox. A few textboxes will
+appear and in the “Properties Content” box set the following:</p>
+<pre><code class="language-bash">$ PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin
+$ PHANTOMJS_BIN=/usr/local/bin/phantomjs <span class="comment">#or wherever PhantomJS happens to be installed</span></code></pre>
+<p>Further down the page, in the Post-build Actions sub-section add a
+<code>Publish JUnit test result report</code> from the Post-build action drop
+down menu. When the textbox labeled Test report XMLs appears, enter
+the path to where the <code>test-results.xml</code> is relative to the root of
+your Jenkins job workspace.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="ten columns"><span class="copyright"><a href="https://github.com/karma-runner/karma">Karma</a>&nbsp;is released under the <a href="https://github.com/karma-runner/karma/blob/master/LICENSE">MIT license</a>. Site by&nbsp;<a href="https://github.com/Dignifiedquire">Friedel Ziegelmayer</a>.</span></div>
+      <div class="six columns">
+        <div class="social"><a href="https://github.com/karma-runner/karma/" data-tooltip="GitHub Repo"><i class="icon-github-alt icon-large"></i></a><a href="https://github.com/karma-runner/karma/issues" data-tooltip="Issues"><i class="icon-beaker icon-large"></i></a><a href="http://twitter.com/JsKarma" data-tooltip="@JsKarma"><i class="icon-twitter icon-large"></i></a><a href="https://groups.google.com/forum/#!forum/karma-users" data-tooltip="Mailing List"><i class="icon-envelope-alt icon-large"></i></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- Placed at the end of the document so the pages load faster-->
+<script src="/assets/js/app.js">;</script><![endif]-->

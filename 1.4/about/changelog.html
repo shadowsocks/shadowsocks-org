@@ -1,0 +1,714 @@
+<!DOCTYPE html><!--[if lt IE 7]>
+<html lang="en" class="ie ie6"></html><![endif]--><!--[if IE 7]>
+<html lang="en" class="ie ie7"></html><![endif]--><!--[if IE 8]>
+<html lang="en" class="ie ie8"></html><![endif]--><!--[if (gte IE 9)|!(IE)]>
+<html lang="en"></html>
+<head>
+  <!-- Basic Page Needs-->
+  <meta charset="utf-8">
+  <title>Karma - Changelog</title>
+  <!-- Mobile specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Le styles-->
+  <link href="/assets/css/app.css" rel="stylesheet">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements--><!--[if lt IE 9]>
+  <script src="/assets/js/html5.js"></script><![endif]-->
+  <!-- Fav and touch icons-->
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+</head>
+<body>
+  <div id="wrap" class="boxed">
+    <header>
+      <div class="container clearfix">
+        <div class="six columns">
+          <div class="logo"><a href="/1.4/index.html">Karma</a><span>Spectacular Test Runner for JavaScript</span></div>
+        </div>
+        <div class="ten columns">
+          <nav id="menu" class="navigation">
+            <ul id="nav">
+              <li><a href="javascript:void" class="">intro</a>
+                <ul>
+                  <li><a href="/1.4/intro/installation.html">Installation</a></li>
+                  <li><a href="/1.4/intro/configuration.html">Configuration</a></li>
+                  <li><a href="/1.4/intro/how-it-works.html">How It Works</a></li>
+                  <li><a href="/1.4/intro/faq.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">config</a>
+                <ul>
+                  <li><a href="/1.4/config/configuration-file.html">Configuration File</a></li>
+                  <li><a href="/1.4/config/files.html">Files</a></li>
+                  <li><a href="/1.4/config/browsers.html">Browsers</a></li>
+                  <li><a href="/1.4/config/preprocessors.html">Preprocessors</a></li>
+                  <li><a href="/1.4/config/plugins.html">Plugins</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">plus</a>
+                <ul>
+                  <li><a href="/1.4/plus/requirejs.html">RequireJS</a></li>
+                  <li><a href="/1.4/plus/travis.html">Travis CI</a></li>
+                  <li><a href="/1.4/plus/jenkins.html">Jenkins CI</a></li>
+                  <li><a href="/1.4/plus/semaphore.html">Semaphore CI</a></li>
+                  <li><a href="/1.4/plus/cloud9.html">Cloud9</a></li>
+                  <li><a href="/1.4/plus/angularjs.html">AngularJS</a></li>
+                  <li><a href="/1.4/plus/yeoman.html">Yeoman</a></li>
+                  <li><a href="/1.4/plus/emberjs.html">Ember.js</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">dev</a>
+                <ul>
+                  <li><a href="/1.4/dev/public-api.html">Public Api</a></li>
+                  <li><a href="/1.4/dev/plugins.html">Plugins</a></li>
+                  <li><a href="/1.4/dev/contributing.html">Contributing</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="active">about</a>
+                <ul>
+                  <li><a href="/1.4/about/versioning.html">Versioning</a></li>
+                  <li><a href="/1.4/about/changelog.html">Changelog</a></li>
+                  <li><a href="/1.4/about/migration.html">Migration</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void">v1.4</a>
+                <ul>
+                  <li><a href="/1.4/index.html">v1.4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sixteen columns">
+          <hr>
+        </div>
+      </div>
+    </header>
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <h1 class="page-title">Changelog<span class="line"></span>
+        </h1>
+      </div>
+      <div class="page-columns">
+        <div id="markdown" class="sixteen columns bottom"><p><a name="v0.10.4"></a></p>
+<h3>v0.10.4 (2013-10-25)</h3>
+<p><a name="v0.10.3"></a></p>
+<h3>v0.10.3 (2013-10-25)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>static:</strong> Use full height for the iFrame. Fix based on PR #714. (<a href="http://github.com/karma-runner/karma/commit/ca98f3a4eafaf9aa3e84636364d108ffa49bc9e3">ca98f3a4</a>)</li>
+<li><strong>watcher:</strong><ul>
+<li>ignore double &quot;add&quot; events (<a href="http://github.com/karma-runner/karma/commit/8a55901be322586b3a747be7c36b2dd6f6dd9923">8a55901b</a>)</li>
+<li>improve watching efficiency (<a href="http://github.com/karma-runner/karma/commit/1e4a66d33aeaec7900baeee0867679b9cbc3e535">1e4a66d3</a>, closes <a href="http://github.com/karma-runner/karma/issues/616">#616</a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>watcher:</strong> ignore initial &quot;add&quot; events (<a href="http://github.com/karma-runner/karma/commit/7ab9e7bd442ac4fdad6eadb37dbb69f1837c6434">7ab9e7bd</a>)</li>
+</ul>
+<p><a name="v0.10.2"></a></p>
+<h3>v0.10.2 (2013-08-21)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li>don&#39;t mark a browser captured if already being killed/timeouted (<a href="http://github.com/karma-runner/karma/commit/212309795861cf599dbcc0ed60fff612ccf25cf5">21230979</a>, closes <a href="http://github.com/karma-runner/karma/issues/88">#88</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>sync page unload (disconnect) (<a href="http://github.com/karma-runner/karma/commit/ac9b3f01e88ce2cf91fc86aca9cecfdb8177a6fa">ac9b3f01</a>)</li>
+<li>buffer result messages when polling (<a href="http://github.com/karma-runner/karma/commit/c4ad69709103110a066ae1d9652af69e42434c6b">c4ad6970</a>)</li>
+<li>allow browser to reconnect during the test run (<a href="http://github.com/karma-runner/karma/commit/cbe2851baa55312f00be420e0345283b33326266">cbe2851b</a>, closes <a href="http://github.com/karma-runner/karma/issues/82">#82</a>, <a href="http://github.com/karma-runner/karma/issues/590">#590</a>)</li>
+</ul>
+<p><a name="v0.10.1"></a></p>
+<h3>v0.10.1 (2013-08-06)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>cli:</strong> Always pass an instance of fs to processArgs. (<a href="http://github.com/karma-runner/karma/commit/06532b7042371f270c227a1a7f859f2dab5afac1">06532b70</a>, closes <a href="http://github.com/karma-runner/karma/issues/677">#677</a>)</li>
+<li><strong>init:</strong> set default filename (<a href="http://github.com/karma-runner/karma/commit/34d49b138f3bee8f17e1e9e343012d82887f906b">34d49b13</a>, closes <a href="http://github.com/karma-runner/karma/issues/680">#680</a>, <a href="http://github.com/karma-runner/karma/issues/681">#681</a>)</li>
+</ul>
+<p><a name="v0.10.0"></a></p>
+<h2>v0.10.0 (2013-08-06)</h2>
+<p><a name="v0.9.8"></a></p>
+<h3>v0.9.8 (2013-08-05)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>init:</strong> install plugin as dev dependency (<a href="http://github.com/karma-runner/karma/commit/46b7a402fb8d700b10e2d72908c309d27212b5a0">46b7a402</a>)</li>
+<li><strong>runner:</strong> do not confuse client args with the config file (<a href="http://github.com/karma-runner/karma/commit/6f158abaf923dad6878a64da2d8a3c2c56ae604f">6f158aba</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>config:</strong> default config can be karma.conf.js or karma.conf.coffee (<a href="http://github.com/karma-runner/karma/commit/d4a06f296c4d805f2dccd85b4898766593af4d66">d4a06f29</a>)</li>
+<li><strong>runner:</strong><ul>
+<li>support config files (<a href="http://github.com/karma-runner/karma/commit/449e4a1ad8b8543f84f1953c875cfbdf5692caa7">449e4a1a</a>, closes <a href="http://github.com/karma-runner/karma/issues/625">#625</a>)</li>
+<li>add --no-refresh to disable re-globbing (<a href="http://github.com/karma-runner/karma/commit/b9c670accbde8d027bdc3e09a4080c546b05853c">b9c670ac</a>)</li>
+</ul>
+</li>
+</ul>
+<p><a name="v0.9.7"></a></p>
+<h3>v0.9.7 (2013-07-31)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>init:</strong> trim the inputs (<a href="http://github.com/karma-runner/karma/commit/b72355cbeadc8e907e48bbd7d9a11e6de17343f7">b72355cb</a>, closes <a href="http://github.com/karma-runner/karma/issues/663">#663</a>)</li>
+<li><strong>web-server:</strong> correct urlRegex in custom handlers (<a href="http://github.com/karma-runner/karma/commit/a641c2c1dd0f5f1e0045e7cff1516d2820a8204e">a641c2c1</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>basic bash/zsh completion (<a href="http://github.com/karma-runner/karma/commit/9dc1cf6a6e095653fed6c79c4896c71af8af1953">9dc1cf6a</a>)</li>
+<li><strong>runner:</strong> allow passing changed/added/removed files (<a href="http://github.com/karma-runner/karma/commit/b598106de1295f3e1e58338a8eca2b60f99175c3">b598106d</a>)</li>
+<li><strong>watcher:</strong> make the batching delay configurable (<a href="http://github.com/karma-runner/karma/commit/fa139312a0fff981f11182c17ba6979dccca1105">fa139312</a>)</li>
+</ul>
+<p><a name="v0.9.6"></a></p>
+<h3>v0.9.6 (2013-07-28)</h3>
+<h4>Features</h4>
+<ul>
+<li>pass command line opts through to browser (<a href="http://github.com/karma-runner/karma/commit/00d63d0b965a998b04d1917d4c4421abc24cec18">00d63d0b</a>)</li>
+<li><strong>web-server:</strong> compress responses (gzip/deflate) (<a href="http://github.com/karma-runner/karma/commit/8e8a2d4418e7abef7dca42e58bf09c95b07687b2">8e8a2d44</a>)</li>
+</ul>
+<h4>Breaking Changes</h4>
+<ul>
+<li><code>runnerPort</code> is merged with <code>port</code>
+if you are using <code>karma run</code> with custom <code>--runer-port</code>, please change that to <code>--port</code>.
+(<a href="http://github.com/karma-runner/karma/commit/ca4c4d88b9a4a1992f7975aa32b37a008394847b">ca4c4d88</a>)</li>
+</ul>
+<p><a name="v0.9.5"></a></p>
+<h3>v0.9.5 (2013-07-21)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li>detect a full page reload, show error and recover (<a href="http://github.com/karma-runner/karma/commit/15d80f47a227839e9b0d54aeddf49b9aa9afe8aa">15d80f47</a>, closes <a href="http://github.com/karma-runner/karma/issues/27">#27</a>)</li>
+<li>better serialization in dump/console.log (<a href="http://github.com/karma-runner/karma/commit/fd46365d1fd3a9bea15c04abeb7df33a3a2d96a4">fd46365d</a>, closes <a href="http://github.com/karma-runner/karma/issues/640">#640</a>)</li>
+<li>browsers_change event always has collection as arg (<a href="http://github.com/karma-runner/karma/commit/42bf787f87304e6be23dd3dac893b3c3f77d6764">42bf787f</a>)</li>
+<li><strong>init:</strong> generate config with the new syntax (<a href="http://github.com/karma-runner/karma/commit/6b27fee5a43a7d02e706355f62fe5105b4966c43">6b27fee5</a>)</li>
+<li><strong>reporter:</strong> prevent throwing exception when null is sent to formatter (<a href="http://github.com/karma-runner/karma/commit/3b49c385fcc8ef96e72be390df058bd278b40c17">3b49c385</a>)</li>
+<li><strong>watcher:</strong> ignore fs.stat errors (<a href="http://github.com/karma-runner/karma/commit/74ccc9a8017f869bd7bbbf8831415964110a7073">74ccc9a8</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>capture window.alert (<a href="http://github.com/karma-runner/karma/commit/284c4f5c9c481759fe564627a00d72ba5c54e433">284c4f5c</a>)</li>
+<li>ship html2js preprocessor as a default plugin (<a href="http://github.com/karma-runner/karma/commit/37ecf41600a9b255ab3d57327cc83d64751642f5">37ecf416</a>)</li>
+<li>fail if zero tests executed (<a href="http://github.com/karma-runner/karma/commit/5670415ecdc5e54902b479c78df5c3c422855e5c">5670415e</a>, closes <a href="http://github.com/karma-runner/karma/issues/468">#468</a>)</li>
+<li><strong>launcher:</strong> normalize quoted paths (<a href="http://github.com/karma-runner/karma/commit/f2155e0c3305538c0fb95791e56f34743977a865">f2155e0c</a>, closes <a href="http://github.com/karma-runner/karma/issues/491">#491</a>)</li>
+<li><strong>web-server:</strong> serve css files (<a href="http://github.com/karma-runner/karma/commit/4e305545ddf2726c1fe65c46efd5e7c1045ac041">4e305545</a>, closes <a href="http://github.com/karma-runner/karma/issues/431">#431</a>)</li>
+</ul>
+<p><a name="v0.9.4"></a></p>
+<h3>v0.9.4 (2013-06-28)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>config:</strong><ul>
+<li>make the config changes backwards compatible (<a href="https://github.com/karma-runner/karma/commit/593ad853c330a7856f2112db2bfb288f67948fa6">593ad853</a>)</li>
+<li>better errors if file invalid or does not exist (<a href="https://github.com/karma-runner/karma/commit/74b533beb34c115f5080d412a03573d269d540aa">74b533be</a>)</li>
+<li>allow parsing the config multiple times (<a href="https://github.com/karma-runner/karma/commit/78a7094e0f262c431e904f99cf356be53eee3510">78a7094e</a>)</li>
+</ul>
+</li>
+<li><strong>launcher:</strong> better errors when loading launchers (<a href="https://github.com/karma-runner/karma/commit/504e848cf66b065380fa72e07f5337ae2d6e35b5">504e848c</a>)</li>
+<li><strong>preprocessor:</strong><ul>
+<li>do not show duplicate warnings (<a href="https://github.com/karma-runner/karma/commit/47c641f7560d28e0d9eac7ae010566d296d5b628">47c641f7</a>)</li>
+<li>better errors when loading preprocessors (<a href="https://github.com/karma-runner/karma/commit/3390a00b49c513a6da60f48044462118436130f8">3390a00b</a>)</li>
+</ul>
+</li>
+<li><strong>reporter:</strong> better errors when loading reporters (<a href="https://github.com/karma-runner/karma/commit/c645c060c4f381902c2005eefe5b3a7bfa63cdcc">c645c060</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>config:</strong> pass the config object rather than a wrapper (<a href="https://github.com/karma-runner/karma/commit/d2a3c8546dc4b10bb9194047a1c11963639f3730">d2a3c854</a>)</li>
+</ul>
+<h4>Breaking Changes</h4>
+<ul>
+<li>please update your karma.conf.js as follows (<a href="https://github.com/karma-runner/karma/commit/d2a3c8546dc4b10bb9194047a1c11963639f3730">d2a3c854</a>):</li>
+</ul>
+<pre><code class="language-javascript"><span class="comment">// before:</span>
+module.exports = <span class="function"><span class="keyword">function</span><span class="params">(karma)</span> {</span>
+  karma.configure({port: <span class="number">123</span>});
+  karma.defineLauncher(<span class="string">'x'</span>, <span class="string">'Chrome'</span>, {
+    flags: [<span class="string">'--disable-web-security'</span>]
+  });
+  karma.definePreprocessor(<span class="string">'y'</span>, <span class="string">'coffee'</span>, {
+    bare: <span class="literal">false</span>
+  });
+  karma.defineReporter(<span class="string">'z'</span>, <span class="string">'coverage'</span>, {
+    type: <span class="string">'html'</span>
+  });
+};
+
+<span class="comment">// after:</span>
+module.exports = <span class="function"><span class="keyword">function</span><span class="params">(config)</span> {</span>
+  config.set({
+    port: <span class="number">123</span>,
+    customLaunchers: {
+      <span class="string">'x'</span>: {
+        base: <span class="string">'Chrome'</span>,
+        flags: [<span class="string">'--disable-web-security'</span>]
+      }
+    },
+    customPreprocessors: {
+      <span class="string">'y'</span>: {
+        base: <span class="string">'coffee'</span>,
+        bare: <span class="literal">false</span>
+      }
+    },
+    customReporters: {
+      <span class="string">'z'</span>: {
+        base: <span class="string">'coverage'</span>,
+        type: <span class="string">'html'</span>
+      }
+    }
+  });
+};</code></pre>
+<p><a name="v0.9.3"></a></p>
+<h3>v0.9.3 (2013-06-16)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li>capturing console.log on IE (<a href="https://github.com/karma-runner/karma/commit/fa4b686a81ad826f256a4ca63c772af7ad6e411e">fa4b686a</a>, closes <a href="https://github.com/karma-runner/karma/issues/329">#329</a>)</li>
+<li><strong>config:</strong> fix the warning when using old syntax (<a href="https://github.com/karma-runner/karma/commit/5e55d797f7544a45c3042e301bbf71e8b830daf3">5e55d797</a>)</li>
+<li><strong>init:</strong> generate correct indentation (<a href="https://github.com/karma-runner/karma/commit/5fc17957be761c06f6ae120c5d3ba800dba8d3a4">5fc17957</a>)</li>
+<li><strong>launcher:</strong><ul>
+<li>ignore exit code when killing/timeouting (<a href="https://github.com/karma-runner/karma/commit/1029bf2d7d3d22986aa41439d2ce4115770f4dbd">1029bf2d</a>, closes <a href="https://github.com/karma-runner/karma/issues/444">#444</a>)</li>
+<li>handle ENOENT error, do not retry (<a href="https://github.com/karma-runner/karma/commit/7d790b29c09c1f3784fe648b7d5ed16add10b4ca">7d790b29</a>, closes <a href="https://github.com/karma-runner/karma/issues/452">#452</a>)</li>
+</ul>
+</li>
+<li><strong>logger:</strong> configure the logger as soon as possible (<a href="https://github.com/karma-runner/karma/commit/0607d67c15eab58ce83cce14ada70a1e2a9f17e9">0607d67c</a>)</li>
+<li><strong>preprocessor:</strong> use graceful-fs to prevent EACCESS errors (<a href="https://github.com/karma-runner/karma/commit/279bcab54019a0f0af72c7c08017cf4cdefebe46">279bcab5</a>, closes <a href="https://github.com/karma-runner/karma/issues/566">#566</a>)</li>
+<li><strong>watcher:</strong> watch files that match watched directory (<a href="https://github.com/karma-runner/karma/commit/394011753b918b8db807f31da9f5c316e296cf32">39401175</a>, closes <a href="https://github.com/karma-runner/karma/issues/521">#521</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>simplify loading plugins using patterns like <code>karma-*</code> (<a href="https://github.com/karma-runner/karma/commit/405a5a62d2ecc47a46b2ff069bfeb624f0b06982">405a5a62</a>)</li>
+<li><strong>client:</strong> capture all <code>console.*</code> log methods (<a href="https://github.com/karma-runner/karma/commit/683e6dcb9132de3caee39c809b5b58efe8236564">683e6dcb</a>)</li>
+<li><strong>config:</strong><ul>
+<li>make socket.io transports configurable (<a href="https://github.com/karma-runner/karma/commit/bbd5eb8688b2bc1e3dd04910aa68fd19c5036b31">bbd5eb86</a>)</li>
+<li>allow configurable launchers, preprocessors, reporters (<a href="https://github.com/karma-runner/karma/commit/76bdac1681f012749648f5a76b4a9d96c7a5ef20">76bdac16</a>, closes <a href="https://github.com/karma-runner/karma/issues/317">#317</a>)</li>
+<li>add warning if old constants are used (<a href="https://github.com/karma-runner/karma/commit/7233c5fb9e1c105032000bbcb9afaddf72ccbc97">7233c5fb</a>)</li>
+<li>require config as a regular module (<a href="https://github.com/karma-runner/karma/commit/a37fd6f7d28036b8da5fe98634cf711cebafc1ff">a37fd6f7</a>, closes <a href="https://github.com/karma-runner/karma/issues/304">#304</a>)</li>
+</ul>
+</li>
+<li><strong>helper:</strong> improve useragent detection (<a href="https://github.com/karma-runner/karma/commit/eb58768e32baf13b45d9649743d7ef45798ffb27">eb58768e</a>)</li>
+<li><strong>init:</strong><ul>
+<li>generate coffee config files (<a href="https://github.com/karma-runner/karma/commit/d21737176c1d866a11249d626a75440b398171ce">d2173717</a>)</li>
+<li>improve the questions a bit (<a href="https://github.com/karma-runner/karma/commit/baecadb2f1a8f31c233edacafb1f8a4b736ea243">baecadb2</a>)</li>
+</ul>
+</li>
+<li><strong>proxy:</strong> add https proxy support (<a href="https://github.com/karma-runner/karma/commit/be878dc545a0dd266d5686387c976ce70f1a095c">be878dc5</a>)</li>
+</ul>
+<h4>Breaking Changes</h4>
+<ul>
+<li>Update your karma.conf.js to export a config function (<a href="https://github.com/karma-runner/karma/commit/a37fd6f7d28036b8da5fe98634cf711cebafc1ff">a37fd6f7</a>):</li>
+</ul>
+<pre><code class="language-javascript">module.exports = <span class="function"><span class="keyword">function</span><span class="params">(karma)</span> {</span>
+  karma.configure({
+    autoWatch: <span class="literal">true</span>,
+    <span class="comment">// ...</span>
+  });
+};</code></pre>
+<p><a name="v0.9.2"></a></p>
+<h3>v0.9.2 (2013-04-16)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li>better error reporting when loading plugins (<a href="https://github.com/karma-runner/karma/commit/d9078a8eca41df15f26b53e2375f722a48d0992d">d9078a8e</a>)</li>
+<li><strong>config:</strong><ul>
+<li>Separate ENOENT error handler from others (<a href="https://github.com/karma-runner/karma/commit/e49dabe783d6cfb2ee97b70ac01953e82f70f831">e49dabe7</a>)</li>
+<li>ensure basePath is always resolved (<a href="https://github.com/karma-runner/karma/commit/2e5c5aaaddc4ad4e1ee9c8fa0388d3916827f403">2e5c5aaa</a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>allow inlined plugins (<a href="https://github.com/karma-runner/karma/commit/3034bcf9b074b693afab9c62856346d6f305d0c0">3034bcf9</a>)</li>
+<li><strong>debug:</strong> show skipped specs and failure details in the console (<a href="https://github.com/karma-runner/karma/commit/42ab936b254983faa8ab0ee76a6278fb3aff7fa2">42ab936b</a>)</li>
+</ul>
+<p><a name="v0.9.1"></a></p>
+<h3>v0.9.1 (2013-04-04)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>init:</strong> to not give false warning about missing requirejs (<a href="https://github.com/karma-runner/karma/commit/562607a16221b256c6e92ad2029154aac88eec8d">562607a1</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>ship coffee-preprocessor and requirejs as default plugins (<a href="https://github.com/karma-runner/karma/commit/f34e30db4d25d484a30d12e3cb1c41069c0b263a">f34e30db</a>)</li>
+</ul>
+<p><a name="v0.9.0"></a></p>
+<h2>v0.9.0 (2013-04-03)</h2>
+<h4>Bug Fixes</h4>
+<ul>
+<li>global error handler should propagate errors (<a href="https://github.com/karma-runner/karma/commit/dec0c19651c251dcbc16c44a57775bcb37f78cf1">dec0c196</a>, closes <a href="https://github.com/karma-runner/karma/issues/368">#368</a>)</li>
+<li><strong>config:</strong><ul>
+<li>Check if configFilePath is a string. Fixes #447. (<a href="https://github.com/karma-runner/karma/commit/98724b6ef5a6ba60d487e7b774056832c6ca9d8c">98724b6e</a>)</li>
+<li>do not change urlRoot even if proxied (<a href="https://github.com/karma-runner/karma/commit/8c138b504046a3aeb230b71e1049aa60ee46905d">8c138b50</a>)</li>
+</ul>
+</li>
+<li><strong>coverage:</strong> always send a result object (<a href="https://github.com/karma-runner/karma/commit/62c3c6790659f8f82f8a2ca5646aa424eeb28842">62c3c679</a>, closes <a href="https://github.com/karma-runner/karma/issues/365">#365</a>)</li>
+<li><strong>init:</strong><ul>
+<li>generate plugins and frameworks config (<a href="https://github.com/karma-runner/karma/commit/17798d55988d61070f2b9f59574217208f2b497e">17798d55</a>)</li>
+<li>fix for failing &quot;testacular init&quot; on Windows (<a href="https://github.com/karma-runner/karma/commit/0b5b385383f13ac8f29fa6e591a8634eefa04ab7">0b5b3853</a>)</li>
+</ul>
+</li>
+<li><strong>preprocessor:</strong> resolve relative patterns to basePath (<a href="https://github.com/karma-runner/karma/commit/c608a9e5a34a49da2971add8759a9422b74fa6fd">c608a9e5</a>, closes <a href="https://github.com/karma-runner/karma/issues/382">#382</a>)</li>
+<li><strong>runner:</strong> send exit code as string (<a href="https://github.com/karma-runner/karma/commit/ca75aafdf6b7b425ee151c2ae4ede37933befe1f">ca75aafd</a>, closes <a href="https://github.com/karma-runner/karma/issues/403">#403</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>display the version when starting (<a href="https://github.com/karma-runner/karma/commit/396173952addce3f6e904310686a42b102aa53f8">39617395</a>, closes <a href="https://github.com/karma-runner/karma/issues/391">#391</a>)</li>
+<li>allow multiple preprocessors (<a href="https://github.com/karma-runner/karma/commit/1d17c1aacf607d6c4269f05df97d024bc9ca994e">1d17c1aa</a>)</li>
+<li>allow plugins (<a href="https://github.com/karma-runner/karma/commit/125ab4f88a7cf49fd7df32264a9847847e2326ca">125ab4f8</a>)</li>
+<li><strong>config:</strong><ul>
+<li>always ignore the config file itself (<a href="https://github.com/karma-runner/karma/commit/103bc0f878a8870770c8a8afce0a3fbf8a516ea7">103bc0f8</a>)</li>
+<li>normalize string preprocessors into an array (<a href="https://github.com/karma-runner/karma/commit/4dde16087d0a704a47528d44e23ace0c536d8c72">4dde1608</a>)</li>
+</ul>
+</li>
+<li><strong>web-server:</strong> allow custom file handlers and mime types (<a href="https://github.com/karma-runner/karma/commit/2df8828742041fd09c0b45d6a62ebd7552116589">2df88287</a>)</li>
+</ul>
+<h4>Breaking Changes</h4>
+<ul>
+<li><p>reporters, launchers, preprocessors, adapters are separate plugins now, in order to use them, you need to install the npm package (probably add it as a <code>devDependency</code> into your <code>package.json</code>) and load in the <code>karma.conf.js</code> with <code>plugins = [&#39;karma-jasmine&#39;, ...]</code>. Karma ships with couple of default plugins (karma-jasmine, karma-chrome-launcher, karma-phantomjs-launcher).</p>
+</li>
+<li><p>frameworks (such as jasmine, mocha, qunit) are configured using <code>frameworks = [&#39;jasmine&#39;];</code> instead of prepending <code>JASMINE_ADAPTER</code> into files.</p>
+</li>
+</ul>
+<p><a name="v0.8.0"></a></p>
+<h2>v0.8.0 (2013-03-18)</h2>
+<h4>Breaking Changes</h4>
+<ul>
+<li>rename the project to &quot;Karma&quot;:</li>
+<li>whenever you call the &quot;testacular&quot; binary, change it to &quot;karma&quot;, eg. <code>testacular start</code> becomes <code>karma start</code>.</li>
+<li>if you rely on default name of the config file, change it to <code>karma.conf.js</code>.</li>
+<li>if you access <code>__testacular__</code> object in the client code, change it to <code>__karma__</code>, eg. <code>window.__testacular__.files</code> becomes <code>window.__karma__.files</code>. (<a href="https://github.com/karma-runner/karma/commit/026a20f7b467eb3b39c68ed509acc06e5dad58e6">026a20f7</a>)</li>
+</ul>
+<p><a name="v0.6.1"></a></p>
+<h3>v0.6.1 (2013-03-18)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>config:</strong> do not change urlRoot even if proxied (<a href="https://github.com/karma-runner/karma/commit/1be1ae1dc7ff7314f4ac2854815cb39d31362f14">1be1ae1d</a>)</li>
+<li><strong>coverage:</strong> always send a result object (<a href="https://github.com/karma-runner/karma/commit/2d210aa6697991f2eba05de58a696c5210485c88">2d210aa6</a>, closes <a href="https://github.com/karma-runner/karma/issues/365">#365</a>)</li>
+<li><strong>reporter.teamcity:</strong> report spec names and proper browser name (<a href="https://github.com/karma-runner/karma/commit/c8f6f5ea0c5c40d37b511d51b49bd22c9da5ea86">c8f6f5ea</a>)</li>
+</ul>
+<p><a name="v0.6.0"></a></p>
+<h2>v0.6.0 (2013-02-22)</h2>
+<p><a name="v0.5.11"></a></p>
+<h3>v0.5.11 (2013-02-21)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>adapter.requirejs:</strong> do not configure baseUrl automatically (<a href="https://github.com/karma-runner/karma/commit/63f3f409ae85a5137396a7ed6537bedfe4437cb3">63f3f409</a>, closes <a href="https://github.com/karma-runner/karma/issues/291">#291</a>)</li>
+<li><strong>init:</strong> add missing browsers (Opera, IE) (<a href="https://github.com/karma-runner/karma/commit/f39e5645ec561c2681d907f7c1611f01911ee8fd">f39e5645</a>)</li>
+<li><strong>reporter.junit:</strong> Add browser log output to JUnit.xml (<a href="https://github.com/karma-runner/karma/commit/f108799a4d8fd95b8c0250ee83c23ada25d026b9">f108799a</a>, closes <a href="https://github.com/karma-runner/karma/issues/302">#302</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>add Teamcity reporter (<a href="https://github.com/karma-runner/karma/commit/03e700ae2234ca7ddb8f9235343e3b0c80868bbd">03e700ae</a>)</li>
+<li><strong>adapter.jasmine:</strong> remove only last failed specs anti-feature (<a href="https://github.com/karma-runner/karma/commit/435bf72cb12112462940c8114fbaa19f9de38531">435bf72c</a>, closes <a href="https://github.com/karma-runner/karma/issues/148">#148</a>)</li>
+<li><strong>config:</strong> allow empty config file when called programmatically (<a href="https://github.com/karma-runner/karma/commit/f3d77424009f621e1fb9d60eeec7f052ebb3c585">f3d77424</a>, closes <a href="https://github.com/karma-runner/karma/issues/358">#358</a>)</li>
+</ul>
+<p><a name="v0.5.10"></a></p>
+<h3>v0.5.10 (2013-02-14)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>init:</strong> fix the logger configuration (<a href="https://github.com/karma-runner/karma/commit/481dc3fd75f45a0efa8aabdb1c71e8234b9e8a06">481dc3fd</a>, closes <a href="https://github.com/karma-runner/karma/issues/340">#340</a>)</li>
+<li><strong>proxy:</strong> fix crashing proxy when browser hangs connection (<a href="https://github.com/karma-runner/karma/commit/1c78a01a19411accb86f0bde9e040e5088752575">1c78a01a</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>set urlRoot to /<strong>karma</strong>/ when proxying the root (<a href="https://github.com/karma-runner/karma/commit/8b4fd64df6b7d07b5479e43dcd8cd2aa5e1efc9c">8b4fd64d</a>)</li>
+<li><strong>adapter.requirejs:</strong> normalize paths before appending timestamp (<a href="https://github.com/karma-runner/karma/commit/94889e7d2de701c67a2612e3fc6a51bfae891d36">94889e7d</a>)</li>
+<li>update dependencies to the latest (<a href="https://github.com/karma-runner/karma/commit/93f9627817f2d5d9446de9935930ca85cfa7df7f">93f96278</a>, <a href="https://github.com/karma-runner/karma/commit/e34d8834d69ec4e022fcd6e1be4055add96d693c">e34d8834</a>)</li>
+</ul>
+<p><a name="v0.5.9"></a></p>
+<h3>v0.5.9 (2013-02-06)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>adapter.requirejs:</strong> show error if no timestamp defined for a file (<a href="https://github.com/karma-runner/karma/commit/59dbdbd136baa87467b9b9a4cb6ce226ae87bbef">59dbdbd1</a>)</li>
+<li><strong>init:</strong> fix logger configuration (<a href="https://github.com/karma-runner/karma/commit/557922d71941e0929f9cdc0d3794424a1f27b311">557922d7</a>)</li>
+<li><strong>reporter:</strong> remove newline from base reporter browser dump (<a href="https://github.com/karma-runner/karma/commit/dfae18b63b413a1e6240d00b9dc0521ac0386ec5">dfae18b6</a>, closes <a href="https://github.com/karma-runner/karma/issues/297">#297</a>)</li>
+<li><strong>reporter.dots:</strong> only add newline to message when needed (<a href="https://github.com/karma-runner/karma/commit/dbe1155cb57fc4caa792f83f45288238db0fc7e0">dbe1155c</a></li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li>add &quot;debug&quot; button to easily open debugging window (<a href="https://github.com/karma-runner/karma/commit/da85aab927edd1614e4e05b136dee834344aa3cb">da85aab9</a>)</li>
+<li><strong>config:</strong> support running on a custom hostname (<a href="https://github.com/karma-runner/karma/commit/b8c5fe8533b13fd59cbf48972d2021069a84ae5b">b8c5fe85</a>)</li>
+<li><strong>reporter.junit:</strong> add a &#39;skipped&#39; tag for skipped testcases (<a href="https://github.com/karma-runner/karma/commit/6286406e0a36a61125ea16d6f49be07030164cb0">6286406e</a>, closes <a href="https://github.com/karma-runner/karma/issues/321">#321</a>)</li>
+</ul>
+<h3>v0.5.8</h3>
+<ul>
+<li>Fix #283</li>
+<li>Suppress global leak for istanbul</li>
+<li>Fix growl reporter to work with <code>testacular run</code></li>
+<li>Upgrade jasmine to 1.3.1</li>
+<li>Fix file sorting</li>
+<li>Fix #265</li>
+<li>Support for more mime-types on served static files</li>
+<li>Fix opening Chrome on Windows</li>
+<li>Upgrade growly to 1.1.0</li>
+</ul>
+<h3>v0.5.7</h3>
+<ul>
+<li>Support code coverage for qunit.</li>
+<li>Rename port-runner option in cli to runner-port</li>
+<li>Fix proxy handler (when no proxy defined)</li>
+<li>Fix #65</li>
+</ul>
+<h3>v0.5.6</h3>
+<ul>
+<li>Growl reporter !</li>
+<li>Batch changes (eg. <code>git checkout</code> causes only single run now)</li>
+<li>Handle uncaught errors and disconnect all browsers</li>
+<li>Global binary prefers local versions</li>
+</ul>
+<h3>v0.5.5</h3>
+<ul>
+<li>Add QUnit adapter</li>
+<li>Report console.log()</li>
+</ul>
+<h3>v0.5.4</h3>
+<ul>
+<li>Fix PhantomJS launcher</li>
+<li>Fix html2js preprocessor</li>
+<li>NG scenario adapter: show html output</li>
+</ul>
+<h3>v0.5.3</h3>
+<ul>
+<li>Add code coverage !</li>
+</ul>
+<h3>v0.5.2</h3>
+<ul>
+<li></li>
+</ul>
+<h3>v0.5.1</h3>
+<ul>
+<li>Support for Require.js</li>
+<li>Fix testacular init basePath</li>
+</ul>
+<h2>v0.5.0</h2>
+<ul>
+<li>Add preprocessor for LiveScript</li>
+<li>Fix JUnit reporter</li>
+<li>Enable process global in config file</li>
+<li>Add OS name in the browser name</li>
+<li>NG scenario adapter: hide other outputs to make it faster</li>
+<li>Allow config to be written in CoffeeScript</li>
+<li>Allow espaced characters in served urls</li>
+</ul>
+<h2>v0.4.0 (stable)</h2>
+<h3>v0.3.12</h3>
+<ul>
+<li>Allow calling run() pragmatically from JS</li>
+</ul>
+<h3>v0.3.11</h3>
+<ul>
+<li>Fix runner to wait for stdout, stderr</li>
+<li>Make routing proxy always changeOrigin</li>
+</ul>
+<h3>v0.3.10</h3>
+<ul>
+<li>Fix angular-scenario adapter + junit reporter</li>
+<li>Use flash socket if web socket not available</li>
+</ul>
+<h3>v0.3.9</h3>
+<ul>
+<li>Retry starting a browser if it does not capture</li>
+<li>Update mocha to 1.5.0</li>
+<li>Handle mocha&#39;s xit</li>
+</ul>
+<h3>v0.3.8</h3>
+<ul>
+<li>Kill browsers that don&#39;t capture in captureTimeout ms</li>
+<li>Abort build if any browser fails to capture</li>
+<li>Allow multiple profiles of Firefox</li>
+</ul>
+<h3>v0.3.7</h3>
+<ul>
+<li>Remove Travis hack</li>
+<li>Fix Safari launcher</li>
+</ul>
+<h3>v0.3.6</h3>
+<ul>
+<li>Remove custom launcher (constructor)</li>
+<li>Launcher - use random id to allow multiple instances of the same browser</li>
+<li>Fix Firefox launcher (creating profile)</li>
+<li>Fix killing browsers on Linux and Windows</li>
+</ul>
+<h3>v0.3.5</h3>
+<ul>
+<li>Fix opera launcher to create new prefs with disabling all pop-ups</li>
+</ul>
+<h3>v0.3.4</h3>
+<ul>
+<li>Change &quot;reporter&quot; config to &quot;reporters&quot;</li>
+<li>Allow multiple reporters</li>
+<li>Fix angular-scenario adapter to report proper description</li>
+<li>Add JUnit xml reporter</li>
+<li>Fix loading files from multiple drives on Windows</li>
+<li>Fix angular-scenario adapter to report total number of tests</li>
+</ul>
+<h3>v0.3.3</h3>
+<ul>
+<li>Allow proxying files, not only directories</li>
+</ul>
+<h3>v0.3.2</h3>
+<ul>
+<li>Disable autoWatch if singleRun</li>
+<li>Add custom script browser launcher</li>
+<li>Fix cleaning temp folders</li>
+</ul>
+<h3>v0.3.1</h3>
+<ul>
+<li>Run tests on start (if watching enabled)</li>
+<li>Add launcher for IE8, IE9</li>
+</ul>
+<h2>v0.3.0</h2>
+<ul>
+<li>Change browser binaries on linux to relative</li>
+<li>Add report-slower-than to CLI options</li>
+<li>Fix PhantomJS binary on Travis CI</li>
+</ul>
+<h2>v0.2.0 (stable)</h2>
+<h3>v0.1.3</h3>
+<ul>
+<li>Launch Canary with crankshaft disabled</li>
+<li>Make the captured page nicer</li>
+</ul>
+<h3>v0.1.2</h3>
+<ul>
+<li>Fix jasmine memory leaks</li>
+<li>support <strong>filename and </strong>dirname in config files</li>
+</ul>
+<h3>v0.1.1</h3>
+<ul>
+<li>Report slow tests (add <code>reportSlowerThan</code> config option)</li>
+<li>Report time in minutes if it&#39;s over 60 seconds</li>
+<li>Mocha adapter: add ability to fail during beforeEach/afterEach hooks</li>
+<li>Mocha adapter: add dump()</li>
+<li>NG scenario adapter: failure includes step name</li>
+<li>Redirect /urlRoot to /urlRoot/</li>
+<li>Fix serving with urlRoot</li>
+</ul>
+<h2>v0.1.0</h2>
+<ul>
+<li>Adapter for AngularJS scenario runner</li>
+<li>Allow serving Testacular from a subpath</li>
+<li>Fix race condition in testacular run</li>
+<li>Make testacular one binary (remove <code>testacular-run</code>, use <code>testacular run</code>)</li>
+<li>Add support for proxies</li>
+<li>Init script for generating config files (<code>testacular init</code>)</li>
+<li>Start Firefox without custom profile if it fails</li>
+<li>Preserve order of watched paths for easier debugging</li>
+<li>Change default port to 9876</li>
+<li>Require node v0.8.4+</li>
+</ul>
+<h3>v0.0.17</h3>
+<ul>
+<li>Fix race condition in manually triggered run</li>
+<li>Fix autoWatch config</li>
+</ul>
+<h3>v0.0.16</h3>
+<ul>
+<li>Mocha adapter</li>
+<li>Fix watching/resolving on Windows</li>
+<li>Allow glob patterns</li>
+<li>Watch new files</li>
+<li>Watch removed files</li>
+<li>Remove unused config (autoWatchInterval)</li>
+</ul>
+<h3>v0.0.15</h3>
+<ul>
+<li>Remove absolute paths from urls (fixes Windows issue with C:\)</li>
+<li>Add browser launcher for PhantomJS</li>
+<li>Fix some more windows issues</li>
+</ul>
+<h3>v0.0.14</h3>
+<ul>
+<li>Allow require() inside config file</li>
+<li>Allow custom browser launcher</li>
+<li>Add browser launcher for Opera, Safari</li>
+<li>Ignore signals on windows (not supported yet)</li>
+</ul>
+<h3>v0.0.13</h3>
+<ul>
+<li>Single run mode (capture browsers, run tests, exit)</li>
+<li>Start browser automatically (chrome, canary, firefox)</li>
+<li>Allow loading external files (urls)</li>
+</ul>
+<h3>v0.0.12</h3>
+<ul>
+<li>Allow console in config</li>
+<li>Warning if pattern does not match any file</li>
+</ul>
+<h3>v0.0.11</h3>
+<ul>
+<li>Add timing (total / net - per specs)</li>
+<li>Dots reporter - wrap at 80</li>
+</ul>
+<h3>v0.0.10</h3>
+<ul>
+<li>Add DOTS reporter</li>
+<li>Add no-colors option for reporters</li>
+<li>Fix web server to expose only specified files</li>
+</ul>
+<h3>v0.0.9</h3>
+<ul>
+<li>Proper exit code for runner</li>
+<li>Dynamic port asigning (if port already in use)</li>
+<li>Add log-leve, log-colors cli arguments + better --help</li>
+<li>Fix some IE errors (indexOf, forEach fallbacks)</li>
+</ul>
+<h3>v0.0.8</h3>
+<ul>
+<li>Allow overriding configuration by cli arguments (+ --version, --help)</li>
+<li>Persuade IE8 to not cache context.html</li>
+<li>Exit runner if no captured browser</li>
+<li>Fix delayed execution (streaming to runner)</li>
+<li>Complete run if browser disconnects</li>
+<li>Ignore results from previous run (after server reconnecting)</li>
+<li>Server disconnects - cancel execution, clear browser info</li>
+</ul>
+<h3>v0.0.7</h3>
+<ul>
+<li>Rename to Testacular</li>
+</ul>
+<h3>v0.0.6</h3>
+<ul>
+<li>Better debug mode (no caching, no timestamps)</li>
+<li>Make dump() a bit better</li>
+<li>Disconnect browsers on SIGTERM (kill, killall default)</li>
+</ul>
+<h3>v0.0.5</h3>
+<ul>
+<li>Fix memory (some :-D) leaks</li>
+<li>Add dump support</li>
+<li>Add runner.html</li>
+</ul>
+<h3>v0.0.4</h3>
+<ul>
+<li>Progress bar reporting</li>
+<li>Improve error formatting</li>
+<li>Add Jasmine lib (with iit, ddescribe)</li>
+<li>Reconnect client each 2sec, remove exponential growing</li>
+</ul>
+<h3>v0.0.3</h3>
+<ul>
+<li>Jasmine adapter: ignore last failed filter in exclusive mode</li>
+<li>Jasmine adapter: add build (no global space pollution)</li>
+</ul>
+<h3>0.0.2</h3>
+<ul>
+<li>Run only last failed tests (jasmine adapter)</li>
+</ul>
+<h3>0.0.1</h3>
+<ul>
+<li>Initial version with only very basic features</li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="ten columns"><span class="copyright"><a href="https://github.com/karma-runner/karma">Karma</a>&nbsp;is released under the <a href="https://github.com/karma-runner/karma/blob/master/LICENSE">MIT license</a>. Site by&nbsp;<a href="https://github.com/Dignifiedquire">Friedel Ziegelmayer</a>.</span></div>
+      <div class="six columns">
+        <div class="social"><a href="https://github.com/karma-runner/karma/" data-tooltip="GitHub Repo"><i class="icon-github-alt icon-large"></i></a><a href="https://github.com/karma-runner/karma/issues" data-tooltip="Issues"><i class="icon-beaker icon-large"></i></a><a href="http://twitter.com/JsKarma" data-tooltip="@JsKarma"><i class="icon-twitter icon-large"></i></a><a href="https://groups.google.com/forum/#!forum/karma-users" data-tooltip="Mailing List"><i class="icon-envelope-alt icon-large"></i></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- Placed at the end of the document so the pages load faster-->
+<script src="/assets/js/app.js">;</script><![endif]-->

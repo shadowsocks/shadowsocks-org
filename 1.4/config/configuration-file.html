@@ -1,0 +1,294 @@
+<!DOCTYPE html><!--[if lt IE 7]>
+<html lang="en" class="ie ie6"></html><![endif]--><!--[if IE 7]>
+<html lang="en" class="ie ie7"></html><![endif]--><!--[if IE 8]>
+<html lang="en" class="ie ie8"></html><![endif]--><!--[if (gte IE 9)|!(IE)]>
+<html lang="en"></html>
+<head>
+  <!-- Basic Page Needs-->
+  <meta charset="utf-8">
+  <title>Karma - Configuration File</title>
+  <!-- Mobile specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Le styles-->
+  <link href="/assets/css/app.css" rel="stylesheet">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements--><!--[if lt IE 9]>
+  <script src="/assets/js/html5.js"></script><![endif]-->
+  <!-- Fav and touch icons-->
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+</head>
+<body>
+  <div id="wrap" class="boxed">
+    <header>
+      <div class="container clearfix">
+        <div class="six columns">
+          <div class="logo"><a href="/1.4/index.html">Karma</a><span>Spectacular Test Runner for JavaScript</span></div>
+        </div>
+        <div class="ten columns">
+          <nav id="menu" class="navigation">
+            <ul id="nav">
+              <li><a href="javascript:void" class="">intro</a>
+                <ul>
+                  <li><a href="/1.4/intro/installation.html">Installation</a></li>
+                  <li><a href="/1.4/intro/configuration.html">Configuration</a></li>
+                  <li><a href="/1.4/intro/how-it-works.html">How It Works</a></li>
+                  <li><a href="/1.4/intro/faq.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="active">config</a>
+                <ul>
+                  <li><a href="/1.4/config/configuration-file.html">Configuration File</a></li>
+                  <li><a href="/1.4/config/files.html">Files</a></li>
+                  <li><a href="/1.4/config/browsers.html">Browsers</a></li>
+                  <li><a href="/1.4/config/preprocessors.html">Preprocessors</a></li>
+                  <li><a href="/1.4/config/plugins.html">Plugins</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">plus</a>
+                <ul>
+                  <li><a href="/1.4/plus/requirejs.html">RequireJS</a></li>
+                  <li><a href="/1.4/plus/travis.html">Travis CI</a></li>
+                  <li><a href="/1.4/plus/jenkins.html">Jenkins CI</a></li>
+                  <li><a href="/1.4/plus/semaphore.html">Semaphore CI</a></li>
+                  <li><a href="/1.4/plus/cloud9.html">Cloud9</a></li>
+                  <li><a href="/1.4/plus/angularjs.html">AngularJS</a></li>
+                  <li><a href="/1.4/plus/yeoman.html">Yeoman</a></li>
+                  <li><a href="/1.4/plus/emberjs.html">Ember.js</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">dev</a>
+                <ul>
+                  <li><a href="/1.4/dev/public-api.html">Public Api</a></li>
+                  <li><a href="/1.4/dev/plugins.html">Plugins</a></li>
+                  <li><a href="/1.4/dev/contributing.html">Contributing</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">about</a>
+                <ul>
+                  <li><a href="/1.4/about/versioning.html">Versioning</a></li>
+                  <li><a href="/1.4/about/changelog.html">Changelog</a></li>
+                  <li><a href="/1.4/about/migration.html">Migration</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void">v1.4</a>
+                <ul>
+                  <li><a href="/1.4/index.html">v1.4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sixteen columns">
+          <hr>
+        </div>
+      </div>
+    </header>
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <h1 class="page-title">Configuration File<a href="https://github.com/karma-runner/karma/edit/master/docs/config/01-configuration-file.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
+        </h1>
+      </div>
+      <div class="page-columns">
+        <div id="markdown" class="sixteen columns bottom"><p><strong>In order to serve you well, Karma needs to know about your project in order to test it
+and this is done via a configuration file. This page explains how to create such a configuration file.</strong></p>
+<div class="alert alert-success"><h4 class="alert-heading">Note: </h4>Most of the framework adapters, reporters, preprocessors and launchers needs to be loaded as <a href="plugins.html">plugins</a>.
+
+
+</div>
+<p>The Karma configuration file can be written in JavaScript or CoffeeScript and is loaded as a regular Node.js module.
+Within the configuration file, the configuration code is put together by setting <code>module.exports</code> to point to a function
+which accepts one argument: the configuration object.</p>
+<pre><code class="language-javascript"><span class="comment">// an example karma.conf.js</span>
+module.exports = <span class="function"><span class="keyword">function</span><span class="params">(config)</span> {</span>
+  config.set({
+    basePath: <span class="string">'../..'</span>,
+    frameworks: [<span class="string">'jasmine'</span>],
+    <span class="comment">//...</span>
+  });
+};</code></pre>
+<pre><code class="language-coffeescript"><span class="comment"># an example karma.conf.coffee</span>
+module.<span class="function"><span class="title">exports</span> = <span class="params">(config)</span> -&gt;</span>
+  config.set
+    <span class="attribute">basePath</span>: <span class="string">'../..'</span>
+    <span class="attribute">frameworks</span>: [<span class="string">'jasmine'</span>]
+    <span class="comment"># ...</span></code></pre>
+<p>To see a more detailed example configuration file, see <a href="https://github.com/karma-runner/karma/blob/master/test/client/karma.conf.js">test/client/karma.conf.js</a> which contains most of
+the available configuration options.</p>
+<p>The rest of the document contains a list of all available configuration options...</p>
+<h2>autoWatch</h2>
+<p><strong>Type:</strong> Boolean</p>
+<p><strong>Default:</strong>  <code>false</code></p>
+<p><strong>CLI:</strong> <code>--auto-watch</code>, <code>--no-auto-watch</code></p>
+<p><strong>Description:</strong> Enable or disable watching files and executing the tests
+  whenever one of these files changes.</p>
+<h2>autoWatchBatchDelay</h2>
+<p><strong>Type:</strong> Number</p>
+<p><strong>Default:</strong>  <code>250</code></p>
+<p><strong>Description:</strong> When Karma is watching the files for changes, it tries to batch
+multiple changes into a single run so that the test runner doesn&#39;t try to start and restart running
+tests more than it should. The configuration setting tells Karma how long to wait (in milliseconds) after any changes
+have occurred before starting the test process again.</p>
+<h2>basePath</h2>
+<p><strong>Type:</strong> String</p>
+<p><strong>Default:</strong> <code>&#39;&#39;</code></p>
+<p><strong>Description:</strong> The root path location that will be used to resolve all relative
+paths defined in <code>files</code> and <code>exclude</code>. If the <code>basePath</code> configuration is a
+relative path then it will be resolved to the <code>__dirname</code> of the configuration file.</p>
+<h2>browsers</h2>
+<p><strong>Type:</strong> Array</p>
+<p><strong>Default:</strong>  <code>[]</code></p>
+<p><strong>CLI:</strong> <code>--browsers Chrome,Firefox</code></p>
+<p><strong>Possible Values:</strong></p>
+<ul>
+<li><code>Chrome</code> (comes installed with Karma)</li>
+<li><code>ChromeCanary</code> (comes installed with Karma)</li>
+<li><code>PhantomJS</code> (comes installed with Karma)</li>
+<li><code>Firefox</code> (requires karma-firefox-launcher plugin)</li>
+<li><code>Opera</code> (requires karma-opera-launcher plugin)</li>
+<li><code>Internet Explorer</code> (requires karma-ie-launcher plugin)</li>
+<li><code>Safari</code> (requires karma-safari-launcher plugin)</li>
+</ul>
+<p><strong>Description:</strong> A list of browsers to launch and capture. When Karma starts up, it will also start up each browser
+which is placed within this setting.  Once Karma is shut down, it will shut down these
+browsers as well. You can capture any browser manually just by opening the browser and visiting the URL where
+the Karma web server is listening (by default it is <code>http://localhost:9876/</code>).</p>
+<p>See <a href="browsers.html">config/browsers</a> for more. Additional launchers can be defined through <a href="plugins.html">plugins</a>.</p>
+<h2>captureTimeout</h2>
+<p><strong>Type:</strong> Number</p>
+<p><strong>Default:</strong> <code>60000</code></p>
+<p><strong>Description:</strong> Timeout for capturing a browser (in ms).</p>
+<p>The <code>captureTimeout</code> value represents the maximum boot-up time allowed for a browser to start and connect to Karma.
+If any browser does not get captured within the timeout, Karma will kill it and try to launch
+it again and, after three attempts to capture it, Karma will give up.</p>
+<h2>colors</h2>
+<p><strong>Type:</strong> Boolean</p>
+<p><strong>Default:</strong>   <code>true</code></p>
+<p><strong>CLI:</strong> <code>--colors</code>, <code>--no-colors</code></p>
+<p><strong>Description:</strong>  Enable or disable colors in the output (reporters and logs).</p>
+<h2>exclude</h2>
+<p><strong>Type:</strong> Array</p>
+<p><strong>Default:</strong> <code>[]</code></p>
+<p><strong>Description:</strong> List of files/patterns to exclude from loaded files.</p>
+<h2>files</h2>
+<p><strong>Type:</strong> Array</p>
+<p><strong>Default:</strong> <code>[]</code></p>
+<p><strong>Description:</strong> List of files/patterns to load in the browser.</p>
+<p>See <a href="files.html">config/files</a> for more information.</p>
+<h2>frameworks</h2>
+<p><strong>Type:</strong> Array</p>
+<p><strong>Default:</strong> <code>[]</code></p>
+<p><strong>Description:</strong> List of frameworks you want to use. Typically, you will set this to <code>[&#39;jasmine&#39;]</code>, <code>[&#39;mocha&#39;]</code> or <code>[&#39;qunit&#39;]</code>...</p>
+<p>Please note just about all frameworks in Karma require an additional plugin/framework library to be installed (via NPM).</p>
+<p>Additional information can be found in <a href="plugins.html">plugins</a>.</p>
+<h2>hostname</h2>
+<p><strong>Type:</strong> String</p>
+<p><strong>Default:</strong> <code>&#39;localhost&#39;</code></p>
+<p><strong>Description:</strong> Hostname to be used when capturing browsers.</p>
+<h2>logLevel</h2>
+<p><strong>Type:</strong> Constant</p>
+<p><strong>Default:</strong> <code>config.LOG_INFO</code></p>
+<p><strong>CLI:</strong> <code>--log-level debug</code></p>
+<p><strong>Possible values:</strong></p>
+<ul>
+<li><code>config.LOG_DISABLE</code></li>
+<li><code>config.LOG_ERROR</code></li>
+<li><code>config.LOG_WARN</code></li>
+<li><code>config.LOG_INFO</code></li>
+<li><code>config.LOG_DEBUG</code></li>
+</ul>
+<p><strong>Description:</strong> Level of logging.</p>
+<h2>loggers</h2>
+<p><strong>Type:</strong> Array</p>
+<p><strong>Default:</strong> <code>[{type: &#39;console&#39;}]</code></p>
+<p><strong>Description:</strong> A list of log appenders to be used. See the
+  documentation for <a href="https://github.com/nomiddlename/log4js-node">log4js</a> for more information.</p>
+<h2>plugins</h2>
+<p><strong>Type:</strong> Array</p>
+<p><strong>Default:</strong> <code>[&#39;karma-*&#39;]</code></p>
+<p><strong>Description:</strong> List of plugins to load. A plugin can be a string (in which case it will be required by Karma) or an inlined plugin - Object.
+By default, Karma loads all siblink modules, that match <code>karma-*</code>.</p>
+<p>Please note just about all plugins in Karma require an additional library to be installed (via NPM).</p>
+<p>See <a href="plugins.html">plugins</a> for more information.</p>
+<h2>port</h2>
+<p><strong>Type:</strong> Number</p>
+<p><strong>Default:</strong> <code>9876</code></p>
+<p><strong>CLI:</strong> <code>--port 9876</code></p>
+<p><strong>Description:</strong> The port where the webserver will be listening.</p>
+<h2>preprocessors</h2>
+<p><strong>Type:</strong> Object</p>
+<p><strong>Default:</strong> <code>{&#39;**/*.coffee&#39;: &#39;coffee&#39;}</code></p>
+<p><strong>Description:</strong> A map of preprocessors to use.</p>
+<p>Preprocessors can be loaded through <a href="plugins.html">plugins</a>. </p>
+<p>Please note just about all preprocessors in Karma (other than CoffeeScript and some other defaults)
+require an additional library to be installed (via NPM).</p>
+<p>Click <a href="preprocessors.html">here</a> for more information.</p>
+<h2>proxies</h2>
+<p><strong>Type:</strong> Object</p>
+<p><strong>Default:</strong>   <code>{}</code></p>
+<p><strong>Description:</strong> A map of path-proxy pairs.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="language-javascript">  proxies:  {
+    <span class="string">'/static'</span>: <span class="string">'http://gstatic.com'</span>,
+    <span class="string">'/web'</span>: <span class="string">'http://localhost:9000'</span>
+  },</code></pre>
+<h2>proxyValidateSSL</h2>
+<p><strong>Type:</strong> Boolean</p>
+<p><strong>Default:</strong>   <code>true</code></p>
+<p><strong>Description:</strong> Whether or not karma or any browsers should raise an error when an inavlid SSL certificate is found.</p>
+<h2>reportSlowerThan</h2>
+<p><strong>Type:</strong> Number</p>
+<p><strong>Default:</strong> <code>0</code></p>
+<p><strong>Description:</strong> Karma will report all the tests that are slower than given time limit (in ms).
+This is disabled by default (since the default value is 0).</p>
+<h2>reporters</h2>
+<p><strong>Type:</strong> Array</p>
+<p><strong>Default:</strong> <code>[&#39;progress&#39;]</code></p>
+<p><strong>CLI:</strong> <code>--reporters progress,growl</code></p>
+<p><strong>Possible Values:</strong></p>
+<ul>
+<li><code>dots</code></li>
+<li><code>progress</code></li>
+</ul>
+<p><strong>Description:</strong> A list of reporters to use.</p>
+<p>Additional reporters, such as <code>growl</code>, <code>junit</code>, <code>teamcity</code> or <code>coverage</code> can be loaded through <a href="plugins.html">plugins</a>.</p>
+<p>Please note just about all additional reporters in Karma (other than progress) require an additional library to be installed (via NPM).</p>
+<h2>singleRun</h2>
+<p><strong>Type:</strong> Boolean</p>
+<p><strong>Default:</strong> <code>false</code></p>
+<p><strong>CLI:</strong> <code>--single-run</code>, <code>no-single-run</code></p>
+<p><strong>Description:</strong> Continuous Integration mode.</p>
+<p>If <code>true</code>, Karma will start and capture all configured browsers, run tests and then exit with an exit code of <code>0</code> or <code>1</code> depending
+on whether all tests passed or any tests failed.</p>
+<h2>transports</h2>
+<p><strong>Type:</strong> Array</p>
+<p><strong>Default:</strong> <code>[&#39;websocket&#39;, &#39;flashsocket&#39;, &#39;xhr-polling&#39;, &#39;jsonp-polling&#39;]</code></p>
+<p><strong>Description:</strong> An array of allowed transport methods between the browser and testing server. This configuration setting
+is handed off to <a href="https://github.com/LearnBoost/Socket.IO/wiki/Configuring-Socket.IO">socket.io</a> (which manages the communication
+between browsers and the testing server).</p>
+<h2>urlRoot</h2>
+<p><strong>Type:</strong> String</p>
+<p><strong>Default:</strong> <code>&#39;/&#39;</code></p>
+<p><strong>Description:</strong> The base url, where Karma runs.</p>
+<p>All the Karma&#39;s urls get prefixed with the <code>urlRoot</code>. This is helpful when using proxies, as
+sometimes you might want to proxy a url that is already taken by Karma.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="ten columns"><span class="copyright"><a href="https://github.com/karma-runner/karma">Karma</a>&nbsp;is released under the <a href="https://github.com/karma-runner/karma/blob/master/LICENSE">MIT license</a>. Site by&nbsp;<a href="https://github.com/Dignifiedquire">Friedel Ziegelmayer</a>.</span></div>
+      <div class="six columns">
+        <div class="social"><a href="https://github.com/karma-runner/karma/" data-tooltip="GitHub Repo"><i class="icon-github-alt icon-large"></i></a><a href="https://github.com/karma-runner/karma/issues" data-tooltip="Issues"><i class="icon-beaker icon-large"></i></a><a href="http://twitter.com/JsKarma" data-tooltip="@JsKarma"><i class="icon-twitter icon-large"></i></a><a href="https://groups.google.com/forum/#!forum/karma-users" data-tooltip="Mailing List"><i class="icon-envelope-alt icon-large"></i></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- Placed at the end of the document so the pages load faster-->
+<script src="/assets/js/app.js">;</script><![endif]-->

@@ -1,0 +1,170 @@
+<!DOCTYPE html><!--[if lt IE 7]>
+<html lang="en" class="ie ie6"></html><![endif]--><!--[if IE 7]>
+<html lang="en" class="ie ie7"></html><![endif]--><!--[if IE 8]>
+<html lang="en" class="ie ie8"></html><![endif]--><!--[if (gte IE 9)|!(IE)]>
+<html lang="en"></html>
+<head>
+  <!-- Basic Page Needs-->
+  <meta charset="utf-8">
+  <title>Karma - Files</title>
+  <!-- Mobile specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Le styles-->
+  <link href="/assets/css/app.css" rel="stylesheet">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements--><!--[if lt IE 9]>
+  <script src="/assets/js/html5.js"></script><![endif]-->
+  <!-- Fav and touch icons-->
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+</head>
+<body>
+  <div id="wrap" class="boxed">
+    <header>
+      <div class="container clearfix">
+        <div class="six columns">
+          <div class="logo"><a href="/1.4/index.html">Karma</a><span>Spectacular Test Runner for JavaScript</span></div>
+        </div>
+        <div class="ten columns">
+          <nav id="menu" class="navigation">
+            <ul id="nav">
+              <li><a href="javascript:void" class="">intro</a>
+                <ul>
+                  <li><a href="/1.4/intro/installation.html">Installation</a></li>
+                  <li><a href="/1.4/intro/configuration.html">Configuration</a></li>
+                  <li><a href="/1.4/intro/how-it-works.html">How It Works</a></li>
+                  <li><a href="/1.4/intro/faq.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="active">config</a>
+                <ul>
+                  <li><a href="/1.4/config/configuration-file.html">Configuration File</a></li>
+                  <li><a href="/1.4/config/files.html">Files</a></li>
+                  <li><a href="/1.4/config/browsers.html">Browsers</a></li>
+                  <li><a href="/1.4/config/preprocessors.html">Preprocessors</a></li>
+                  <li><a href="/1.4/config/plugins.html">Plugins</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">plus</a>
+                <ul>
+                  <li><a href="/1.4/plus/requirejs.html">RequireJS</a></li>
+                  <li><a href="/1.4/plus/travis.html">Travis CI</a></li>
+                  <li><a href="/1.4/plus/jenkins.html">Jenkins CI</a></li>
+                  <li><a href="/1.4/plus/semaphore.html">Semaphore CI</a></li>
+                  <li><a href="/1.4/plus/cloud9.html">Cloud9</a></li>
+                  <li><a href="/1.4/plus/angularjs.html">AngularJS</a></li>
+                  <li><a href="/1.4/plus/yeoman.html">Yeoman</a></li>
+                  <li><a href="/1.4/plus/emberjs.html">Ember.js</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">dev</a>
+                <ul>
+                  <li><a href="/1.4/dev/public-api.html">Public Api</a></li>
+                  <li><a href="/1.4/dev/plugins.html">Plugins</a></li>
+                  <li><a href="/1.4/dev/contributing.html">Contributing</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void" class="">about</a>
+                <ul>
+                  <li><a href="/1.4/about/versioning.html">Versioning</a></li>
+                  <li><a href="/1.4/about/changelog.html">Changelog</a></li>
+                  <li><a href="/1.4/about/migration.html">Migration</a></li>
+                </ul>
+              </li>
+              <li><a href="javascript:void">v1.4</a>
+                <ul>
+                  <li><a href="/1.4/index.html">v1.4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sixteen columns">
+          <hr>
+        </div>
+      </div>
+    </header>
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <h1 class="page-title">Files<a href="https://github.com/karma-runner/karma/edit/master/docs/config/02-files.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
+        </h1>
+      </div>
+      <div class="page-columns">
+        <div id="markdown" class="sixteen columns bottom"><p><strong>The <code>files</code> array determines which files are included in the browser and which files are watched and served by Karma.</strong></p>
+<h2>Pattern matching and <code>basePath</code></h2>
+<ul>
+<li>All of the relative patterns will get resolved to <code>basePath</code> first.</li>
+<li>If the <code>basePath</code> is a relative path, it gets resolved to the
+directory where the configuration file is.</li>
+<li>Eventually, all the patterns will get resolved into files using
+<a href="https://github.com/isaacs/node-glob">glob</a>, so you can use expressions like <code>test/unit/**/*.spec.js</code>.</li>
+</ul>
+<h2>Ordering</h2>
+<ul>
+<li>The order of patterns determines the order of files in which they
+are included in the browser.</li>
+<li>Multiple files matching a single pattern are sorted alphabetically.</li>
+<li>Each file is included exactly once. If multiple patterns match the
+same file, it&#39;s included as if it only matched the first pattern.</li>
+</ul>
+<h2>Included, served, watched</h2>
+<p>Each pattern is either a simple string or an object with four properties:</p>
+<h3><code>pattern</code></h3>
+<ul>
+<li><strong>Description.</strong> The pattern to use for matching. This property is mandatory.</li>
+</ul>
+<h3><code>watched</code></h3>
+<ul>
+<li><strong>Type.</strong> Boolean</li>
+<li><strong>Default.</strong> <code>true</code></li>
+<li><strong>Description.</strong>  If <code>autoWatch</code> is <code>true</code> all files that have set <code>watched</code> to true will be
+watched for changes.</li>
+</ul>
+<h3><code>included</code></h3>
+<ul>
+<li><strong>Type.</strong> Boolean</li>
+<li><strong>Default.</strong> <code>true</code></li>
+<li><strong>Description.</strong> Should the files be included in the browser using
+  <code>&lt;script&gt;</code> tag? Use <code>false</code> if you wanna load them manually, eg.
+  using <a href="../plus/RequireJS.html">Require.js</a>.</li>
+</ul>
+<h3><code>served</code></h3>
+<ul>
+<li><strong>Type.</strong> Boolean</li>
+<li><strong>Default.</strong> <code>true</code></li>
+<li><strong>Description.</strong> Should the files be served by Karma&#39;s webserver?</li>
+</ul>
+<h2>Complete example</h2>
+<p>Here is a complete example showing the different options that are possible.</p>
+<pre><code class="language-javascript">files: [
+
+  <span class="comment">// simple patterns to load the needed testfiles</span>
+  <span class="comment">// equals to {pattern: 'test/unit/*.spec.js', watched: true, served: true, included: true}</span>
+  <span class="string">'test/unit/*.spec.js'</span>,
+
+  <span class="comment">// this file gets served but will be ignored by the watcher</span>
+  {pattern: <span class="string">'compiled/index.html'</span>, watched: <span class="literal">false</span>},
+
+  <span class="comment">// this file only gets watched but otherwise ignored</span>
+  {pattern: <span class="string">'app/index.html'</span>, included: <span class="literal">false</span>, served: <span class="literal">false</span>}
+],</code></pre>
+
+        </div>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="ten columns"><span class="copyright"><a href="https://github.com/karma-runner/karma">Karma</a>&nbsp;is released under the <a href="https://github.com/karma-runner/karma/blob/master/LICENSE">MIT license</a>. Site by&nbsp;<a href="https://github.com/Dignifiedquire">Friedel Ziegelmayer</a>.</span></div>
+      <div class="six columns">
+        <div class="social"><a href="https://github.com/karma-runner/karma/" data-tooltip="GitHub Repo"><i class="icon-github-alt icon-large"></i></a><a href="https://github.com/karma-runner/karma/issues" data-tooltip="Issues"><i class="icon-beaker icon-large"></i></a><a href="http://twitter.com/JsKarma" data-tooltip="@JsKarma"><i class="icon-twitter icon-large"></i></a><a href="https://groups.google.com/forum/#!forum/karma-users" data-tooltip="Mailing List"><i class="icon-envelope-alt icon-large"></i></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- Placed at the end of the document so the pages load faster-->
+<script src="/assets/js/app.js">;</script><![endif]-->

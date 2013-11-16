@@ -1,0 +1,93 @@
+extends layout
+
+block content
+  .container.clearfix
+    #welcome.sixteen.columns
+      .qoute
+        .ten-and-half.columns.omega
+          span
+              | A secured socks5 proxy,
+              | designed to protect your internet traffic.
+        .four-and-half.columns.alpha
+          a.btn-github.link(href='https://github.com/karma-runner/karma')
+            span
+              i.icon-github-alt
+              | &nbsp; View project on GitHub
+          a.btn-npm.link(href='https://npmjs.org/package/karma')
+            span
+              i.icon-hdd
+              | &nbsp; npm install -g karma
+
+  .container
+    .sixteen.columns.bottom
+      p.bold.large.center.
+        Things should be simple. We believe in testing and so we want to make it as simple as possible.
+    .sixteen.columns.bottom
+      p.center
+        :markdown
+          The main goal for Karma is to bring a productive testing
+          environment to developers. The environment being one where they don&#39;t have
+          to set up loads of configurations, but rather a place where developers can just write the
+          code and get instant feedback from their tests. Because getting quick feedback is what makes you
+          productive and [creative](http://vimeo.com/36579366).
+
+    .clearfix
+    .our-services
+      ul
+        li.one-third.column
+          .icon-box
+            i.icon-mobile-phone.icon-2x
+          h3 Test on Real Devices
+          p
+            | Test your code on real browsers and real devices such as phones,
+            | tablets or on a headless PhantomJS instance.
+        li.one-third.column
+          .icon-box
+            i.icon-resize-small.icon-2x
+          h3 Remote Control
+          p
+            | Control the whole workflow from the command line or your IDE -
+            | just save a file and Karma will run all the tests.
+        li.one-third.column
+          .icon-box
+            i.icon-globe.icon-2x
+          h3 Testing Framework Agnostic
+          p
+            :markdown
+              Describe your tests with [Jasmine](http://pivotal.github.com/jasmine/),
+              [Mocha](http://visionmedia.github.com/mocha/),
+              [QUnit](http://qunitjs.com/), or write a simple adapter for any framework you like.
+
+        li.one-third.column.last
+          .icon-box
+            i.icon-group.icon-2x
+          h3 Open Source
+          p
+            | Developed for and maintained by the open source community at 
+            a(href='https://github.com/karma-runner/karma') GitHub
+            | .
+        li.one-third.column.last
+          .icon-box
+            i.icon-magic.icon-2x
+          h3 Easy Debugging
+          p
+            | Easy debugging directly from your IDE via WebStorm or Google Chrome.
+        li.one-third.column.last
+          .icon-box
+            i.icon-refresh.icon-2x
+          h3 Continuous Integration
+          p
+            :markdown
+              Simple integration with [Jenkins](plus/jenkins.html),
+              [Travis](plus/travis.html) or
+              [Semaphore](plus/semaphore.html).
+
+  .container.clearfix.bottom
+    .sixteen.columns.bottom
+      hr
+    .sixteen.columns
+      p.center
+        | For more motivation on why to use Karma and why we did it, check out
+        | the blog post on 
+        a(href='http://googletesting.blogspot.com/2012/11/testacular-spectacular-test-runner-for.html') Google Testing
+        | .
