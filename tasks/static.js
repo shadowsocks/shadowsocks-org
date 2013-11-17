@@ -30,7 +30,7 @@ module.exports = function(grunt) {
   var pageTitleFromFilename = menuTitleFromFilename;
 
   var editUrlFromFilenameAndSection = function(fileName, section) {
-    return 'https://github.com/karma-runner/karma/edit/master/docs/' + section + '/' + fileName;
+    return 'https://github.com/madeye/shadowsocks-org/edit/master/docs/' + section + '/' + fileName;
   };
 
   var filterOnlyFiles = function(path, stat) {
