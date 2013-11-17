@@ -6,7 +6,7 @@
 <head>
   <!-- Basic Page Needs-->
   <meta charset="utf-8">
-  <title>Shadowsocks - Yeoman</title>
+  <title>Shadowsocks - Advanced</title>
   <!-- Mobile specific Metas-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="">
@@ -33,33 +33,23 @@
             <ul id="nav">
               <li><a href="javascript:void" class="">intro</a>
                 <ul>
+                  <li><a href="/1.4/intro/get-started.html">Get Started</a></li>
                   <li><a href="/1.4/intro/installation.html">Installation</a></li>
-                  <li><a href="/1.4/intro/configuration.html">Configuration</a></li>
-                  <li><a href="/1.4/intro/how-it-works.html">How It Works</a></li>
-                  <li><a href="/1.4/intro/faq.html">FAQ</a></li>
                 </ul>
               </li>
-              <li><a href="javascript:void" class="">config</a>
+              <li><a href="javascript:void" class="active">config</a>
                 <ul>
-                  <li><a href="/1.4/config/configuration-file.html">Configuration File</a></li>
-                  <li><a href="/1.4/config/files.html">Files</a></li>
-                  <li><a href="/1.4/config/browsers.html">Browsers</a></li>
-                  <li><a href="/1.4/config/preprocessors.html">Preprocessors</a></li>
-                  <li><a href="/1.4/config/plugins.html">Plugins</a></li>
+                  <li><a href="/1.4/config/advanced.html">Advanced</a></li>
                 </ul>
               </li>
               <li><a href="javascript:void" class="">dev</a>
                 <ul>
-                  <li><a href="/1.4/dev/public-api.html">Public Api</a></li>
-                  <li><a href="/1.4/dev/plugins.html">Plugins</a></li>
-                  <li><a href="/1.4/dev/contributing.html">Contributing</a></li>
+                  <li><a href="/1.4/dev/contribution.html">Contribution</a></li>
                 </ul>
               </li>
               <li><a href="javascript:void" class="">about</a>
                 <ul>
-                  <li><a href="/1.4/about/versioning.html">Versioning</a></li>
-                  <li><a href="/1.4/about/changelog.html">Changelog</a></li>
-                  <li><a href="/1.4/about/migration.html">Migration</a></li>
+                  <li><a href="/1.4/about/how-it-works.html">How It Works</a></li>
                 </ul>
               </li>
               <li><a href="javascript:void">v1.4</a>
@@ -77,11 +67,45 @@
     </header>
     <div class="container clearfix">
       <div class="sixteen columns">
-        <h1 class="page-title">Yeoman<a href="https://github.com/karma-runner/karma/edit/master/docs/plus/07-yeoman.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
+        <h1 class="page-title">Advanced<a href="https://github.com/karma-runner/karma/edit/master/docs/config/01-advanced.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
         </h1>
       </div>
       <div class="page-columns">
-        <div id="markdown" class="sixteen columns bottom"><p><a href="http://yeoman.io/">Yeoman</a> is a set of tools to make building web apps easier. Yeoman has support for Karma via the <a href="https://github.com/yeoman/generator-karma">Karma Generator</a>.</p>
+        <div id="markdown" class="sixteen columns bottom"><p>Karma runs on <a href="http://nodejs.org/">Node.js</a> and is available via <a href="npmjs.org/package/karma">NPM</a>.</p>
+<h2>Requirements</h2>
+<ol>
+  <li>
+    <h3><a href="http://nodejs.org/download/">Node.js</a></h3>
+    <p>
+      There are installers for both Mac and Windows. On Linux, we recommend using
+      <a href="https://github.com/creationix/nvm">NVM</a>.
+    </p>
+  </li>
+  <li>
+    <h3><a href="https://npmjs.org/">Node Package Manager (NPM)</a></h3>
+    <p>
+      NPM is a package manager for Node.js which is used to install Karma. This should
+      automatically be installed when Node.js is installed, but if not then please install
+      it afterwards.
+    </p>
+  </li>
+</ol>
+
+<h2>Global &quot;System-Wide&quot; Installation</h2>
+<p>This is the recommended approach to installing and making use of Karma. It will install Karma into your global
+<code>node_modules</code> directory and create a symlink in your system path, so that you can run the <code>karma</code>
+command from any directory. This means that the <code>karma</code> command (which is the central command that Karma uses to run
+tests) can be executed anywhere via the command line.</p>
+<p>The following command will install Karma globally:</p>
+<pre><code class="language-bash">$ npm install -g karma</code></pre>
+<p>Please note, that the <code>karma</code> command will always look for a locally installed instance of Karma first and
+before resorting to a global install and, if present, then the local version will be utilized.
+This allows you to use different version of Karma per project.</p>
+<h2>Local Installation</h2>
+<p>A local installation will install Karma into your current directory&#39;s <code>node_modules</code>.</p>
+<pre><code class="language-bash">$ npm install karma --save-dev</code></pre>
+<p>The karma command can now be also executed directly from the node_modules directory:</p>
+<pre><code class="language-bash">$ ./node_modules/.bin/karma</code></pre>
 
         </div>
       </div>

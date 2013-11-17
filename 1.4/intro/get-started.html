@@ -6,7 +6,7 @@
 <head>
   <!-- Basic Page Needs-->
   <meta charset="utf-8">
-  <title>Shadowsocks - Plugins</title>
+  <title>Shadowsocks - Get Started</title>
   <!-- Mobile specific Metas-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="">
@@ -31,35 +31,25 @@
         <div class="ten columns">
           <nav id="menu" class="navigation">
             <ul id="nav">
-              <li><a href="javascript:void" class="">intro</a>
+              <li><a href="javascript:void" class="active">intro</a>
                 <ul>
+                  <li><a href="/1.4/intro/get-started.html">Get Started</a></li>
                   <li><a href="/1.4/intro/installation.html">Installation</a></li>
-                  <li><a href="/1.4/intro/configuration.html">Configuration</a></li>
-                  <li><a href="/1.4/intro/how-it-works.html">How It Works</a></li>
-                  <li><a href="/1.4/intro/faq.html">FAQ</a></li>
                 </ul>
               </li>
-              <li><a href="javascript:void" class="active">config</a>
+              <li><a href="javascript:void" class="">config</a>
                 <ul>
-                  <li><a href="/1.4/config/configuration-file.html">Configuration File</a></li>
-                  <li><a href="/1.4/config/files.html">Files</a></li>
-                  <li><a href="/1.4/config/browsers.html">Browsers</a></li>
-                  <li><a href="/1.4/config/preprocessors.html">Preprocessors</a></li>
-                  <li><a href="/1.4/config/plugins.html">Plugins</a></li>
+                  <li><a href="/1.4/config/advanced.html">Advanced</a></li>
                 </ul>
               </li>
               <li><a href="javascript:void" class="">dev</a>
                 <ul>
-                  <li><a href="/1.4/dev/public-api.html">Public Api</a></li>
-                  <li><a href="/1.4/dev/plugins.html">Plugins</a></li>
-                  <li><a href="/1.4/dev/contributing.html">Contributing</a></li>
+                  <li><a href="/1.4/dev/contribution.html">Contribution</a></li>
                 </ul>
               </li>
               <li><a href="javascript:void" class="">about</a>
                 <ul>
-                  <li><a href="/1.4/about/versioning.html">Versioning</a></li>
-                  <li><a href="/1.4/about/changelog.html">Changelog</a></li>
-                  <li><a href="/1.4/about/migration.html">Migration</a></li>
+                  <li><a href="/1.4/about/how-it-works.html">How It Works</a></li>
                 </ul>
               </li>
               <li><a href="javascript:void">v1.4</a>
@@ -77,38 +67,45 @@
     </header>
     <div class="container clearfix">
       <div class="sixteen columns">
-        <h1 class="page-title">Plugins<a href="https://github.com/karma-runner/karma/edit/master/docs/config/05-plugins.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
+        <h1 class="page-title">Get Started<a href="https://github.com/karma-runner/karma/edit/master/docs/intro/01-get-started.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
         </h1>
       </div>
       <div class="page-columns">
-        <div id="markdown" class="sixteen columns bottom"><p>Karma can be easily extended through plugins.
-In fact, all the existing preprocessors, reporters, browser launchers and frameworks are also plugins.</p>
-<h2>Installation</h2>
-<p>Karma plugins are NPM modules, so the recommended way is to keep all the plugins your project requires in <code>package.json</code>:</p>
-<pre><code class="language-javascript">{
-  <span class="string">"devDependencies"</span>: {
-    <span class="string">"karma"</span>: <span class="string">"~0.10"</span>,
-    <span class="string">"karma-mocha"</span>: <span class="string">"~0.0.1"</span>,
-    <span class="string">"karma-growl-reporter"</span>: <span class="string">"~0.0.1"</span>,
-    <span class="string">"karma-firefox-launcher"</span>: <span class="string">"~0.0.1"</span>
-  }
-}</code></pre>
-<p>Therefore, a simple way how to install a plugin is</p>
-<pre><code class="language-bash">npm install karma-&lt;plugin name&gt; --save-dev</code></pre>
-<h2>Loading Plugins</h2>
-<p>By default, Karma loads all NPM modules that are siblinks to it and their name matches <code>karma-*</code>.</p>
-<p>You can also explicitly list plugins you want to load via the <code>plugins</code> configuration setting. The configuration value can either be
-a string (module name), which will be required by Karma, or an object (inlined plugin).</p>
-<pre><code class="language-javascript">plugins: [
-  <span class="comment">// these plugins will be require() by Karma</span>
-  <span class="string">'karma-jasmine'</span>,
-  <span class="string">'karma-chrome-launcher'</span>
+        <div id="markdown" class="sixteen columns bottom"><p>Karma runs on <a href="http://nodejs.org/">Node.js</a> and is available via <a href="npmjs.org/package/karma">NPM</a>.</p>
+<h2>Requirements</h2>
+<ol>
+  <li>
+    <h3><a href="http://nodejs.org/download/">Node.js</a></h3>
+    <p>
+      There are installers for both Mac and Windows. On Linux, we recommend using
+      <a href="https://github.com/creationix/nvm">NVM</a>.
+    </p>
+  </li>
+  <li>
+    <h3><a href="https://npmjs.org/">Node Package Manager (NPM)</a></h3>
+    <p>
+      NPM is a package manager for Node.js which is used to install Karma. This should
+      automatically be installed when Node.js is installed, but if not then please install
+      it afterwards.
+    </p>
+  </li>
+</ol>
 
-  <span class="comment">// inelined plugins</span>
-  {<span class="string">'framework:xyz'</span>, [<span class="string">'factory'</span>, factoryFn]},
-  require(<span class="string">'./plugin-required-from-config'</span>)
-]</code></pre>
-<p>There are already many <a href="https://npmjs.org/browse/keyword/karma-plugin">existing plugins</a>. Of course, you write <a href="../dev/plugins.html">your own plugins</a> too!</p>
+<h2>Global &quot;System-Wide&quot; Installation</h2>
+<p>This is the recommended approach to installing and making use of Karma. It will install Karma into your global
+<code>node_modules</code> directory and create a symlink in your system path, so that you can run the <code>karma</code>
+command from any directory. This means that the <code>karma</code> command (which is the central command that Karma uses to run
+tests) can be executed anywhere via the command line.</p>
+<p>The following command will install Karma globally:</p>
+<pre><code class="language-bash">$ npm install -g karma</code></pre>
+<p>Please note, that the <code>karma</code> command will always look for a locally installed instance of Karma first and
+before resorting to a global install and, if present, then the local version will be utilized.
+This allows you to use different version of Karma per project.</p>
+<h2>Local Installation</h2>
+<p>A local installation will install Karma into your current directory&#39;s <code>node_modules</code>.</p>
+<pre><code class="language-bash">$ npm install karma --save-dev</code></pre>
+<p>The karma command can now be also executed directly from the node_modules directory:</p>
+<pre><code class="language-bash">$ ./node_modules/.bin/karma</code></pre>
 
         </div>
       </div>
