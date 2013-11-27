@@ -23,6 +23,7 @@ module.exports = (grunt) ->
     connect:
       server:
         options:
+          hostname: '0.0.0.0'
           base: '.'
           port: 8000
           keepalive: true
