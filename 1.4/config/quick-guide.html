@@ -34,13 +34,13 @@
               <li><a href="javascript:void" class="">intro</a>
                 <ul>
                   <li><a href="/1.4/intro/downloads.html">Downloads</a></li>
-                  <li><a href="/1.4/intro/deployment.html">Deployment</a></li>
                 </ul>
               </li>
               <li><a href="javascript:void" class="active">config</a>
                 <ul>
                   <li><a href="/1.4/config/quick-guide.html">Quick Guide</a></li>
                   <li><a href="/1.4/config/advanced.html">Advanced</a></li>
+                  <li><a href="/1.4/config/deployment.html">Deployment</a></li>
                 </ul>
               </li>
               <li><a href="javascript:void" class="">dev</a>
@@ -73,7 +73,7 @@
       </div>
       <div class="page-columns">
         <div id="markdown" class="sixteen columns bottom"><h2>Config File</h2>
-<p>Shadowsocks accepts <a href="http://www.json.org/">JSON</a> format config files like this:</p>
+<p>Shadowsocks accepts <a href="http://www.json.org/">JSON</a> format configs like this:</p>
 <pre><code class="language-json">{
     "<span class="attribute">server</span>":<span class="value"><span class="string">"my_server_ip"</span></span>,
     "<span class="attribute">server_port</span>":<span class="value"><span class="number">8388</span></span>,
@@ -92,9 +92,9 @@
 <li><code>method</code>: encryption method, &quot;bf-cfb&quot;, &quot;aes-256-cfb&quot;, &quot;des-cfb&quot;, &quot;rc4&quot;, etc. Default is table, which is not secure. &quot;aes-256-cfb&quot; is recommended.</li>
 </ul>
 <h2>URI</h2>
-<p>Shadowsocks also accepts the following format URI as config:</p>
+<p>Shadowsocks also accepts BASE64 encoded URI format configs:</p>
 <pre><code>    ss:<span class="comment">//BASE64-ENCODED-STRING-WITHOUT-PADDING</span></code></pre>
-<p>The plain URI should be:</p>
+<p>Where the plain URI should be:</p>
 <pre><code>    <span class="method">ss:</span>//<span class="method">method:</span>password@<span class="method">hostname:</span>port</code></pre>
 <p>For example, we have a server at <code>192.168.100.1:8888</code> using <code>bf-cfb</code> encryption method and password <code>test</code>. Then, with the plain URI <code>ss://bf-cfb:test@192.168.100.1:8888</code>, we can get the BASE64 encoded URI:</p>
 <pre><code>    ss:<span class="comment">//YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4</span></code></pre>

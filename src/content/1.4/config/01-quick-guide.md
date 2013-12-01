@@ -1,6 +1,6 @@
 ## Config File
 
-Shadowsocks accepts [JSON] format config files like this:
+Shadowsocks accepts [JSON] format configs like this:
 
 ```json
 {
@@ -26,13 +26,13 @@ Explanation of each field:
 
 ## URI
 
-Shadowsocks also accepts the following format URI as config:
+Shadowsocks also accepts BASE64 encoded URI format configs:
 
 ```
 	ss://BASE64-ENCODED-STRING-WITHOUT-PADDING
 ```	
 
-The plain URI should be:
+Where the plain URI should be:
 
 ```
 	ss://method:password@hostname:port
