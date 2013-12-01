@@ -28,6 +28,8 @@
   // Adding a colortip to any tag with a data-tooltip attribute:
   $('[data-tooltip]').colorTip({color:'white'});
 
+  // Initialize the QR codes
+  $('#qrcode-1').qrcode("ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4")
 
   $(window).load(function() {
     // Flex Slider
@@ -46,3 +48,4 @@
   });
 
 })(jQuery);
+

@@ -6,7 +6,7 @@
 <head>
   <!-- Basic Page Needs-->
   <meta charset="utf-8">
-  <title>Shadowsocks - Advanced</title>
+  <title>Shadowsocks - Quick Guide</title>
   <!-- Mobile specific Metas-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="">
@@ -68,11 +68,43 @@
     </header>
     <div class="container clearfix">
       <div class="sixteen columns">
-        <h1 class="page-title">Advanced<a href="https://github.com/madeye/shadowsocks-org/edit/master/docs/config/02-advanced.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
+        <h1 class="page-title">Quick Guide<a href="https://github.com/madeye/shadowsocks-org/edit/master/docs/config/01-quick-guide.md" data-tooltip="Edit this page on GitHub" class="edit"><i class="icon-edit"></i></a><span class="line"></span>
         </h1>
       </div>
       <div class="page-columns">
-        <div id="markdown" class="sixteen columns bottom"><h2>TODO</h2>
+        <div id="markdown" class="sixteen columns bottom"><h2>Config File</h2>
+<p>Shadowsocks accepts <a href="http://www.json.org/">JSON</a> format config files like this:</p>
+<pre><code class="language-json">{
+    "<span class="attribute">server</span>":<span class="value"><span class="string">"my_server_ip"</span></span>,
+    "<span class="attribute">server_port</span>":<span class="value"><span class="number">8388</span></span>,
+    "<span class="attribute">local_port</span>":<span class="value"><span class="number">1080</span></span>,
+    "<span class="attribute">password</span>":<span class="value"><span class="string">"barfoo!"</span></span>,
+    "<span class="attribute">timeout</span>":<span class="value"><span class="number">600</span></span>,
+    "<span class="attribute">method</span>":<span class="value"><span class="string">"table"</span>
+</span>}</code></pre>
+<p>Explanation of each field:</p>
+<ul>
+<li><code>server</code>: your hostname or server IP (IPv4/IPv6).</li>
+<li><code>server_port</code>: server port number.</li>
+<li><code>local_port</code>: local port number.</li>
+<li><code>password</code>: a password used to encrypt transfer.</li>
+<li><code>timeout</code>: connections timeout in seconds.</li>
+<li><code>method</code>: encryption method, &quot;bf-cfb&quot;, &quot;aes-256-cfb&quot;, &quot;des-cfb&quot;, &quot;rc4&quot;, etc. Default is table, which is not secure. &quot;aes-256-cfb&quot; is recommended.</li>
+</ul>
+<h2>URI</h2>
+<p>Shadowsocks also accepts the following format URI as config:</p>
+<pre><code>    ss:<span class="comment">//BASE64-ENCODED-STRING-WITHOUT-PADDING</span></code></pre>
+<p>The plain URI should be:</p>
+<pre><code>    <span class="method">ss:</span>//<span class="method">method:</span>password@<span class="method">hostname:</span>port</code></pre>
+<p>For example, we have a server at <code>192.168.100.1:8888</code> using <code>bf-cfb</code> encryption method and password <code>test</code>. Then, with the plain URI <code>ss://bf-cfb:test@192.168.100.1:8888</code>, we can get the BASE64 encoded URI:</p>
+<pre><code>    ss:<span class="comment">//YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4</span></code></pre>
+<h2>QR Code</h2>
+<p>Shadowsocks clients for Android and iOS accept QR codes of our URI format config. For the example URI described above, we have this QR code:</p>
+<div class="container">
+<div class="sixteen columns"><br/></div>
+<div id="qrcode-1"></div>
+</div>
+
 
         </div>
       </div>

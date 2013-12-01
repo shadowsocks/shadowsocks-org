@@ -18,6 +18,7 @@ module.exports = (grunt) ->
             'src/js/jquery.flexslider.js'
             'src/js/colortip.js'
             'src/js/selectnav.js'
+            'src/js/jquery.qrcode.min.js'
             'src/js/custom.js'
           ]
     connect:
