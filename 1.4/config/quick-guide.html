@@ -91,15 +91,15 @@
 <li><code>timeout</code>: connections timeout in seconds.</li>
 <li><code>method</code>: encryption method, &quot;bf-cfb&quot;, &quot;aes-256-cfb&quot;, &quot;des-cfb&quot;, &quot;rc4&quot;, etc. Default is table, which is not secure. &quot;aes-256-cfb&quot; is recommended.</li>
 </ul>
-<h2>URI</h2>
-<p>Shadowsocks also accepts BASE64 encoded URI format configs:</p>
-<pre><code>    ss:<span class="comment">//BASE64-ENCODED-STRING-WITHOUT-PADDING</span></code></pre>
+<h2>URI and QR code</h2>
+<p>Shadowsocks apps for Android and iOS also accepts BASE64 encoded URI format configs:</p>
+<pre><code>    <span class="comment">ss://BASE64</span><span class="literal">-</span><span class="comment">ENCODED</span><span class="literal">-</span><span class="comment">STRING</span><span class="literal">-</span><span class="comment">WITHOUT</span><span class="literal">-</span><span class="comment">PADDING</span></code></pre>
 <p>Where the plain URI should be:</p>
 <pre><code>    <span class="method">ss:</span>//<span class="method">method:</span>password@<span class="method">hostname:</span>port</code></pre>
 <p>For example, we have a server at <code>192.168.100.1:8888</code> using <code>bf-cfb</code> encryption method and password <code>test</code>. Then, with the plain URI <code>ss://bf-cfb:test@192.168.100.1:8888</code>, we can get the BASE64 encoded URI:</p>
 <pre><code>    ss:<span class="comment">//YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4</span></code></pre>
-<h2>QR Code</h2>
-<p>Shadowsocks clients for Android and iOS accept QR codes of our URI format config. For the example URI described above, we have this QR code:</p>
+<p>This URI can also be encoded to QR code. Then you can just scan it with your
+Android or iOS devices:</p>
 <div class="container">
 <div class="sixteen columns"><br/></div>
 <div id="qrcode-1"></div>
