@@ -24,9 +24,9 @@ Explanation of each field:
 
 [JSON]: http://www.json.org/
 
-## URI
+## URI and QR code
 
-Shadowsocks also accepts BASE64 encoded URI format configs:
+Shadowsocks apps for Android and iOS also accepts BASE64 encoded URI format configs:
 
 ```
 	ss://BASE64-ENCODED-STRING-WITHOUT-PADDING
@@ -44,9 +44,8 @@ For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption 
 	ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4
 ```
 
-## QR Code
-
-Shadowsocks clients for Android and iOS accept QR codes of our URI format config. For the example URI described above, we have this QR code:
+This URI can also be encoded to QR code. Then you can just scan it with your
+Android or iOS devices:
 
 <div class="container">
 <div class="sixteen columns"><br/></div>
