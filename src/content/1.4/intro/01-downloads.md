@@ -144,4 +144,4 @@
 
 ## Next Step
 
-Ready to use? Next, please navigate to [Quick Quide](/1.4/config/quick-guide.html)
+Ready to use? Next, please navigate to [Quick Guide](/1.4/config/quick-guide.html)
