@@ -28,13 +28,21 @@ module.exports = (grunt) ->
           base: '.'
           port: 8000
           keepalive: true
-
     static:
       options:
         template: 'src/jade'
       docs:
         files:
-          '.': 'src/content'
+          'b': 'src/content'
+    htmlmin:
+        dist:
+            options:
+                removeComments: true
+                collapseWhitespace: true
+            expand: true
+            cwd: 'b'
+            src: ['**/*.html']
+            dest: '.'
 
     watch:
       less:
@@ -52,6 +60,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks 'grunt-contrib-watch'
+  grunt.loadNpmTasks 'grunt-contrib-htmlmin'
   grunt.loadTasks 'tasks'
 
   grunt.registerTask 'build', [
@@ -59,6 +68,7 @@ module.exports = (grunt) ->
     'cssmin:docs'
     'uglify:docs'
     'static:docs'
+    'htmlmin:dist'
   ]
   grunt.registerTask 'server', 'connect:server'
 
