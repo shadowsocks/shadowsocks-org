@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 12 Nov 2013 03:57:21 +0000
+Source: shadowsocks
+Binary: shadowsocks
+Architecture: source i386
+Version: 1.4.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description: 
+ shadowsocks - A lightweight secured scoks5 proxy.
+Changes: 
+ shadowsocks (1.4.1-1) unstable; urgency=low
+ .
+   * Add multi-port support.
+   * Add PolarSSL support by @linusyang.
+Checksums-Sha1: 
+ 87cc9bfe979836028413919be061c68c7919ae84 732 shadowsocks_1.4.1-1.dsc
+ 917cc28f8f250cd165d44bf4282c393bf0c6ad98 2809486 shadowsocks_1.4.1-1.tar.gz
+ 3bcccb7a9c7921e8db46b542e32fd4e4bcc9a16c 132356 shadowsocks_1.4.1-1_i386.deb
+Checksums-Sha256: 
+ a03e1b87a3397fdcdc362fb7bf20fb39816705998a68a4f73485a81ffeb648a3 732 shadowsocks_1.4.1-1.dsc
+ d448869e2a13c1eac3e4a21d703ba40271114716828c40539f28180d2bb98ab6 2809486 shadowsocks_1.4.1-1.tar.gz
+ c793c22c5882dbbcc57bc2defad798e20911476c7c80db25917d2fbcbd334510 132356 shadowsocks_1.4.1-1_i386.deb
+Files: 
+ ae540331e31704b5d83628e7aaf80daa 732 net extra shadowsocks_1.4.1-1.dsc
+ c9b5d0624dc264b0f7465bb35543db68 2809486 net extra shadowsocks_1.4.1-1.tar.gz
+ 5aa760f7ded53d5107d1524d260ad4c0 132356 net extra shadowsocks_1.4.1-1_i386.deb
