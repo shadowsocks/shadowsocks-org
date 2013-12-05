@@ -1,0 +1,23 @@
+Origin: Shadowsocks
+Label: Shadowsocks
+Codename: wheezy
+Architectures: i386 amd64
+Components: shadowsocks
+Description: Shadowsocks APT Repository
+Date: Thu, 05 Dec 2013 02:21:15 UTC
+MD5Sum:
+ 7a1fd69953de3276a7d22acba1c23701              146 Release
+ 206f8001678a9cfdfd4d0bbe090daeb9              424 shadowsocks/binary-amd64/Packages.gz
+ 6df6017efaa1404760ad72aff2bdabe9              421 shadowsocks/binary-i386/Packages.gz
+SHA1:
+ 7f4b4f4496e094c748c04e75355dcaa92ec0f8c2              146 Release
+ e36343f10ff249fcc91fbc4182c1d0b066fe3628              424 shadowsocks/binary-amd64/Packages.gz
+ 3462be56aa3fb6f7dd4e7f01733498a95fd6b72a              421 shadowsocks/binary-i386/Packages.gz
+SHA256:
+ 4b56c503f93bc671b8bdebd134f89393346ac229968b34ba6276f4df399fbdf1              146 Release
+ bc6b335b1a58c520372b5fb0c19d821a3ccf3d9d2b983d7fc94dffd116490cee              424 shadowsocks/binary-amd64/Packages.gz
+ da31f727fc7ce3ac6e563d6c23f724254d5cc682c8be417cca03e824aacfe1e9              421 shadowsocks/binary-i386/Packages.gz
+SHA512:
+ 5728ace9d5f9fdd33d87546a6c4348cf88dbad332eb980b97d12bd000c8e1b644fd0fe13f5f823951c506a1cc829db46013b435281852d2031205217383aebeb              146 Release
+ 215f1f213ff5e9736d7f113edc289954b98bafcf6276e2985a669f73f955a8800c95ec5a39cc11b1d124048552e000b95ab6d2e1eef8450997eba8d0a4fcee69              424 shadowsocks/binary-amd64/Packages.gz
+ 3bfc43096a6fa59db6f978730d829d98f035505cf58d0483f131117e9888d6003ee4b88a1448abc5b65ab993ce6ed865c345cb4ec95c9602bc1169dd0f4a646c              421 shadowsocks/binary-i386/Packages.gz
