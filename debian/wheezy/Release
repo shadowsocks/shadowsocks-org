@@ -4,20 +4,28 @@ Codename: wheezy
 Architectures: i386 amd64
 Components: shadowsocks
 Description: Shadowsocks APT Repository
-Date: Thu, 05 Dec 2013 02:21:15 UTC
+Date: Thu, 05 Dec 2013 02:31:17 UTC
 MD5Sum:
  7a1fd69953de3276a7d22acba1c23701              146 Release
- 206f8001678a9cfdfd4d0bbe090daeb9              424 shadowsocks/binary-amd64/Packages.gz
- 6df6017efaa1404760ad72aff2bdabe9              421 shadowsocks/binary-i386/Packages.gz
+ d0f6de7d0f82ba1812b3fb9c4776a4f0              609 shadowsocks/binary-amd64/Packages
+ 45c94ac0dcc9fb44ea559395fd33cad6              429 shadowsocks/binary-amd64/Packages.gz
+ c3499d3ca3537784c67a874986cccb3d              606 shadowsocks/binary-i386/Packages
+ c9f4d0fb3cfdc8fe138df495699fcb26              427 shadowsocks/binary-i386/Packages.gz
 SHA1:
  7f4b4f4496e094c748c04e75355dcaa92ec0f8c2              146 Release
- e36343f10ff249fcc91fbc4182c1d0b066fe3628              424 shadowsocks/binary-amd64/Packages.gz
- 3462be56aa3fb6f7dd4e7f01733498a95fd6b72a              421 shadowsocks/binary-i386/Packages.gz
+ 809899d87812ee1a1e70cbf15fe10b18f544ffdb              609 shadowsocks/binary-amd64/Packages
+ cba5c7d70a4fa8f78aace59199f0692dd1edd2ed              429 shadowsocks/binary-amd64/Packages.gz
+ 36ddbb52f53281ca65f3a80e9fbe98af059acc2d              606 shadowsocks/binary-i386/Packages
+ 40061db36bdf23a9ca4be8949349885146ebd9d5              427 shadowsocks/binary-i386/Packages.gz
 SHA256:
  4b56c503f93bc671b8bdebd134f89393346ac229968b34ba6276f4df399fbdf1              146 Release
- bc6b335b1a58c520372b5fb0c19d821a3ccf3d9d2b983d7fc94dffd116490cee              424 shadowsocks/binary-amd64/Packages.gz
- da31f727fc7ce3ac6e563d6c23f724254d5cc682c8be417cca03e824aacfe1e9              421 shadowsocks/binary-i386/Packages.gz
+ cd0de9fb1b585f8a421c9a8fc10dd77efc57d1a1555180613310fa8dc8962f51              609 shadowsocks/binary-amd64/Packages
+ bba46f9d7c7f73bea22ce74ddccc244fdc49774442c8a251d28c48b724a2db71              429 shadowsocks/binary-amd64/Packages.gz
+ fc0ddaefe198f665089af33d3b2898a7bc075dc6dab23728fe08ccc9bf6fbe79              606 shadowsocks/binary-i386/Packages
+ c0ffdf823be535a10f98125a86cfdac25bc4f877c8edbe0884ef704ea195b81a              427 shadowsocks/binary-i386/Packages.gz
 SHA512:
  5728ace9d5f9fdd33d87546a6c4348cf88dbad332eb980b97d12bd000c8e1b644fd0fe13f5f823951c506a1cc829db46013b435281852d2031205217383aebeb              146 Release
- 215f1f213ff5e9736d7f113edc289954b98bafcf6276e2985a669f73f955a8800c95ec5a39cc11b1d124048552e000b95ab6d2e1eef8450997eba8d0a4fcee69              424 shadowsocks/binary-amd64/Packages.gz
- 3bfc43096a6fa59db6f978730d829d98f035505cf58d0483f131117e9888d6003ee4b88a1448abc5b65ab993ce6ed865c345cb4ec95c9602bc1169dd0f4a646c              421 shadowsocks/binary-i386/Packages.gz
+ ba4fd9a7a33b6fcabce268498540b0d357ff5da1d6460727c9ce18bc90381a837260a94995b415e1ef73e4804b7335f9e78168377716aaaa22c4dce27c81a4c5              609 shadowsocks/binary-amd64/Packages
+ 772d074bc593f9c92911796e0353f66083222111edcc9fd7348671dc5ae52a852c5d7cc5787cc5deeabad7e725d8d3eeea3f5a7d7b5daa7b0daa9d41d53d8e90              429 shadowsocks/binary-amd64/Packages.gz
+ faa3c7bcb80d4b4daab2226b249a8d4c546ddd81cbbd6831da3be4895ef62292328c4de1fe0b7833210d4b42038ac0899cb5db29a18fa1daa7f49a27d67ec688              606 shadowsocks/binary-i386/Packages
+ 3d7423725ec4c1ea793a95dfe5d25f2852512d0e70cb11d913323fe0a791c32aacc684f1d93e54f36d15daf306bb08c8d2725b6a15c69b09447d8c592ad806f1              427 shadowsocks/binary-i386/Packages.gz
