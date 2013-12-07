@@ -1,0 +1,25 @@
+Origin: Shadowsocks
+Label: Shadowsocks
+Codename: squeeze
+Architectures: i386 amd64
+Components: shadowsocks
+Description: Shadowsocks APT Repository
+Date: Sat, 07 Dec 2013 08:36:19 UTC
+MD5Sum:
+ 650526611a944207e8a2c76ffd74250b              147 Release
+ f27a963c95c6a907935642db1fedfa17              612 main/binary-amd64/Packages
+ f8336d3233a2279c8b9b14e0d22e45a7              433 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
+ 803d68390567f5e563fab2247d285cbe               20 main/binary-i386/Packages.gz
+SHA1:
+ 49c893b88537372441ee5ae875c89136b007e705              147 Release
+ f4d00388a73b0fa8247674464bc41887ae49e1bf              612 main/binary-amd64/Packages
+ 7cab17041f3df0a97a3cc90844f7c85875272299              433 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
+ c3195aac490de5d9059f2a201c91244246422530               20 main/binary-i386/Packages.gz
+SHA256:
+ 63351e47f5538c442e17b33ee1578a2fd8a2c81ae5792b9e95f802e22413a5fd              147 Release
+ 7b6765fc4efefa8030db96c34d6a8adbcef06ccdad433483631943cc10decea7              612 main/binary-amd64/Packages
+ 75fac50c40a9942bd9f0b6eaf106d6ae4e4ea03893f7286a45d9be2fb63ac18d              433 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
+ e43694472a772106a317db7e65bcd37664b5ab1f29a3d71ec934b2b7ce1809aa               20 main/binary-i386/Packages.gz
