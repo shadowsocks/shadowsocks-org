@@ -29,7 +29,15 @@
   $('[data-tooltip]').colorTip({color:'white'});
 
   // Initialize the QR codes
-  $('#qrcode-1').qrcode("ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4")
+  $('#qrcode-1').qrcode("ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4");
+
+  // Register QR generator
+  $('#uri-plain').on('keyup change', function() {
+    var encoded = 'ss://' + Base64.encode($(this).val().replace('ss://','')).replace(/=/g,'');
+    $('#uri-encoded').val(encoded);
+    $('#qrcode-gen').empty();
+    $('#qrcode-gen').qrcode(encoded);
+  });
 
   $(window).load(function() {
     // Flex Slider
@@ -45,6 +53,7 @@
       directionNav: false,
       controlsContainer: '.flex-container'
     });
+    $('#uri-plain').change();
   });
 
 })(jQuery);

@@ -44,11 +44,30 @@ For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption 
 	ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4
 ```
 
-This URI can also be encoded to QR code. Then you can just scan it with your
-Android or iOS devices:
+This URI can also be encoded to QR code. Then you can just scan it with your Android or iOS devices:
 
 <div class="container">
 <div class="sixteen columns"><br/></div>
 <div id="qrcode-1"></div>
+</div>
+
+## <a name="qrcode">Try it yourself</a> 
+
+<div class="container">
+<div class="sixteen columns"><br/></div>
+<form action="#" class="form-elements2">
+<fieldset>
+<label>Plain:</label>
+<input id="uri-plain" type="text" value="ss://bf-cfb:test@192.168.100.1:8888"/>
+</fieldset>
+<fieldset>
+<label>Encoded:</label>
+<input id="uri-encoded" type="text" disabled="disabled" value=""/>
+</fieldset>
+<fieldset>
+<label>QR Code:</label>
+<div id="qrcode-gen"></div>
+</fieldset>
+</form>
 </div>
 

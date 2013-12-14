@@ -19,6 +19,7 @@ module.exports = (grunt) ->
             'src/js/colortip.js'
             'src/js/selectnav.js'
             'src/js/jquery.qrcode.min.js'
+            'src/js/base64.js'
             'src/js/custom.js'
           ]
     connect:
