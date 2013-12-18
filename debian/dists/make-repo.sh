@@ -24,7 +24,7 @@ Origin: Shadowsocks
 Label: Shadowsocks
 Codename: $DIST
 Architectures: i386 amd64
-Components: shadowsocks
+Components: main
 Description: Shadowsocks APT Repository
 EOM
 apt-ftparchive release . >> Release
