@@ -4,7 +4,7 @@ Architecture: i386
 Maintainer: Max Lv <max.c.lv@gmail.com>
 Installed-Size: 328
 Depends: libc6 (>= 2.9), libssl0.9.8 (>= 0.9.8m-1)
-Filename: binary-i386/shadowsocks_1.4.1-1_i386.deb
+Filename: dists/squeeze/main/binary-i386/shadowsocks_1.4.1-1_i386.deb
 Size: 119130
 MD5sum: ccbdad50379cff75de6caefe982d8df3
 SHA1: 8c8be75f7a948a66b9cd1600c60c750c6002dd15
