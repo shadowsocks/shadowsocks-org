@@ -22,7 +22,6 @@ popd
 cat > Release <<EOM
 Origin: Shadowsocks
 Label: Shadowsocks
-Codename: $DIST
 Architectures: i386 amd64
 Components: main
 Description: Shadowsocks APT Repository
