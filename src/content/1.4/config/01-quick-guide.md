@@ -26,7 +26,7 @@ Explanation of each field:
 
 ## URI and QR code
 
-Shadowsocks apps for Android and iOS also accepts BASE64 encoded URI format configs:
+Shadowsocks for Android / iOS also accepts BASE64 encoded URI format configs:
 
 ```
 	ss://BASE64-ENCODED-STRING-WITHOUT-PADDING
@@ -38,13 +38,13 @@ Where the plain URI should be:
 	ss://method:password@hostname:port
 ```
 
-For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption method and password `test`. Then, with the plain URI `ss://bf-cfb:test@192.168.100.1:8888`, we can get the BASE64 encoded URI:
+For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption method and password `test`. Then, with the plain URI `ss://bf-cfb:test@192.168.100.1:8888`, we can generate the BASE64 encoded URI:
 
 ```
 	ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4
 ```
 
-This URI can also be encoded to QR code. Then you can just scan it with your Android or iOS devices:
+This URI can also be encoded to QR code. Then, just scan it with your Android / iOS devices:
 
 <div class="container">
 <div class="sixteen columns"><br/></div>
