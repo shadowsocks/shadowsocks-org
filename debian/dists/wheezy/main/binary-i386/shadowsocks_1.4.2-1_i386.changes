@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 05 Jan 2014 10:05:29 +0900
+Source: shadowsocks
+Binary: shadowsocks
+Architecture: source i386
+Version: 1.4.2-1
+Distribution: unstable
+Urgency: high
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description: 
+ shadowsocks - A lightweight secured scoks5 proxy.
+Changes: 
+ shadowsocks (1.4.2-1) unstable; urgency=high
+ .
+   * Fix the UDP relay issues.
+   * Add syslog support.
+Checksums-Sha1: 
+ cb00baaa0deb5d5078ebac04acc40c4dfcb6c3e8 732 shadowsocks_1.4.2-1.dsc
+ bf4c8450ebbc1e8691fe18e15b9623b17e0a4692 2897549 shadowsocks_1.4.2-1.tar.gz
+ 22552ce12f863bee836c342545037d0e3ea205f6 135228 shadowsocks_1.4.2-1_i386.deb
+Checksums-Sha256: 
+ cf95c0072f05222031135c0e04c69fec5f036b750627b1bf22340d7399903e03 732 shadowsocks_1.4.2-1.dsc
+ 3b7654f45f0a7b35b52e66bb017eaafd00618e970a16f18f9f74525661b6daba 2897549 shadowsocks_1.4.2-1.tar.gz
+ 3c921d0853c4efc40965ce98a0c41c95646d8b4e75338614dad85c69dc4e9e0c 135228 shadowsocks_1.4.2-1_i386.deb
+Files: 
+ 29745d3f56c9432afbfa1e910b203eb3 732 net extra shadowsocks_1.4.2-1.dsc
+ 289ba40a4a70234ab640dab7cb7b57df 2897549 net extra shadowsocks_1.4.2-1.tar.gz
+ dda18d0061673493f9144866e1978481 135228 net extra shadowsocks_1.4.2-1_i386.deb
