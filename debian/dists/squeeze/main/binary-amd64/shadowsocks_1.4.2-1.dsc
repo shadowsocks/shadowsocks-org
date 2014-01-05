@@ -2,7 +2,7 @@ Format: 1.0
 Source: shadowsocks
 Binary: shadowsocks
 Architecture: any
-Version: 1.4.1-1
+Version: 1.4.2-1
 Maintainer: Max Lv <max.c.lv@gmail.com>
 Homepage: http://www.shadowsocks.org
 Standards-Version: 3.8.4
@@ -10,8 +10,8 @@ Vcs-Browser: https://github.com/madeye/shadowsocks-libev
 Vcs-Git: https://github.com/madeye/shadowsocks-libev.git
 Build-Depends: debhelper (>= 7.0.50~), libssl-dev (>= 0.9.8), autotools-dev, mime-support, gawk
 Checksums-Sha1: 
- a969f94246c180457257477a9ba9536c7b00d85c 5336821 shadowsocks_1.4.1-1.tar.gz
+ ea0ca63e122aecc066c22856a2e2d7a3f7dca59b 5701648 shadowsocks_1.4.2-1.tar.gz
 Checksums-Sha256: 
- 082044d7a7b0090139e159d42f58e0ade51ab839e4080cfbfed841c3d8588d8f 5336821 shadowsocks_1.4.1-1.tar.gz
+ 56203d71e88c2a177a1f43da816173e6905b42fbe6e24f6d1fb3ef1e52d44dc0 5701648 shadowsocks_1.4.2-1.tar.gz
 Files: 
- eacc0fd56f59375a9cb487dd01995c61 5336821 shadowsocks_1.4.1-1.tar.gz
+ 93ea04ad73ee76483f2970e615360027 5701648 shadowsocks_1.4.2-1.tar.gz
