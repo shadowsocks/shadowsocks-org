@@ -4,7 +4,7 @@ Architecture: amd64
 Maintainer: Max Lv <max.c.lv@gmail.com>
 Installed-Size: 319
 Depends: libc6 (>= 2.9), libssl1.0.0 (>= 1.0.0)
-Filename: binary-amd64/shadowsocks_1.4.1-1_amd64.deb
+Filename: dists/wheezy/main/binary-amd64/shadowsocks_1.4.1-1_amd64.deb
 Size: 134232
 MD5sum: afeb07973957e74623dda073870aa98c
 SHA1: b081539ebc0e81a67229e598baec54cbd82b7fff
