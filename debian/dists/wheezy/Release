@@ -4,28 +4,22 @@ Architectures: i386 amd64
 Components: main
 Suite: wheezy
 Description: Shadowsocks APT Repository
-Date: Wed, 18 Dec 2013 06:25:36 UTC
+Date: Sun, 05 Jan 2014 01:37:20 UTC
 MD5Sum:
  2b21dc174112a29edd5ead55f9d058d1              136 Release
- bd0e0b3350f404cf107775889c0d57c5              627 main/binary-amd64/Packages
- aac448193f5b561b16cc654b14176293              443 main/binary-amd64/Packages.gz
- 2ca68036adce635b758b80971f06b4e2              624 main/binary-i386/Packages
- 7370b06194527da668d7c932d5a40fb8              440 main/binary-i386/Packages.gz
+ 2b10c65ce990a3603dd821312c4f2c57              627 main/binary-amd64/Packages
+ 96eb28b973ce4764a14271e9f99b4621              443 main/binary-amd64/Packages.gz
+ 5b64bd5d23f82b3cc28d1699182ae1ab              624 main/binary-i386/Packages
+ 3b4b5fddf44e54105bfd0e6cc9b2fc3a              441 main/binary-i386/Packages.gz
 SHA1:
  c413aceac2a6f6a1a0afe2b64aa4ca7070cebe9e              136 Release
- 39078988245e415b195677f38c43ecccc2e6fcd7              627 main/binary-amd64/Packages
- 588eeb757f92b51eaaa9dc1844e4f88b7163c81f              443 main/binary-amd64/Packages.gz
- 3165344d8d337900c504ccd18bb75be44329d72f              624 main/binary-i386/Packages
- 5420e93412d90c26bcc414355b2f3a7a4dfe1e9a              440 main/binary-i386/Packages.gz
+ 8377fc8772cdd61c2eb5050ef15553fa252e0a31              627 main/binary-amd64/Packages
+ 8762736a123fe56c01561ff988f71cbb0a351f4a              443 main/binary-amd64/Packages.gz
+ 139789329bfa4fa10d711afdf803009305af12bf              624 main/binary-i386/Packages
+ 9ecb2b36731a38b2f0e9a5bb813fa2fc8b9ee075              441 main/binary-i386/Packages.gz
 SHA256:
  a2d763bb12e359c1fbc277f4f89229a9292b82a33ce162d7b62d572754b54467              136 Release
- 16617539da50dc7cfa6beea84166fca421acd2fc953e7468ebb09bb23f728311              627 main/binary-amd64/Packages
- 1043b131beadeba7810d02c854aa3735954dae6d6727b6d33515072c7b27d60c              443 main/binary-amd64/Packages.gz
- 844234f54c599475a87cf31e40dded4fd993bb45e3aeefbc7b59135818c3e5b2              624 main/binary-i386/Packages
- 296e6d41a552115836c5dc85c81c409ea2cb8e3e38d2f33ebadce3f73230316a              440 main/binary-i386/Packages.gz
-SHA512:
- cf33d5cc44c3decf0aaf51fa4dff35f8cb8e4b427cb95fbf1d3ca62722932a0d185688df83d2d2e946cec0f6ac03d0a5a47b64b28e4b278f3abb1daa99a8954f              136 Release
- 336ba329d8505c0bd5f0b6119b6439818f7ce27834efbfc09b0e40431441688c1e7fb89704f3c4310c68183e2dba481907ab2b07e529900b4c2122598aba06d7              627 main/binary-amd64/Packages
- d413e5ba6615bb4990e626b8f8296cba20ba20daca85411915cdeb8ddf08d6c9e3325faef5c2ac255fc651bfd0574f88888be5f67a49b11f6b088166a2460b2a              443 main/binary-amd64/Packages.gz
- 08bcd4a3c1bfe3d0266e574bea984f350d8409800ff9228ac7dbe52f9fd47d706d03c7ff9364606dfc91be9ba5d177b04dcb8bd21de24f024e5ac98f87cf81af              624 main/binary-i386/Packages
- cd2c6e111c441eed11f82f6115a2b7d0512528af542f772cc441f901a5462ffa9a4dda9f340e92d503d8c9591b6a35d50e2785e78d86d47e3abdb6135d408a19              440 main/binary-i386/Packages.gz
+ 0d2d73b40852c8ba24fac2cd52cc41544f10a77966fb7cf6f3bb3db693085fe2              627 main/binary-amd64/Packages
+ 49152179e5806f2ff2b54e5974f532b7dd9a4873d2c74bcd8ae6c397b7a72f28              443 main/binary-amd64/Packages.gz
+ aa83cb15dc900514ad7aef4ca6253e4453f2abff399791b5a3398ee4ff96e6f6              624 main/binary-i386/Packages
+ 0e7a04666679d1db07dc8e83838fc6abd9cf4f18b8118855b4877c1142b183f2              441 main/binary-i386/Packages.gz
