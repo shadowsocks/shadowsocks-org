@@ -36,15 +36,18 @@ module.exports = (grunt) ->
         files:
           'b': 'src/content'
     htmlmin:
-        dist:
-            options:
-                removeComments: true
-                collapseWhitespace: true
-            expand: true
-            cwd: 'b'
-            src: ['**/*.html']
-            dest: '.'
-
+      dist:
+          options:
+              removeComments: true
+              collapseWhitespace: true
+          expand: true
+          cwd: 'b'
+          src: ['**/*.html']
+          dest: '.'
+    sitemap:
+      dist:
+        siteRoot: 'en/' 
+        homepage: 'http://shadowsocks.org/en/'
     watch:
       less:
         files: 'src/less/**/*.less'
@@ -62,6 +65,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-htmlmin'
+  grunt.loadNpmTasks 'grunt-sitemap'
   grunt.loadTasks 'tasks'
 
   grunt.registerTask 'build', [
@@ -70,6 +74,7 @@ module.exports = (grunt) ->
     'uglify:docs'
     'static:docs'
     'htmlmin:dist'
+    'sitemap:dist'
   ]
   grunt.registerTask 'server', 'connect:server'
 

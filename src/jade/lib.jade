@@ -1,5 +1,5 @@
 mixin navigation(self, menu)
-  - var sections = ['intro', 'config', 'dev', 'about'];
+  - var sections = ['download', 'config', 'dev', 'about'];
 
   for section in sections
     - var active = section == self.section ? 'active' : '';
@@ -14,8 +14,8 @@ mixin navigation(self, menu)
 
 mixin versionDropdown(versions, current)
   li
-    a(href='javascript:void')= 'v' + current
+    a(href='javascript:void')= current
     ul
       each version in versions
         li
-          a(href='/#{version}/index.html')= 'v' + version
+          a(href='/#{version}/index.html')= version

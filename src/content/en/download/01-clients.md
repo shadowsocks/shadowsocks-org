@@ -134,7 +134,13 @@
       <li>shadowsocks-libev-polarssl:
         <ul>
           <li>
-            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.1-ad9d5b198ba5d7e50f4f0ad1fd06739d1b57a8ea_ar71xx.ipk">1.4.1_ar71xx.ipk</a>
+            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.2-343940e6ffd2062b11dccab0894b73f7f32722f7_ar71xx.ipk">1.4.2_ar71xx.ipk</a>
+          </li>
+          <li>
+            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.2-343940e6ffd2062b11dccab0894b73f7f32722f7_brcm47xx.ipk">1.4.2_brcm47xx.ipk</a>
+          </li>
+          <li>
+            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.2-343940e6ffd2062b11dccab0894b73f7f32722f7_brcm63xx.ipk">1.4.2_brcm63xx.ipk</a>
           </li>
         </ul>
       </li>
@@ -144,4 +150,4 @@
 
 ## Next Step
 
-Ready to use? Next, please navigate to [Quick Guide](/1.4/config/quick-guide.html)
+Ready to use? Just navigate to [Quick Guide](/1.4/config/quick-guide.html)
