@@ -150,4 +150,4 @@
 
 ## Next Step
 
-Ready to use? Just navigate to [Quick Guide](/1.4/config/quick-guide.html)
+Ready to use? Just navigate to [Quick Guide](/en/config/quick-guide.html)
