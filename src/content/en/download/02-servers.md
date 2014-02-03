@@ -62,17 +62,19 @@ shadowsocks-go is released under the [MIT] license
 
 ## C with libev
 
-shadowsocks-libev is a lightweight and full featured port for embedded devices and low end boxes. It's a pure C implementation and has a very small footprint about several megabytes for thousands of connections. This port is maintained by [@madeye].
+shadowsocks-libev is a lightweight and full featured port for embedded devices
+and low end boxes. It's a pure C implementation and has a very small footprint
+(several megabytes) for thousands of connections. This port is maintained by [@madeye].
 
-Install pre-built packages for Debian/Ubuntu system
+Install pre-built packages for Debian/Ubuntu distributions:
 
-For Debian Wheezy, Ubuntu 12.04 or any distribution with libssl > 1.0.1
+On Debian Wheezy, Ubuntu 12.04 or any distribution with libssl > 1.0.0
 
 ``` bash
 $ echo "deb http://shadowsocks.org/debian wheezy main" >> /etc/apt/source.list
 ```
 
-Or for Debian Squeeze, Ubuntu 11.04, or any distribution with libssl > 0.9.8, but < 1.0.0
+On Debian Squeeze, Ubuntu 11.04, or any distribution with libssl > 0.9.8, but < 1.0.0
 
 ```bash
 $ echo "deb http://shadowsocks.org/debian squeeze main" >> /etc/apt/source.list
@@ -96,7 +98,6 @@ $ make install
 ```
 
 shadowsocks-libev is released under the [GPLv3] license
-
 
 [@clowwindy]: https://github.com/clowwindy
 [@cyfdecyf]: https://github.com/cyfdecyf

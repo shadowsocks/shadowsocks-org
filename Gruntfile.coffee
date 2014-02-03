@@ -27,7 +27,7 @@ module.exports = (grunt) ->
         options:
           hostname: '0.0.0.0'
           base: '.'
-          port: 8000
+          port: 4000
           keepalive: true
     static:
       options:
