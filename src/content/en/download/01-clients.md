@@ -100,16 +100,20 @@
   <div class="one-third column last">
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; iOS</h3>
     <ul>
-      <li>shadowsocks-iOS:
-        <a href="https://itunes.apple.com/tc/app/shadowsocks/id665729974?mt=8">App Store</a>
+      <li>shadowsocks-iOS (only built-in browser works):
+        <ul>
+          <li>
+            <a href="https://itunes.apple.com/tc/app/shadowsocks/id665729974?mt=8">App Store</a>
+          </li>
+        </ul>
       </li>
-      <li>MobileShadowSocks (Only for Jailbroken devices)
+      <li>MobileShadowSocks (for Jailbroken devices):
         <ul>
           <li>
             <a href="http://apt.thebigboss.org/onepackage.php?bundleid=com.linusyang.shadowsocks">Big Boss</a>
           </li>
           <li>
-            <a href="http://apt.thebigboss.org/repofiles/cydia/debs2.0/shadowsocks_0.2.4-2.deb">0.2.4-2.deb</a>
+            <a href="http://apt.thebigboss.org/repofiles/cydia/debs2.0/shadowsocks_0.3-5.deb">0.3-5.deb</a>
           </li>
         </ul>
       </li>
@@ -150,4 +154,6 @@
 
 ## Next Step
 
-Ready to use? Just navigate to [Quick Guide](/en/config/quick-guide.html)
+Ready to use? Just navigate to [Quick Guide](/en/config/quick-guide.html).
+
+Or plan to deploy your own server? See [Servers](/en/download/servers.html).
