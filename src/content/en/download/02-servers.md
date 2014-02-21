@@ -71,13 +71,13 @@ Install pre-built packages for Debian/Ubuntu distributions:
 On Debian Wheezy, Ubuntu 12.04 or any distribution with libssl > 1.0.0
 
 ``` bash
-$ echo "deb http://shadowsocks.org/debian wheezy main" >> /etc/apt/source.list
+$ echo "deb http://shadowsocks.org/debian wheezy main" >> /etc/apt/sources.list
 ```
 
 On Debian Squeeze, Ubuntu 11.04, or any distribution with libssl > 0.9.8, but < 1.0.0
 
 ```bash
-$ echo "deb http://shadowsocks.org/debian squeeze main" >> /etc/apt/source.list
+$ echo "deb http://shadowsocks.org/debian squeeze main" >> /etc/apt/sources.list
 ```
 
 Then
