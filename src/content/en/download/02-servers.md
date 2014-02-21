@@ -1,6 +1,8 @@
 ## Python
 
-shadowsocks-python is the initial version written by [@clowwindy]. It aims to provide a simple-to-use and easy-to-deploy implementation with basic features of shadowsocks. shadowsocks-python can be installed from PIP or GitHub.
+shadowsocks-python is the initial version written by [@clowwindy]. It aims to provide a simple-to-use and easy-to-deploy implementation with basic features of shadowsocks.
+
+### PyPI
 
 First, make sure you have Python 2.6 or 2.7.
 
@@ -15,7 +17,9 @@ Then install from PIP
 $ pip install shadowsocks
 ```
 
-Or from GitHub
+### GitHub
+
+Checkout the source codes and run the scripts directly.
 
 ```bash
 $ git clone https://github.com/clowwindy/shadowsocks.git
@@ -29,13 +33,17 @@ shadowsocks-python is released under the [MIT] license.
 
 shadowsocks-nodejs is a high performance port maintained by [@clowwindy]. It implements all features of shadowsocks protocol, including TCP CONNECT and UDP ASSOCIATE.
 
-Install the stable version from NPM
+### NPM
+
+Install the stable version with npm
 
 ```bash
 $ npm install -g shadowsocks
 ```
 
-Or get the latest scripts from GitHub
+### GitHub
+
+Fetch and run the scripts
 
 ```bash
 $ npm install -g coffee-script
@@ -50,23 +58,30 @@ shadowsocks-nodejs is released under the [MIT] license.
 
 shadowsocks-go is a state-of-the-art port written in Go language, designed for large-scale system. It implements the multi-ports-multi-password feature, which is suitable for paid service providers with user management and traffic statistics support. This port is maintained by [@cyfdecyf].
 
-Install with Go
+### Pre-built Binaries
+
+Download archives from [http://dl.chenyufei.info/shadowsocks/].
+
+### GitHub
+
+Use `go get` to install the scripts.
 
 ```bash
 $ go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
 ```
 
-Or download static built binaries from here [http://dl.chenyufei.info/shadowsocks/]
-
 shadowsocks-go is released under the [MIT] license
 
 ## C with libev
 
-shadowsocks-libev is a lightweight and full featured port for embedded devices
-and low end boxes. It's a pure C implementation and has a very small footprint
+shadowsocks-libev is a lightweight and full featured port for embedded devices 
+and low end boxes. It's a pure C implementation and has a very small footprint 
 (several megabytes) for thousands of connections. This port is maintained by [@madeye].
 
-Install pre-built packages for Debian/Ubuntu distributions:
+### Debian/Ubuntu:
+
+Install the pre-built packages by adding each of the following repositories to
+your system.
 
 On Debian Wheezy, Ubuntu 12.04 or any distribution with libssl > 1.0.0
 
@@ -87,7 +102,9 @@ $ apt-get update
 $ apt-get install shadowsocks
 ```
 
-Or build from source code
+### GitHub
+
+Build and install the project from source codes.
 
 ```bash
 $ git clone https://github.com/madeye/shadowsocks-libev.git
