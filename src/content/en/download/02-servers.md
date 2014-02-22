@@ -60,7 +60,7 @@ shadowsocks-go is a state-of-the-art port written in Go language, designed for l
 
 ### Pre-built Binaries
 
-Download archives from [http://dl.chenyufei.info/shadowsocks/].
+Download archives from http://dl.chenyufei.info/shadowsocks/.
 
 ### GitHub
 
