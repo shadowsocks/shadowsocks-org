@@ -4,7 +4,7 @@
     <h3><i class="fa fa-windows fa-3x"></i> &nbsp; Windows</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.3.1-win-ia32.7z/download">0.3.1-win-ia32.7z</a></li>
+      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.4-win-ia32.7z">0.4-win-ia32.7z</a></li>
       <li>shadowsocks-csharp: <a href="https://code.google.com/p/shadowsocks-csharp/downloads/detail?name=shadowsocks-csharp-1.1.2.zip">1.1.2.zip</a></li>      
     </ul>
     <p><strong>Command-line Client</strong></p>
@@ -25,8 +25,8 @@
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; Mac OS X</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.3.1-osx-ia32.7z/download">0.3.1-osx-ia32.7z</a></li>
-      <li>GoAgentX: <a href="https://goagentx.googlecode.com/files/GoAgentX-v1.3.33.dmg">v1.3.33.dmg</a></li>      
+      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.4-osx-ia32.7z">0.4-osx-ia32.7z</a></li>
+      <li>GoAgentX: <a href="https://goagentx.googlecode.com/files/GoAgentX-v2.2.9.dmg">v2.2.9.dmg</a></li>      
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
@@ -49,14 +49,14 @@
           </li>
         </ul>
       </li>
-      <li>shadowsocks-python: <a href="https://pypi.python.org/pypi/shadowsocks">1.3.3.tar.gz</a>
+      <li>shadowsocks-python: <a href="https://pypi.python.org/pypi/shadowsocks">1.3.4.tar.gz</a>
         <ul>
           <li>
             <code>pip install shadowsocks</code>
           </li>
         </ul>
       </li>
-      <li>shadowsocks-nodejs: <a href="https://github.com/clowwindy/shadowsocks-nodejs/archive/1.4.2.tar.gz">1.4.2.tar.gz</a>
+      <li>shadowsocks-nodejs: <a href="https://github.com/clowwindy/shadowsocks-nodejs/archive/1.4.3.tar.gz">1.4.3.tar.gz</a>
         <ul>
           <li>
             <code>npm install -g shadowsocks</code>
