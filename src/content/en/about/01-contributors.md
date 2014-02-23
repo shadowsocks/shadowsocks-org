@@ -1,4 +1,4 @@
-## Major Contributors
+## Core Contributors
 
 [@clowwindy]
 
