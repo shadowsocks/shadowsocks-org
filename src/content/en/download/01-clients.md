@@ -125,26 +125,26 @@
       <li>shadowsocks-libev-openssl:
         <ul>
           <li>
-            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_ar71xx.ipk">1.3.3_ar71xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_ar71xx.ipk">1.3.3_ar71xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_brcm47xx.ipk">1.3.3_brcm47xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_brcm47xx.ipk">1.3.3_brcm47xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_brcm63xx.ipk">1.3.3_brcm63xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_brcm63xx.ipk">1.3.3_brcm63xx.ipk</a>
           </li>
         </ul>
       </li>
       <li>shadowsocks-libev-polarssl:
         <ul>
           <li>
-            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.2-343940e6ffd2062b11dccab0894b73f7f32722f7_ar71xx.ipk">1.4.2_ar71xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.3-69f8bd61c096337abb34a9e64534865d08022957_ar71xx.ipk">1.4.3_ar71xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.2-343940e6ffd2062b11dccab0894b73f7f32722f7_brcm47xx.ipk">1.4.2_brcm47xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.3-69f8bd61c096337abb34a9e64534865d08022957_brcm47xx.ipk">1.4.3_brcm47xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-ci.s3-website-ap-northeast-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.2-343940e6ffd2062b11dccab0894b73f7f32722f7_brcm63xx.ipk">1.4.2_brcm63xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.3-69f8bd61c096337abb34a9e64534865d08022957_brcm63xx.ipk">1.4.3_brcm63xx.ipk</a>
           </li>
         </ul>
       </li>
