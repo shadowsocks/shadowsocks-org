@@ -1,14 +1,14 @@
 Package: shadowsocks
-Version: 1.4.2-1
+Version: 1.4.3-1
 Architecture: i386
 Maintainer: Max Lv <max.c.lv@gmail.com>
-Installed-Size: 319
+Installed-Size: 416
 Depends: libc6 (>= 2.9), libssl1.0.0 (>= 1.0.0)
-Filename: dists/wheezy/main/binary-i386/shadowsocks_1.4.2-1_i386.deb
-Size: 135228
-MD5sum: dda18d0061673493f9144866e1978481
-SHA1: 22552ce12f863bee836c342545037d0e3ea205f6
-SHA256: 3c921d0853c4efc40965ce98a0c41c95646d8b4e75338614dad85c69dc4e9e0c
+Filename: dists/wheezy/main/binary-i386/shadowsocks_1.4.3-1_i386.deb
+Size: 179780
+MD5sum: 74244b48679cc1b7f17b57e6a2cd41ea
+SHA1: 322035906d9a59a7ac552b8f81b57a38cebc6372
+SHA256: dbb0f3701b6e07d9bd98064984daeaec86220b341f727aae7a8ad0d4f912e626
 Section: net
 Priority: extra
 Homepage: http://www.shadowsocks.org
