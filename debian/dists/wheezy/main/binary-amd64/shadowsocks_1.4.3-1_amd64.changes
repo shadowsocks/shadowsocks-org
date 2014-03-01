@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 21 Feb 2014 11:52:13 +0900
+Source: shadowsocks
+Binary: shadowsocks
+Architecture: source amd64
+Version: 1.4.3-1
+Distribution: unstable
+Urgency: low
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description: 
+ shadowsocks - A lightweight secured scoks5 proxy.
+Changes: 
+ shadowsocks (1.4.3-1) unstable; urgency=low
+ .
+   * Add tunnel mode with local port forwarding feature.
+Checksums-Sha1: 
+ 05394f82e96a65dad747e684592248467e3b8d29 732 shadowsocks_1.4.3-1.dsc
+ e1194d223f92636ae8912c5f3d2df387f93d6920 2957460 shadowsocks_1.4.3-1.tar.gz
+ 49419e766d99a269ee23f48f2196c80f70484640 183068 shadowsocks_1.4.3-1_amd64.deb
+Checksums-Sha256: 
+ 250b583402884fc5b216831315bdc9a9e45c808468a7f04b775ecba5b096a0c6 732 shadowsocks_1.4.3-1.dsc
+ d748a5cea64724af0379adf969f1f17fe07710a26c3c080709ebd5dae5929d1d 2957460 shadowsocks_1.4.3-1.tar.gz
+ b8246505b82dedb20311c73838dd4d1b0c7059c6cf49c743931f35e8856f3e0c 183068 shadowsocks_1.4.3-1_amd64.deb
+Files: 
+ 3a42ffe11759117ea2efe06b0dd3d0a7 732 net extra shadowsocks_1.4.3-1.dsc
+ 272c9cf00054a1cd752fbbde8ba98bf8 2957460 net extra shadowsocks_1.4.3-1.tar.gz
+ 1018236edf26411f230533d0904848e1 183068 net extra shadowsocks_1.4.3-1_amd64.deb
