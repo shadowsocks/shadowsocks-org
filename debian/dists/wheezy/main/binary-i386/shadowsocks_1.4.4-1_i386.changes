@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 26 Mar 2014 13:29:03 +0800
+Source: shadowsocks
+Binary: shadowsocks
+Architecture: source i386
+Version: 1.4.4-1
+Distribution: unstable
+Urgency: low
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description: 
+ shadowsocks - A lightweight secured scoks5 proxy.
+Changes: 
+ shadowsocks (1.4.4-1) unstable; urgency=low
+ .
+   * Add CommonCrypto support for darwin.
+   * Fix some config related issues.
+Checksums-Sha1: 
+ 7b8edc8f6b905d037d72fca5c126bf94a700f85b 732 shadowsocks_1.4.4-1.dsc
+ 620a2d1d4c4c6c1dbf04de4a250b5b08eac4ac42 4409358 shadowsocks_1.4.4-1.tar.gz
+ 6131c5b7791bdc81ff2ea37e11a505c5183c5da3 183054 shadowsocks_1.4.4-1_i386.deb
+Checksums-Sha256: 
+ b58710ebc889b7fa1b2bf901432b0ab6b817d3b3ea63d6f24a82a752ecc2854e 732 shadowsocks_1.4.4-1.dsc
+ d5855d7b0701ef322d1632f7ff1a912a85c6e56e332a75876ae1921ee1b67166 4409358 shadowsocks_1.4.4-1.tar.gz
+ d0091c4c4a8ab7f14243e2ee2f1d61a9f74cd0d984c05a2edff8385d4c72d68a 183054 shadowsocks_1.4.4-1_i386.deb
+Files: 
+ fa60ebd63bc81dcfa6028f4d067ac7cd 732 net extra shadowsocks_1.4.4-1.dsc
+ 8522f211efa0e5e70779f06b0354fee6 4409358 net extra shadowsocks_1.4.4-1.tar.gz
+ f2415eb11111ff98d9a449c193f35957 183054 net extra shadowsocks_1.4.4-1_i386.deb

@@ -4,22 +4,3 @@ Architectures: i386 amd64
 Components: main
 Suite: squeeze
 Description: Shadowsocks APT Repository
-Date: Sun, 05 Jan 2014 01:37:10 UTC
-MD5Sum:
- 16d198cf051ea7d57b31d42b640af204              137 Release
- 242086564e9d5c0edd448ba75d1e59a1              631 main/binary-amd64/Packages
- 0bd64ba876e8d985da30f4e447da249a              446 main/binary-amd64/Packages.gz
- 51ee5c2f319ab143dc04a3d6430650bd              628 main/binary-i386/Packages
- fcc8d6ae7773ecfa515ea7d03b611e17              444 main/binary-i386/Packages.gz
-SHA1:
- f404c1ebc79e17a2b5a53d3ba34d064ba427d48a              137 Release
- a6eaeb1b8d6fa0436aaa1f3d51e2fea08c7dfa4d              631 main/binary-amd64/Packages
- 41afe1f393b2ed1a5b14944ee6d352dba7f4f4a7              446 main/binary-amd64/Packages.gz
- 434ae472e505c8a6ed09de4a147b1fd64a1d4a36              628 main/binary-i386/Packages
- 9f9817db02a1c8283e36f4bc79f640a9ab67515a              444 main/binary-i386/Packages.gz
-SHA256:
- 085bbfc662f16bc5e040ae232e2ba2befb0ccbb8906d40c05dd96177521d7030              137 Release
- b9e1c4789d7e257f206b03f22664cb36fb16d7f5117440317d66e9084ae9b14f              631 main/binary-amd64/Packages
- f69ea9d43f42e66efea4255447261e2c91c9cdf7cda20df433e026a56de02110              446 main/binary-amd64/Packages.gz
- b66cc004385ff999e3c69d3601b4128b373798a5aa0a5264c67ce588f7acfb72              628 main/binary-i386/Packages
- 29519a278e08cda0938988b22c23b0209698c708261c7108454f64b2f3d3c4a8              444 main/binary-i386/Packages.gz
