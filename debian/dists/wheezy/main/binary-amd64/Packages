@@ -1,14 +1,14 @@
 Package: shadowsocks
-Version: 1.4.3-1
+Version: 1.4.4-1
 Architecture: amd64
 Maintainer: Max Lv <max.c.lv@gmail.com>
-Installed-Size: 422
+Installed-Size: 431
 Depends: libc6 (>= 2.9), libssl1.0.0 (>= 1.0.0)
-Filename: dists/wheezy/main/binary-amd64/shadowsocks_1.4.3-1_amd64.deb
-Size: 183068
-MD5sum: 1018236edf26411f230533d0904848e1
-SHA1: 49419e766d99a269ee23f48f2196c80f70484640
-SHA256: b8246505b82dedb20311c73838dd4d1b0c7059c6cf49c743931f35e8856f3e0c
+Filename: dists/wheezy/main/binary-amd64/shadowsocks_1.4.4-1_amd64.deb
+Size: 186496
+MD5sum: eaa25da52692d90c9639c5a52cef73c0
+SHA1: cdbd1fffb7b093357795234f65438073816ce9e5
+SHA256: 87e21e3fa5bd8a81d7b0298c27235e21a7de01bea2072a93ec6bb8e2250d3001
 Section: net
 Priority: extra
 Homepage: http://www.shadowsocks.org

@@ -4,3 +4,28 @@ Architectures: i386 amd64
 Components: main
 Suite: squeeze
 Description: Shadowsocks APT Repository
+Date: Sun, 30 Mar 2014 01:13:04 UTC
+MD5Sum:
+ 16d198cf051ea7d57b31d42b640af204              137 Release
+ 4de5e50c76d144f443fc8db9fd826044              631 main/binary-amd64/Packages
+ d1c657138125cdff8d8ec85ea8708126              444 main/binary-amd64/Packages.gz
+ 93e386acae90d4d22592768758c1b926              628 main/binary-i386/Packages
+ 0f5a7c45ed2e0084adbc12cd63d63ea4              443 main/binary-i386/Packages.gz
+SHA1:
+ f404c1ebc79e17a2b5a53d3ba34d064ba427d48a              137 Release
+ ed9c90b2de9d6c05cc43817a466ba79ac78922c2              631 main/binary-amd64/Packages
+ 79598a977fd8aba1c2b4292dcbf27366b8563a94              444 main/binary-amd64/Packages.gz
+ edbba3440e8d15162964f0e74a8f1d995bc6fcfc              628 main/binary-i386/Packages
+ da334061ed48c8da5984f04f150dce8a0bef8775              443 main/binary-i386/Packages.gz
+SHA256:
+ 085bbfc662f16bc5e040ae232e2ba2befb0ccbb8906d40c05dd96177521d7030              137 Release
+ 3f2e2f91f7e7d5f8c5733a1a273bf33f1e8f91d6584c0f3ae29bdc836ef15f40              631 main/binary-amd64/Packages
+ ad3674345e90238f5d28860ae8297470660430f6ea913084d204da7fb4c8866d              444 main/binary-amd64/Packages.gz
+ fa04bc618729aa9e5262bdd941ce63f44fabca26ba0dd339dbcf479dc04b123e              628 main/binary-i386/Packages
+ 50a26f3176938d8f16266c6481cedb1b332ae9cf686c91707b395a06e27675fa              443 main/binary-i386/Packages.gz
+SHA512:
+ 51817040bac64aec59c28a726cc599fd27a2c6ba8fded274f7ae52405c64bf05e00ed172ed32fc781eb96bb0e5af4ddc44a2c801131873a91ad82dfa66fe0340              137 Release
+ 702ff3cd5ec1a0b2970738c4b5e099facb5e926b9a0a1473881f1830a90486ec38991aa764dd70a395a50e49f415b27ceb4f9d2beaa736c41a6f06d37f71af52              631 main/binary-amd64/Packages
+ 1388c22c9449fb99e196194b76ec94f0275ee8c611193da7894dac30d9ab8313ccae27a13bd03439312be6a9bf3a3a60bf6257de4c98288c84b1b1c45c453ffb              444 main/binary-amd64/Packages.gz
+ 0fa29070873a89a858aa1fdba11888265b7ab977e8a87cf31bac7cde9d288f880289bae09a4d11b77791afed90e04d193240ad58f66db8e49f5d69819b938954              628 main/binary-i386/Packages
+ 22fbe34e2553287e4de078d8f30fd70547515537c5f2c82b838acb443e5f495bb50307e31be546c50663c6061ebd8101b7b9d67ade25f8fb20283fdc58efebce              443 main/binary-i386/Packages.gz
