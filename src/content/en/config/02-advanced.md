@@ -6,8 +6,7 @@ First of all, upgrade your Linux kerenl to 3.5 or later.
 
 ### Step 1, increase the maximum number of open file descriptors
 
-To handle thousands of concurrent TCP connections, we should increase the limit
-of open file descriptors.
+To handle thousands of concurrent TCP connections, we should increase the limit of file descriptors opened.
 
 Edit the `limits.conf`
 
@@ -22,16 +21,15 @@ Add these two lines
 * hard nofile 51200
 ```
 
-Then, before you start the shadowsocks server, make sure to set the ulimit first
+Then, before you start the shadowsocks server, set the ulimit first
 
 ```bash
 ulimit -n 51200
 ```
 
-### Step 2, Optimize the kernel parameters
+### Step 2, Tune the kernel parameters
 
-There are several kernel parameters needed to be tuned for shadowsocks. The
-priciples are
+The priciples of tuning parameters for shadowsocks are
 
 1. Reuse ports and conections as soon as possible.
 2. Enlarge the queues and buffers as large as possible.
@@ -62,7 +60,6 @@ Of course, remember to execute `sysctl -p` to reload the config at runtime.
 
 ### How to verify your optimizations work
 
-Use munin or any server monitor tools to generate the graph of your TCP
-connections. A well tuned server should look like this
+Use munin or any server monitor tools to generate the graph of your TCP connections. A well tuned server should look like this
 
 ![one month munin TCP graph](http://ww4.sinaimg.cn/large/61b416b1gw1e9jmyps9vpj20dt0b4wg7.jpg)
