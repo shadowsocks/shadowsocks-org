@@ -75,12 +75,10 @@
       <li>shadowsocks-android:
         <ul>
           <li>
-            <a href="http://buildbot.sinaapp.com">Nightly Build</a>
+            <a href="https://drive.google.com/folderview?id=0B3YSrCJtFxYiY0R0RUR5YnlmYUE#list">Apk</a>
           </li>
           <li>
             <a href="https://play.google.com/store/apps/details?id=com.github.shadowsocks">Google Play</a>
-            &nbsp;/&nbsp;
-            <a href="http://www.coolapk.com/apk/com.github.shadowsocks">Cool Apk</a>
           </li>
         </ul>
       </li>
@@ -123,29 +121,19 @@
   <div class="one-third column last">
     <h3><i class="fa fa-rss fa-flip-horizontal fa-3x"></i> &nbsp; OpenWRT</h3>
     <ul>
-      <li>shadowsocks-libev-openssl:
-        <ul>
-          <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_ar71xx.ipk">1.3.3_ar71xx.ipk</a>
-          </li>
-          <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_brcm47xx.ipk">1.3.3_brcm47xx.ipk</a>
-          </li>
-          <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev_1.3.3-9933435506b1c96e8bfe7a0fc5f305398fd0f62e_brcm63xx.ipk">1.3.3_brcm63xx.ipk</a>
-          </li>
-        </ul>
-      </li>
       <li>shadowsocks-libev-polarssl:
         <ul>
           <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.3-69f8bd61c096337abb34a9e64534865d08022957_ar71xx.ipk">1.4.3_ar71xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.4_ar71xx.ipk">1.4.4_ar71xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.3-69f8bd61c096337abb34a9e64534865d08022957_brcm47xx.ipk">1.4.3_brcm47xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.4_brcm47xx.ipk">1.4.4_brcm47xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.3-69f8bd61c096337abb34a9e64534865d08022957_brcm63xx.ipk">1.4.3_brcm63xx.ipk</a>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.4_brcm63xx.ipk">1.4.4_brcm63xx.ipk</a>
+          </li>
+          <li>
+            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.4_ramips_24kec.ipk">1.4.4_ramips_24kec.ipk</a>
           </li>
         </ul>
       </li>
