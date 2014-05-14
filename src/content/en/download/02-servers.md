@@ -80,8 +80,7 @@ and low end boxes. It's a pure C implementation and has a very small footprint
 
 ### Debian/Ubuntu:
 
-Install the pre-built packages by adding each of the following repositories to
-your system.
+Install the binaries by adding each of the following repositories to your system.
 
 On Debian Wheezy, Ubuntu 12.04 or any distribution with libssl > 1.0.0
 
