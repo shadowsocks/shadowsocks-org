@@ -124,16 +124,16 @@
       <li>shadowsocks-libev-polarssl:
         <ul>
           <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.4_ar71xx.ipk">1.4.4_ar71xx.ipk</a>
+            <a href="/nightly/shadowsocks-libev-polarssl_1.4.5_ar71xx.ipk">1.4.5_ar71xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.4_brcm47xx.ipk">1.4.4_brcm47xx.ipk</a>
+            <a href="/nightly/shadowsocks-libev-polarssl_1.4.5_brcm47xx.ipk">1.4.5_brcm47xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.4_brcm63xx.ipk">1.4.4_brcm63xx.ipk</a>
+            <a href="/nightly/shadowsocks-libev-polarssl_1.4.5_brcm63xx.ipk">1.4.5_brcm63xx.ipk</a>
           </li>
           <li>
-            <a href="http://travis-nightly.s3-website-us-east-1.amazonaws.com/nightly/shadowsocks-libev-polarssl_1.4.4_ramips_24kec.ipk">1.4.4_ramips_24kec.ipk</a>
+            <a href="/nightly/shadowsocks-libev-polarssl_1.4.5_ramips_24kec.ipk">1.4.5_ramips_24kec.ipk</a>
           </li>
         </ul>
       </li>
