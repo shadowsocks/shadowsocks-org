@@ -85,12 +85,7 @@
       <li>fqrouter2:
         <ul>
           <li>
-            <a href="https://s3-ap-southeast-1.amazonaws.com/fqrouter/fqrouter-latest.apk">Nightly Build</a>
-          </li>
-          <li>
             <a href="https://play.google.com/store/apps/details?id=fq.router2">Google Play</a>
-            &nbsp;/&nbsp;
-            <a href="http://www.coolapk.com/apk/fq.router2">Cool Apk</a>
           </li>
         </ul>
       </li>

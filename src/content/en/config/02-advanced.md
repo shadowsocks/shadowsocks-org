@@ -1,7 +1,5 @@
 ## Optimize the shadowsocks server on Linux
 
-This article is originally posted on [Lv. MAX](https://maxlv.net/optimize-a-shadowsocks-server/).
-
 First of all, upgrade your Linux kerenl to 3.5 or later.
 
 ### Step 1, increase the maximum number of open file descriptors
@@ -38,22 +36,26 @@ The priciples of tuning parameters for shadowsocks are
 Here is an example `/etc/sysctl.conf` of our production servers:
 
 ```
-net.core.wmem_max = 12582912
-net.core.rmem_max = 12582912
-net.ipv4.tcp_rmem = 10240 87380 12582912
-net.ipv4.tcp_wmem = 10240 87380 12582912
-net.ipv4.ip_local_port_range = 18000    65535
-net.ipv4.netfilter.ip_conntrack_tcp_timeout_time_wait = 1
-net.ipv4.tcp_window_scaling = 1
-net.ipv4.tcp_max_syn_backlog = 3240000
+fs.file-max = 51200
+
+net.core.rmem_max = 67108864
+net.core.wmem_max = 67108864
+net.core.netdev_max_backlog = 250000
 net.core.somaxconn = 3240000
-net.ipv4.tcp_max_tw_buckets = 1440000
-net.ipv4.tcp_congestion_control = hybla
+
+net.ipv4.tcp_syncookies = 1
 net.ipv4.tcp_tw_reuse = 1
-net.ipv4.tcp_fin_timeout = 15
-net.ipv4.tcp_syn_retries = 2
-net.ipv4.tcp_synack_retries = 2
-net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_recycle = 0
+net.ipv4.tcp_fin_timeout = 30
+net.ipv4.tcp_keepalive_time = 1200
+net.ipv4.ip_local_port_range = 10000 65000
+net.ipv4.tcp_max_syn_backlog = 8192
+net.ipv4.tcp_max_tw_buckets = 5000
+net.ipv4.tcp_fastopen = 3
+net.ipv4.tcp_rmem = 4096 87380 67108864
+net.ipv4.tcp_wmem = 4096 65536 67108864
+net.ipv4.tcp_mtu_probing = 1
+net.ipv4.tcp_congestion_control = hybla
 ```
 
 Of course, remember to execute `sysctl -p` to reload the config at runtime.
