@@ -75,9 +75,6 @@
       <li>shadowsocks-android:
         <ul>
           <li>
-            <a href="https://drive.google.com/folderview?id=0B3YSrCJtFxYiY0R0RUR5YnlmYUE#list">Apk</a>
-          </li>
-          <li>
             <a href="https://play.google.com/store/apps/details?id=com.github.shadowsocks">Google Play</a>
           </li>
         </ul>
