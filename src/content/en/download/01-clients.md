@@ -4,7 +4,7 @@
     <h3><i class="fa fa-windows fa-3x"></i> &nbsp; Windows</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.4-win-ia32.7z">0.4-win-ia32.7z</a></li>
+      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.4.1-win-ia32.7z">0.4.1-win-ia32.7z</a></li>
       <li>shadowsocks-csharp: <a href="https://code.google.com/p/shadowsocks-csharp/downloads/detail?name=shadowsocks-csharp-1.1.2.zip">1.1.2.zip</a></li>      
     </ul>
     <p><strong>Command-line Client</strong></p>
@@ -25,8 +25,8 @@
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; Mac OS X</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>ShadowsocksX: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-1.0.5.dmg">1.0.5.dmg</a></li>
-      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.4-osx-ia32.7z">0.4-osx-ia32.7z</a></li>
+      <li>ShadowsocksX: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-1.0.9.dmg">1.0.9.dmg</a></li>
+      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.4.1-osx-ia32.7z">0.4.1-osx-ia32.7z</a></li>
       <li>GoAgentX: <a href="https://goagentx.googlecode.com/files/GoAgentX-v2.2.9.dmg">v2.2.9.dmg</a></li>      
     </ul>
     <p><strong>Command-line Client</strong></p>
