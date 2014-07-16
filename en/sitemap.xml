@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>http://shadowsocks.org/en/about/contributors.html</loc>
-  <lastmod>2014-07-08T09:49:09.000Z</lastmod>
+  <lastmod>2014-07-16T12:15:04.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
@@ -14,13 +14,13 @@
 </url>
 <url>
   <loc>http://shadowsocks.org/en/config/advanced.html</loc>
-  <lastmod>2014-07-08T09:49:09.000Z</lastmod>
+  <lastmod>2014-07-16T12:15:04.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>http://shadowsocks.org/en/config/quick-guide.html</loc>
-  <lastmod>2014-07-08T09:49:10.000Z</lastmod>
+  <lastmod>2014-07-16T12:15:04.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
@@ -32,19 +32,19 @@
 </url>
 <url>
   <loc>http://shadowsocks.org/en/download/clients.html</loc>
-  <lastmod>2014-07-08T09:49:10.000Z</lastmod>
+  <lastmod>2014-07-16T12:15:04.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>http://shadowsocks.org/en/download/servers.html</loc>
-  <lastmod>2014-07-08T09:49:10.000Z</lastmod>
+  <lastmod>2014-07-16T12:15:04.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>http://shadowsocks.org/en/</loc>
-  <lastmod>2014-07-08T09:49:10.000Z</lastmod>
+  <lastmod>2014-07-16T12:15:04.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
