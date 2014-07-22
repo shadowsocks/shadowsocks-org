@@ -2,7 +2,7 @@ Format: 1.0
 Source: shadowsocks
 Binary: shadowsocks
 Architecture: any
-Version: 1.4.4-1
+Version: 1.4.6-1
 Maintainer: Max Lv <max.c.lv@gmail.com>
 Homepage: http://www.shadowsocks.org
 Standards-Version: 3.8.4
@@ -12,8 +12,8 @@ Build-Depends: debhelper (>= 7.0.50~), libssl-dev (>= 0.9.8), autotools-dev, mim
 Package-List: 
  shadowsocks deb net extra
 Checksums-Sha1: 
- 620a2d1d4c4c6c1dbf04de4a250b5b08eac4ac42 4409358 shadowsocks_1.4.4-1.tar.gz
+ 8a26b3395cd24a77b2a476c34189f5c8b6bdf6e7 5669057 shadowsocks_1.4.6-1.tar.gz
 Checksums-Sha256: 
- d5855d7b0701ef322d1632f7ff1a912a85c6e56e332a75876ae1921ee1b67166 4409358 shadowsocks_1.4.4-1.tar.gz
+ c40132f308302d6ec852d4bcf7d381f6ff36f1a0801f4c156966b1e2f454a95e 5669057 shadowsocks_1.4.6-1.tar.gz
 Files: 
- 8522f211efa0e5e70779f06b0354fee6 4409358 shadowsocks_1.4.4-1.tar.gz
+ 16915a60fdcabfae0ac96a6438242b79 5669057 shadowsocks_1.4.6-1.tar.gz
