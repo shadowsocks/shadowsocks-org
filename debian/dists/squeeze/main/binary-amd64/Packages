@@ -1,14 +1,14 @@
 Package: shadowsocks
-Version: 1.4.4-1
+Version: 1.4.6-1
 Architecture: amd64
 Maintainer: Max Lv <max.c.lv@gmail.com>
-Installed-Size: 484
+Installed-Size: 528
 Depends: libc6 (>= 2.9), libssl0.9.8 (>= 0.9.8m-1)
-Filename: dists/squeeze/main/binary-amd64/shadowsocks_1.4.4-1_amd64.deb
-Size: 182242
-MD5sum: 173923f5c2712cad8f3a9009066bc25a
-SHA1: 1551cde4c0355608a1ca65d3edd00d03a4b8bbc7
-SHA256: cef518286520abcff4cf47f29b8f1761a225fc5572986000a1bd0be7e141dc4b
+Filename: dists/squeeze/main/binary-amd64/shadowsocks_1.4.6-1_amd64.deb
+Size: 200366
+MD5sum: 076a87b00f084070ceb3903c1bce3dfb
+SHA1: b2418c4326a4e84839092eb109340784a99ad101
+SHA256: e719161b10b162f928ab2cfc6d85fb8f5622472c79bc3446d1a4cda1645ae178
 Section: net
 Priority: extra
 Homepage: http://www.shadowsocks.org
