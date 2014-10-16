@@ -46,7 +46,7 @@
             <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-linux32-1.1.3.gz">linux32-1.1.3.gz</a>
           </li>
           <li>
-            <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-linux64-1.1.3.zip">linux64-1.1.3.gz</a>
+            <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-linux64-1.1.3.gz">linux64-1.1.3.gz</a>
           </li>
         </ul>
       </li>
