@@ -116,19 +116,25 @@
       <li>shadowsocks-libev-polarssl:
         <ul>
           <li>
-            <a href="/nightly/shadowsocks-libev-polarssl_1.4.6_ar71xx.ipk">1.4.6_ar71xx.ipk</a>
+            <a href="/nightly/shadowsocks-libev-polarssl_1.4.8-1_ar71xx.ipk">1.4.8-1_ar71xx.ipk</a>
           </li>
           <li>
-            <a href="/nightly/shadowsocks-libev-polarssl_1.4.6_brcm47xx.ipk">1.4.6_brcm47xx.ipk</a>
+            <a href="/nightly/shadowsocks-libev-polarssl_1.4.8-1_brcm47xx.ipk">1.4.8-1_brcm47xx.ipk</a>
           </li>
           <li>
-            <a href="/nightly/shadowsocks-libev-polarssl_1.4.6_brcm63xx.ipk">1.4.6_brcm63xx.ipk</a>
+            <a href="/nightly/shadowsocks-libev-polarssl_1.4.8-1_brcm63xx.ipk">1.4.8-1_brcm63xx.ipk</a>
           </li>
           <li>
-            <a href="/nightly/shadowsocks-libev-polarssl_1.4.6_ramips_24kec.ipk">1.4.6_ramips_24kec.ipk</a>
+            <a href="/nightly/shadowsocks-libev-polarssl_1.4.8-1_ramips_24kec.ipk">1.4.8-1_ramips_24kec.ipk</a>
           </li>
         </ul>
       </li>
+      <li>Third-party compiled packages:</li> 
+      <ul>
+        <li>
+          <a href="http://sourceforge.net/projects/openwrt-dist/files/shadowsocks-libev">OpenWRT-dist</a>
+        </li>
+      </ul>
     </ul>
   </div>
 </div>
