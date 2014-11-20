@@ -4,8 +4,17 @@
     <h3><i class="fa fa-windows fa-3x"></i> &nbsp; Windows</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.6.2-win-ia32.tar.xz">0.6.2-win-ia32.tar.xz</a></li>
-      <li>shadowsocks-csharp: <a href="https://code.google.com/p/shadowsocks-csharp/downloads/detail?name=shadowsocks-csharp-1.1.2.zip">1.1.2.zip</a></li>      
+      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.6.4-win-ia32.tar.xz">0.6.4-win-ia32.tar.xz</a></li>
+      <li>shadowsocks-csharp:
+        <ul>
+          <li>
+            Windows 8 or above: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-dotnet4.0-2.0.10.zip">dotnet4.0-2.0.10.zip</a>
+          </li>
+          <li>
+            Windows 7 or below: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-2.0.10.zip">2.0.10.zip</a>
+          </li>
+        </ul>
+      </li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
@@ -13,9 +22,6 @@
         <ul>
           <li>
             <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-win32-1.1.3.zip">win32-1.1.3.zip</a>
-          </li>
-          <li>
-            <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-win64-1.1.3.zip">win64-1.1.3.zip</a>
           </li>
         </ul>
       </li>  
@@ -25,9 +31,8 @@
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; Mac OS X</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>ShadowsocksX: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-2.3.dmg">2.3.dmg</a></li>
-      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.5.0-osx-ia32.7z">0.6.2-osx-ia32.7z</a></li>
-      <li>GoAgentX: <a href="https://goagentx.googlecode.com/files/GoAgentX-v2.2.9.dmg">v2.2.9.dmg</a></li>      
+      <li>ShadowsocksX: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-2.4.1.dmg">2.4.1.dmg</a></li>
+      <li>GoAgentX: <a href="https://goagentx.googlecode.com/files/GoAgentX-v2.2.9.dmg">v2.2.9.dmg</a></li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
@@ -50,7 +55,7 @@
           </li>
         </ul>
       </li>
-      <li>shadowsocks-python: <a href="https://pypi.python.org/pypi/shadowsocks">2.3.2.tar.gz</a>
+      <li>shadowsocks-python: <a href="https://pypi.python.org/pypi/shadowsocks">2.4.3.tar.gz</a>
         <ul>
           <li>
             <code>pip install shadowsocks</code>
