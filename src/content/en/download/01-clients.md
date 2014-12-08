@@ -4,7 +4,6 @@
     <h3><i class="fa fa-windows fa-3x"></i> &nbsp; Windows</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>shadowsocks-gui: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/shadowsocks-gui-0.6.4-win-ia32.tar.xz">0.6.4-win-ia32.tar.xz</a></li>
       <li>shadowsocks-csharp:
         <ul>
           <li>
@@ -18,13 +17,7 @@
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
-      <li>shadowsocks-go:
-        <ul>
-          <li>
-            <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-win32-1.1.3.zip">win32-1.1.3.zip</a>
-          </li>
-        </ul>
-      </li>  
+      <li>shadowsocks-go: <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-win32-1.1.3.zip">win32-1.1.3.zip</a> </li>  
     </ul>
   </div>
   <div class="one-third column">
@@ -43,7 +36,6 @@
   </div>
   <div class="one-third column">
     <h3><i class="fa fa-linux fa-3x"></i> &nbsp; Linux</h3>
-    <p><strong>Command-line Client</strong></p>
     <ul>
       <li>shadowsocks-go:
         <ul>
