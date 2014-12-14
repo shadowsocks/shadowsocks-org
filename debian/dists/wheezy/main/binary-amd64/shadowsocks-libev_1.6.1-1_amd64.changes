@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 13 Dec 2014 15:11:34 +0800
+Source: shadowsocks-libev
+Binary: shadowsocks-libev
+Architecture: source amd64
+Version: 1.6.1-1
+Distribution: unstable
+Urgency: high
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description: 
+ shadowsocks-libev - A lightweight secured scoks5 proxy.
+Changes: 
+ shadowsocks-libev (1.6.1-1) unstable; urgency=high
+ .
+   * Add salsa20 and chacha20 support.
+Checksums-Sha1: 
+ 7081603d6b2979135fa16fd04f7deeee2de49dba 768 shadowsocks-libev_1.6.1-1.dsc
+ cd3362432b2b579c0a19ddddc813b8a3b4c2d3bf 8741530 shadowsocks-libev_1.6.1-1.tar.gz
+ 57b17b30a6f45fadece7d3b9f6aeefecf8b76367 427750 shadowsocks-libev_1.6.1-1_amd64.deb
+Checksums-Sha256: 
+ 54e5b61f88fd7bbffaccf84952936b6550b75b3528278fedf5b7ca7ddbad2f2f 768 shadowsocks-libev_1.6.1-1.dsc
+ a1e08548d316fad6d64c5c470bf949b25af6e0c3eaa91bf030187d4bb2410c46 8741530 shadowsocks-libev_1.6.1-1.tar.gz
+ 40eec69d426b40a032cad45f45c1b1c5d29a48a882f70c5db398578511d70133 427750 shadowsocks-libev_1.6.1-1_amd64.deb
+Files: 
+ a6c00f31ec38555ad19e747cdcd56807 768 net extra shadowsocks-libev_1.6.1-1.dsc
+ 4aa635a41a696dd05a0cac9da267da95 8741530 net extra shadowsocks-libev_1.6.1-1.tar.gz
+ 8f8458d6467870162e7c62bd231adc50 427750 net extra shadowsocks-libev_1.6.1-1_amd64.deb
