@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 08 Oct 2014 18:02:02 +0800
+Source: shadowsocks
+Binary: shadowsocks
+Architecture: source amd64
+Version: 1.4.8-1
+Distribution: unstable
+Urgency: low
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description: 
+ shadowsocks - A lightweight secured scoks5 proxy.
+Changes: 
+ shadowsocks (1.4.8-1) unstable; urgency=low
+ .
+   * Fix a bug of tcp fast open.
+Checksums-Sha1: 
+ 8931811f58e0c38d4126edee121a54759071a7b7 732 shadowsocks_1.4.8-1.dsc
+ a66e0c9bc2d079189d9fad06add658872bbca48a 3981122 shadowsocks_1.4.8-1.tar.gz
+ bd918d25487f067f50d03b40d0237a0dad57c9b7 206186 shadowsocks_1.4.8-1_amd64.deb
+Checksums-Sha256: 
+ bc7dc4e9bb040959b37d13519d509e1c8386449a014e62850634f4052f763f8b 732 shadowsocks_1.4.8-1.dsc
+ 074558a056dff35a4d1ce553fe677fc929682b820c38d344dbd750cf9fcffa98 3981122 shadowsocks_1.4.8-1.tar.gz
+ 7a591fee16858309efd2919c29794aab599897a88acb4cf349812464e18ab5cf 206186 shadowsocks_1.4.8-1_amd64.deb
+Files: 
+ 61a79f97de671d10b1fb1cca08df203c 732 net extra shadowsocks_1.4.8-1.dsc
+ b1ed53bf047833158a509859ee259af8 3981122 net extra shadowsocks_1.4.8-1.tar.gz
+ 21e698ef7746f96c91b60a91d44448fd 206186 net extra shadowsocks_1.4.8-1_amd64.deb

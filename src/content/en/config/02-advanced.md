@@ -41,7 +41,7 @@ fs.file-max = 51200
 net.core.rmem_max = 67108864
 net.core.wmem_max = 67108864
 net.core.netdev_max_backlog = 250000
-net.core.somaxconn = 3240000
+net.core.somaxconn = 4096
 
 net.ipv4.tcp_syncookies = 1
 net.ipv4.tcp_tw_reuse = 1
