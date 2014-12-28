@@ -22,7 +22,7 @@ $ pip install shadowsocks
 Checkout the source codes and run the scripts directly.
 
 ```bash
-$ git clone https://github.com/clowwindy/shadowsocks.git
+$ git clone https://github.com/shadowsocks/shadowsocks.git
 $ cd shadowsocks
 $ python setup.py
 ```
@@ -47,7 +47,7 @@ Fetch and run the scripts
 
 ```bash
 $ npm install -g coffee-script
-$ git clone https://github.com/clowwindy/shadowsocks-nodejs.git
+$ git clone https://github.com/shadowsocks/shadowsocks-nodejs.git
 $ cd shadowsocks-nodejs
 $ cake build
 ```
@@ -106,7 +106,7 @@ $ apt-get install shadowsocks
 Build and install the project from source codes.
 
 ```bash
-$ git clone https://github.com/madeye/shadowsocks-libev.git
+$ git clone https://github.com/shadowsocks/shadowsocks-libev.git
 $ cd shadowsocks-libev
 $ sudo apt-get install build-essential autoconf libtool libssl-dev
 $ ./configure && make
