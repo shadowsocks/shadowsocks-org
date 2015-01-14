@@ -28,3 +28,9 @@ EOM
 apt-ftparchive release . >> Release
 
 popd
+
+TARGET=dists/$DIST
+GPGKEY=1D27208A
+## Do the actual work
+rm -f ${TARGET}/Release.gpg
+gpg -a --sign --default-key ${GPGKEY} -o ${TARGET}/Release.gpg ${TARGET}/Release
