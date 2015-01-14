@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Origin: shadowsocks-libev
 Label: shadowsocks-libev
 Codename: wheezy
@@ -26,3 +29,20 @@ SHA256:
  86d9077652f4eb3c21fcee4464c901e386667af0910733c8de921bbffc3c6b51 708 main/binary-amd64/Packages
  a7032bbd63a6cf77abb246a406c1c58d2ff22d2e117bdf2baffae7d94a4ed32a 461 main/binary-amd64/Packages.gz
  5bbc3b8bb32b875e7b2193733da1ef540031f02b803f120c6e7e0e9328b990fc 145 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQIcBAEBAgAGBQJUteyRAAoJEBk50UsdJyCKY/QQAIK9NXG15/Hm4rCUH1/pAJIi
+D4x2o04QbxBUPhL1rBB31UG3ZJhHyWOZ1egE6YgmzN2YAfVB2lFxQgQfHOscpeWe
+Xo3jL8i0hCUIAed+MUm+PYmG9diBvUhKmFmVizON6SyMFjrWFNrVGkcG93C38c9m
+oMQxVVnvyNpzGzBS0aN/xHkEU7y5DQcYiPLeo37o+RDO9g9UpUVWAZk8vzk+lRC1
+CuGyjE29GwYA//DHk3CuBJkiLTizYjnow6BQdT78qWtNrZ4MR3z7NloIbML7wrze
++Wqqx2TQsRvtg2ITq7lXCSdGZmyU3HGEEbkYbMDhNsoZOQwD85CVvrAR3MevsgIS
+OUuUF14yxvYddvV8I33Wxop5AY8+PJ3RWhCJ33p6hya1cTgXh2NNOiAEwObi+h+o
+gTuVkrfRA17yhlMnRDpaA7R1llL5ux5Rkniu/3Ou7LAbVWGnb0ikP9/RoaUMeumA
+Pp00q272EHVaZG3yfDpfkYqt28ZFrLqrbf0JzchyH2Kp9Pb6xUITwZO6FOP4SAck
+X/t2v9DsnQ/0X482R0wuXxIm7LVxx72Zjyu8V9cB8ndwqUuUzM/Ux9ZunxdskViT
+lXJYid2gy9p/0QeB2EQeaqpjrvZ5DJLyrrOatUx540QpOoEEyExVmkgUqJeTmXaw
+Ueg5HghlO2u5+z7EoK8J
+=fWMm
+-----END PGP SIGNATURE-----

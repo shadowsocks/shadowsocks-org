@@ -6,14 +6,14 @@ Installed-Size: 1119
 Depends: libc6 (>= 2.9), libssl1.0.0 (>= 1.0.0)
 Breaks: shadowsocks (<< 1.5.3-2)
 Replaces: shadowsocks (<< 1.5.3-2)
-Filename: dists/wheezy/main/binary-i386/shadowsocks-libev_2.0.7-1_i386.deb
-Size: 499570
-MD5sum: b5a5ee87e2586ff07ec2e8478832e98a
-SHA1: f24bacf2533ab86bf975a06c699efdcd7d44bc6e
-SHA256: 374253f56947bdadf7524bdb4e305f06e464a7db6d7eea06d5ed776f3951bb89
-Section: net
-Priority: extra
 Homepage: http://www.shadowsocks.org
+Priority: extra
+Section: net
+Filename: pool/main/s/shadowsocks-libev/shadowsocks-libev_2.0.7-1_i386.deb
+Size: 499570
+SHA256: 374253f56947bdadf7524bdb4e305f06e464a7db6d7eea06d5ed776f3951bb89
+SHA1: f24bacf2533ab86bf975a06c699efdcd7d44bc6e
+MD5sum: b5a5ee87e2586ff07ec2e8478832e98a
 Description: A lightweight secured scoks5 proxy.
     Shadowsocks-libev is a lightweight secured scoks5 proxy for embedded devices and low end boxes.
 

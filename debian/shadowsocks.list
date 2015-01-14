@@ -1,5 +1,0 @@
-# Debian Wheezy
-deb http://shadowsocks.org/debian wheezy main
-
-# Debian Squeeze
-deb http://shadowsocks.org/debian squeeze main

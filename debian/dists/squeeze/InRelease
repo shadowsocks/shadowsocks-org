@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Origin: shadowsocks-libev
 Label: shadowsocks-libev
 Codename: squeeze
@@ -26,3 +29,20 @@ SHA256:
  4b2ebf2891eea7ad1ccb397df35e2fb978f75a4e5910b817fc16d94e5a3e9a01 623 main/binary-amd64/Packages
  6809249497e51eb520fe12c9846e90408166a310c7697de9c8f96f622c281c3b 435 main/binary-amd64/Packages.gz
  5bbc3b8bb32b875e7b2193733da1ef540031f02b803f120c6e7e0e9328b990fc 145 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQIcBAEBAgAGBQJUte0MAAoJEBk50UsdJyCKqIUQAJX0+SSGGlFL5OOLPeoS0ddv
+B5Uizr8fhVtTXlUGam5s8WH1OtzEsH16eoz4I/UpZhgnoYCOzmeeM/YeDrBftQjG
+xe2TkShREXzJYWb0PKQYiivT3PE2BM6vSnhrOAx4Ic0Th2Cd4sGwo3gw06lfziWm
+8N9Elzpwy8HKNWiQlD425Q6gzinVFBjPrPymqteruqobjSpqdQiKypuMwsMpP5jy
+1PQvadzbtby4b7aKREPAEUwEIwtlE2YakYH5Yu2A4RE4StWh2m9t3ejVqTILJBIh
+kQ8bYIoLE1RVSbwVPfDCFki6spWxmtJynKBd8sqF02IAdSdWf5pufKQzeX2j3gcS
+W6ygeU2wvZoZP2/A0D9Y0eUHM2U3s8zSOej5gNLuA3qix3a117rPjYt4dNMuxPc1
+xaboOmA4Vt0Vd4DmLzppbRQYsHzd0c893M+505u701Ixhy0KPiZnMHUZ0njdMrei
+O67HTRG3O8O0jEScyknS8gzciuTsz8Vj05ZHZJ/ZINH7bWBDMQtk3Aw7QzEHUmFg
+d0yq0PiYnwlL+JCOpQYy8Piv73gzNrVFo1YK8NiZFHCJQq/87htSqm4ZU+3Gq+fc
+r+l6Lbd96enp0LZJ2Hir8Fnessvg67Gb4bSE7UNlvomDlJiJwYFAD0tN26QppQFB
+K7tKMCPoxsJDaoykHHIJ
+=lyvo
+-----END PGP SIGNATURE-----

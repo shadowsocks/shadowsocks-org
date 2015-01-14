@@ -1,0 +1,5 @@
+Component: main
+Origin: shadowsocks-libev
+Label: shadowsocks-libev
+Architecture: i386
+Description: Apt repository for project shadowsocks-libev
