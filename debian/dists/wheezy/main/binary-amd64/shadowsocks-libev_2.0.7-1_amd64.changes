@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Tue, 13 Jan 2015 13:17:58 +0900
+Source: shadowsocks-libev
+Binary: shadowsocks-libev
+Architecture: source amd64
+Version: 2.0.7-1
+Distribution: unstable
+Urgency: low
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description: 
+ shadowsocks-libev - A lightweight secured scoks5 proxy.
+Changes: 
+ shadowsocks-libev (2.0.7-1) unstable; urgency=low
+ .
+   * Fix some performance issue.
+Checksums-Sha1: 
+ 5c1d42f5f179e25272bfecbd05c077280eaeef24 778 shadowsocks-libev_2.0.7-1.dsc
+ 545635a9ed000dfd07890e33d4f2b68bb34e057e 9523970 shadowsocks-libev_2.0.7-1.tar.gz
+ 0e04aec3690ff7b3580c16b3186b8a3bfcff3fbc 478404 shadowsocks-libev_2.0.7-1_amd64.deb
+Checksums-Sha256: 
+ 0a60bad281b0ad9fde3411057e0a9c21fa167c828571314faa916994b8780748 778 shadowsocks-libev_2.0.7-1.dsc
+ 0927f85878108555a2bc98153fb8a1d0b71e773c2a348f8900f0a9cfa471db31 9523970 shadowsocks-libev_2.0.7-1.tar.gz
+ de08d15d30266bfff65d37f316fa411fa81a506e061d7fd3914cacd2af04062e 478404 shadowsocks-libev_2.0.7-1_amd64.deb
+Files: 
+ 53a30274dc6e9e51bd38572985afacdf 778 net extra shadowsocks-libev_2.0.7-1.dsc
+ 818b64091bf7048c8e36d19efb184d68 9523970 net extra shadowsocks-libev_2.0.7-1.tar.gz
+ 913b7fe3f35b7e06a2f29c3d7d738c7c 478404 net extra shadowsocks-libev_2.0.7-1_amd64.deb
