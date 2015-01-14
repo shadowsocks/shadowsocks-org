@@ -1,16 +1,16 @@
 Package: shadowsocks-libev
-Version: 1.6.4-1
+Version: 2.0.7-1
 Architecture: amd64
 Maintainer: Max Lv <max.c.lv@gmail.com>
-Installed-Size: 944
+Installed-Size: 1052
 Depends: libc6 (>= 2.9), libssl1.0.0 (>= 1.0.0)
 Breaks: shadowsocks (<< 1.5.3-2)
 Replaces: shadowsocks (<< 1.5.3-2)
-Filename: dists/wheezy/main/binary-amd64/shadowsocks-libev_1.6.4-1_amd64.deb
-Size: 427726
-MD5sum: 4d1bca3365025d1519b92b830bb086fe
-SHA1: 6bfece541efc1598619eb0b6388357075da3593c
-SHA256: a6d4ae76d42ece6bbf0fe49d3be12dafeb9d86adcce65b8735b27239d8aa90e4
+Filename: dists/wheezy/main/binary-amd64/shadowsocks-libev_2.0.7-1_amd64.deb
+Size: 478404
+MD5sum: 913b7fe3f35b7e06a2f29c3d7d738c7c
+SHA1: 0e04aec3690ff7b3580c16b3186b8a3bfcff3fbc
+SHA256: de08d15d30266bfff65d37f316fa411fa81a506e061d7fd3914cacd2af04062e
 Section: net
 Priority: extra
 Homepage: http://www.shadowsocks.org
