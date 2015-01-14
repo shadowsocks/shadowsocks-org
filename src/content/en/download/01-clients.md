@@ -7,10 +7,10 @@
       <li>shadowsocks-csharp:
         <ul>
           <li>
-            Windows 8 or above: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-dotnet4.0-2.0.10.zip">dotnet4.0-2.0.10.zip</a>
+            Windows 8 or above: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-dotnet4.0-2.1.6.zip">dotnet4.0-2.1.6.zip</a>
           </li>
           <li>
-            Windows 7 or below: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-2.0.10.zip">2.0.10.zip</a>
+            Windows 7 or below: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-2.1.6.zip">2.1.6.zip</a>
           </li>
         </ul>
       </li>
@@ -24,7 +24,7 @@
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; Mac OS X</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>ShadowsocksX: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-2.4.1.dmg">2.4.1.dmg</a></li>
+      <li>ShadowsocksX: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-2.6.1.dmg">2.6.1.dmg</a></li>
       <li>GoAgentX: <a href="https://goagentx.googlecode.com/files/GoAgentX-v2.2.9.dmg">v2.2.9.dmg</a></li>
     </ul>
     <p><strong>Command-line Client</strong></p>

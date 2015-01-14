@@ -80,6 +80,12 @@ and low end boxes. It's a pure C implementation and has a very small footprint
 
 ### Debian/Ubuntu:
 
+First, add the GPG public key to your system:
+
+```bash
+wget -O- http://shadowsocks.org/debian/1D27208A.gpg | sudo apt-key add -
+```
+
 Install the binaries by adding each of the following repositories to your system.
 
 On Debian Wheezy, Ubuntu 12.04 or any distribution with libssl > 1.0.0
