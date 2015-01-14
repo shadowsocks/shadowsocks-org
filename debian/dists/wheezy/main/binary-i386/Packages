@@ -7,10 +7,10 @@ Depends: libc6 (>= 2.9), libssl1.0.0 (>= 1.0.0)
 Breaks: shadowsocks (<< 1.5.3-2)
 Replaces: shadowsocks (<< 1.5.3-2)
 Filename: dists/wheezy/main/binary-i386/shadowsocks-libev_2.0.7-1_i386.deb
-Size: 498260
-MD5sum: 07d3fb2c472efe2c0f7425d1f57b28cb
-SHA1: 4c64930be82ae4d6799e07360b18722142d2bafe
-SHA256: 70a6dcf16ad2fb8c0ab2ad578d7d39ed7631ec0c0e09fed05d33ce922bb3c11c
+Size: 498274
+MD5sum: c3d0483be5198f17d2459a4dbc1d54cc
+SHA1: 8a57db5e53f4e7668ab3098405fe875bf551524a
+SHA256: 72677929b9d7d39c19b0fb8a22939ca0007446ff3ff1e88ac7c982d6e21589a5
 Section: net
 Priority: extra
 Homepage: http://www.shadowsocks.org

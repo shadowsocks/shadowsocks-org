@@ -1,8 +1,11 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Format: 1.8
 Date: Tue, 13 Jan 2015 13:17:58 +0900
 Source: shadowsocks-libev
 Binary: shadowsocks-libev
-Architecture: source i386
+Architecture: i386
 Version: 2.0.7-1
 Distribution: unstable
 Urgency: low
@@ -15,14 +18,26 @@ Changes:
  .
    * Fix some performance issue.
 Checksums-Sha1: 
- 266de14f6158c9005dcdd61f26d0373c0e68bdf5 781 shadowsocks-libev_2.0.7-1.dsc
- 699d62ffa52cdd136f0594e14fd8556740cece96 14878328 shadowsocks-libev_2.0.7-1.tar.gz
- 4c64930be82ae4d6799e07360b18722142d2bafe 498260 shadowsocks-libev_2.0.7-1_i386.deb
+ 8a57db5e53f4e7668ab3098405fe875bf551524a 498274 shadowsocks-libev_2.0.7-1_i386.deb
 Checksums-Sha256: 
- bd529095002860a47696c101f6be6de88be24d07d75c1fc05d45497f16f563d5 781 shadowsocks-libev_2.0.7-1.dsc
- 428f9ad2a0f9c2a2b26f9119bf745163d71f4fe04fff1c385f3cf442931bdd48 14878328 shadowsocks-libev_2.0.7-1.tar.gz
- 70a6dcf16ad2fb8c0ab2ad578d7d39ed7631ec0c0e09fed05d33ce922bb3c11c 498260 shadowsocks-libev_2.0.7-1_i386.deb
+ 72677929b9d7d39c19b0fb8a22939ca0007446ff3ff1e88ac7c982d6e21589a5 498274 shadowsocks-libev_2.0.7-1_i386.deb
 Files: 
- b7eafe5a307b5f6f7119bdfe5719b726 781 net extra shadowsocks-libev_2.0.7-1.dsc
- ea1601fc789e712950c8efce7f3b7c4d 14878328 net extra shadowsocks-libev_2.0.7-1.tar.gz
- 07d3fb2c472efe2c0f7425d1f57b28cb 498260 net extra shadowsocks-libev_2.0.7-1_i386.deb
+ c3d0483be5198f17d2459a4dbc1d54cc 498274 net extra shadowsocks-libev_2.0.7-1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQIcBAEBAgAGBQJUtcUlAAoJEBk50UsdJyCKZs8P/1gGQkbE4zwh2w5SGLqvdQkL
+WiAjwQxoU3rfQYCzt/HxwM2eWSn5F8XuNZS084+I2T0J3nzfMWC2LTFHxgku5gwr
+sWkQ/ArJmciWHXLk5NhYhZ2mhBJJPfWAq9dDFSr8QDbiCmesAjPlHJR7W0LxFS9N
+EbXTcIKO9xMbdKHOQEBL0re/6+RjOhPWT4cbUM0f3rxItfCHmBPUbUtVm3pEBaDV
+hm0l+cqNn6orxXoKAwN63XLaQLjSkCtipoXwQiNmoYSEEOmBg5TPxqRI2+0xgIFj
+lsyyMGa3MxGur46Jz7+hxc/3FqsWRFEtOjNFdGkvXIcdeJ74z+e0i3FLWH7Pd0Hf
+pogBL9YeeIjcAVqq+KZ4x5U7Ikj796XmvUoGGzIifIcClO+e53m4YApUW0mMwWMa
+AkCp59p1l25iMcrLyXjoXNUzJXtQ+0q18aCaZuklpEpX/flJOP7dxJxqqJM+r+aQ
+vR1FwgqVX2+pFV125+3aKvec5DUaxR1qeycQJuFhLEXk/2GH5gzuT0pR1i9iR6K3
+UD6fTDono8Ur0Dx3PT4hItWGqTbwSRqjt5RNR9V/1jTzVGxlsRTZK1wVIc0v9UEU
+CqjowGMCbpREZUJd67d7pLj4weUQU5i+mrTOkgncuJpghgXXgO2pcLuMHptVHRnE
+uMHu0aWg9rD+tISTeccv
+=7zIE
+-----END PGP SIGNATURE-----

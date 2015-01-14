@@ -12,8 +12,8 @@ Build-Depends: debhelper (>= 7.0.50~), libssl-dev (>= 0.9.8), autotools-dev, mim
 Package-List: 
  shadowsocks-libev deb net extra
 Checksums-Sha1: 
- 699d62ffa52cdd136f0594e14fd8556740cece96 14878328 shadowsocks-libev_2.0.7-1.tar.gz
+ 29729c8e3030fcb20bdbcdc9597fb3c575ffbf8c 14881471 shadowsocks-libev_2.0.7-1.tar.gz
 Checksums-Sha256: 
- 428f9ad2a0f9c2a2b26f9119bf745163d71f4fe04fff1c385f3cf442931bdd48 14878328 shadowsocks-libev_2.0.7-1.tar.gz
+ 4493956503e2affee26385eb611a7dd36282caeadf963f07bb681f2d61ecb707 14881471 shadowsocks-libev_2.0.7-1.tar.gz
 Files: 
- ea1601fc789e712950c8efce7f3b7c4d 14878328 shadowsocks-libev_2.0.7-1.tar.gz
+ 7e072b29b6c7eafdd383597635cfee8a 14881471 shadowsocks-libev_2.0.7-1.tar.gz
