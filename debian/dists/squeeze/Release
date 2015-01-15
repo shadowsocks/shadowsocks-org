@@ -1,7 +1,7 @@
 Origin: shadowsocks-libev
 Label: shadowsocks-libev
 Codename: squeeze
-Date: Wed, 14 Jan 2015 04:14:02 UTC
+Date: Thu, 15 Jan 2015 02:39:00 UTC
 Architectures: i386 amd64
 Components: main
 Description: Apt repository for project shadowsocks-libev
