@@ -7,10 +7,10 @@
       <li>shadowsocks-csharp:
         <ul>
           <li>
-            Windows 8 or above: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-dotnet4.0-2.1.6.zip">dotnet4.0-2.1.6.zip</a>
+            Windows 8 or above: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-dotnet4.0-2.3.zip">dotnet4.0-2.3.zip</a>
           </li>
           <li>
-            Windows 7 or below: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-2.1.6.zip">2.1.6.zip</a>
+            Windows 7 or below: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-2.3.zip">2.3.zip</a>
           </li>
         </ul>
       </li>

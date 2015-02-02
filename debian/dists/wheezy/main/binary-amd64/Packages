@@ -1,19 +1,19 @@
 Package: shadowsocks-libev
-Version: 2.1.0-1
+Version: 2.1.2-1
 Architecture: amd64
 Maintainer: Max Lv <max.c.lv@gmail.com>
-Installed-Size: 1052
+Installed-Size: 1057
 Depends: libc6 (>= 2.9), libssl1.0.0 (>= 1.0.0)
 Breaks: shadowsocks (<< 1.5.3-2)
 Replaces: shadowsocks (<< 1.5.3-2)
 Homepage: http://www.shadowsocks.org
 Priority: extra
 Section: net
-Filename: pool/main/s/shadowsocks-libev/shadowsocks-libev_2.1.0-1_amd64.deb
-Size: 478542
-SHA256: 07b1660e628738eac772c53a619ffca21dc0b1f2c20e66409add8b49003d56b9
-SHA1: 9c27e8df4a8efcda1c415231fc7e42368e14b342
-MD5sum: 1074e64dc111b9e17c2cef983d1a51d5
+Filename: pool/main/s/shadowsocks-libev/shadowsocks-libev_2.1.2-1_amd64.deb
+Size: 480124
+SHA256: 0517543cb5cc48058b11d76c6e842ca9f6a15c99495c54ab21cf119349c71938
+SHA1: e8a88958c47a80a2e0f195a7b93f168dce9b12e9
+MD5sum: 88245879807a1912c099feb0c135478e
 Description: A lightweight and secure socks5 proxy.
     Shadowsocks-libev is a lightweight and secure socks5 proxy for embedded devices and low end boxes.
 
