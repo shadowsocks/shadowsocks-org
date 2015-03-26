@@ -46,7 +46,7 @@ module.exports = (grunt) ->
           dest: '.'
     sitemap:
       dist:
-        siteRoot: 'en/' 
+        siteRoot: 'en/'
         homepage: 'http://shadowsocks.org/en/'
     watch:
       less:

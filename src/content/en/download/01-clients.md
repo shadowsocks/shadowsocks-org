@@ -110,23 +110,22 @@
   <div class="one-third column last">
     <h3><i class="fa fa-rss fa-flip-horizontal fa-3x"></i> &nbsp; OpenWRT</h3>
     <ul>
-      <li>shadowsocks-libev-polarssl:
-        <ul>
-          <li>
-            <a href="/dist/shadowsocks-libev-polarssl_1.6.1_ar71xx.ipk">1.6.1_ar71xx.ipk</a>
-          </li>
-          <li>
-            <a href="/dist/shadowsocks-libev-polarssl_1.6.1_brcm47xx.ipk">1.6.1_brcm47xx.ipk</a>
-          </li>
-          <li>
-            <a href="/dist/shadowsocks-libev-polarssl_1.6.1_brcm63xx.ipk">1.6.1_brcm63xx.ipk</a>
-          </li>
-          <li>
-            <a href="/dist/shadowsocks-libev-polarssl_1.6.1_ramips_24kec.ipk">1.6.1_ramips_24kec.ipk</a>
-          </li>
-        </ul>
-      </li>
-      <li>Third-party compiled packages:</li> 
+      <li>shadowsocks-libev-polarssl:</li>
+      <ul>
+        <li>
+          <a href="/dist/shadowsocks-libev-polarssl_1.6.1_ar71xx.ipk">1.6.1_ar71xx.ipk</a>
+        </li>
+        <li>
+          <a href="/dist/shadowsocks-libev-polarssl_1.6.1_brcm47xx.ipk">1.6.1_brcm47xx.ipk</a>
+        </li>
+        <li>
+          <a href="/dist/shadowsocks-libev-polarssl_1.6.1_brcm63xx.ipk">1.6.1_brcm63xx.ipk</a>
+        </li>
+        <li>
+          <a href="/dist/shadowsocks-libev-polarssl_1.6.1_ramips_24kec.ipk">1.6.1_ramips_24kec.ipk</a>
+        </li>
+      </ul>
+      <li>shadowsocks-libev-spec:</li>
       <ul>
         <li>
           <a href="http://sourceforge.net/projects/openwrt-dist/files/shadowsocks-libev">OpenWRT-dist</a>

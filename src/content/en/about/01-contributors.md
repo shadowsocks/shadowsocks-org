@@ -16,6 +16,10 @@ The maintainor of shadowsocks-libev/android and this project site.
 
 The maintainor of shadowsocks-libev and [MobileShadowSocks].
 
+[@aa65535]
+
+The maintainor of [openwrt-shadowsocks].
+
 ## Other Contributors
 
 [@ohdarling]
@@ -30,9 +34,11 @@ The maintainor of [fqrouter].
 [@cyfdecyf]: https://github.com/cyfdecyf
 [@madeye]: https://github.com/madeye
 [@linusyang]: https://github.com/linusyang
+[@aa65535]: https://github.com/aa65535
 [@ohdarling]: https://github.com/ohdarling
 [@fqrouter]: https://github.com/fqrouter
 [cow]: https://github.com/cyfdecyf/cow
 [MobileShadowSocks]: https://github.com/linusyang/MobileShadowSocks
 [GoAgentX]: https://github.com/ohdarling/GoAgentX
 [fqrouter]: https://github.com/fqrouter/fqrouter
+[openwrt-shadowsocks]: https://github.com/shadowsocks/openwrt-shadowsocks
