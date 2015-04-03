@@ -1,6 +1,6 @@
 ## Optimize the shadowsocks server on Linux
 
-First of all, upgrade your Linux kerenl to 3.5 or later.
+First of all, upgrade your Linux kernel to 3.5 or later.
 
 ### Step 1, increase the maximum number of open file descriptors
 
