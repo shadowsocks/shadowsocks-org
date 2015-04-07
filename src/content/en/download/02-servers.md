@@ -29,31 +29,6 @@ $ python setup.py
 
 shadowsocks-python is released under the [MIT] license.
 
-## NodeJS
-
-shadowsocks-nodejs is a high performance port maintained by [@clowwindy]. It implements all features of shadowsocks protocol, including TCP CONNECT and UDP ASSOCIATE.
-
-### NPM
-
-Install the stable version with npm
-
-```bash
-$ npm install -g shadowsocks
-```
-
-### GitHub
-
-Fetch and run the scripts
-
-```bash
-$ npm install -g coffee-script
-$ git clone https://github.com/shadowsocks/shadowsocks-nodejs.git
-$ cd shadowsocks-nodejs
-$ cake build
-```
-
-shadowsocks-nodejs is released under the [MIT] license.
-
 ## Go
 
 shadowsocks-go is a state-of-the-art port written in Go language, designed for large-scale system. It implements the multi-ports-multi-password feature, which is suitable for paid service providers with user management and traffic statistics support. This port is maintained by [@cyfdecyf].
