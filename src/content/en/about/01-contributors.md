@@ -20,6 +20,10 @@ The maintainor of shadowsocks-libev and [MobileShadowSocks].
 
 The maintainor of [openwrt-shadowsocks].
 
+[@librehat]
+
+The maintainor of shadowsocks-qt and libQtShadowsocks
+
 ## Other Contributors
 
 [@ohdarling]
@@ -35,6 +39,7 @@ The maintainor of [fqrouter].
 [@madeye]: https://github.com/madeye
 [@linusyang]: https://github.com/linusyang
 [@aa65535]: https://github.com/aa65535
+[@librehat]: https://github.com/librehat
 [@ohdarling]: https://github.com/ohdarling
 [@fqrouter]: https://github.com/fqrouter
 [cow]: https://github.com/cyfdecyf/cow
