@@ -121,8 +121,32 @@ $ make install
 
 shadowsocks-libev is released under the [GPLv3] license
 
+## C++ with Qt
+
+libQtShadowsocks is a lightweight and ultra-fast shadowsocks library written in C++ with Qt 5.
+The client `shadowsocks-libqss` can be used in both client-side and server-side. This port
+is maintained by [@librehat].
+
+### Prebuilt binaries
+
+Download pre-built binaries from https://github.com/librehat/libQtShadowsocks/releases
+
+### GitHub
+
+```bash
+$ git clone https://github.com/librehat/libQtShadowsocks.git
+$ cd libQtShadowsocks
+$ qmake
+$ make -j4
+$ sudo make install
+```
+
+libQtShadowsocks is released under the [LGPLv3] license
+
 [@clowwindy]: https://github.com/clowwindy
 [@cyfdecyf]: https://github.com/cyfdecyf
 [@madeye]: https://github.com/madeye
+[@librehat]: https://github.com/librehat
 [MIT]: http://opensource.org/licenses/MIT
 [GPLv3]: http://www.gnu.org/licenses/gpl.html
+[LGPLv3]: https://www.gnu.org/licenses/lgpl.html
