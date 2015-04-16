@@ -27,32 +27,7 @@ $ cd shadowsocks
 $ python setup.py
 ```
 
-shadowsocks-python is released under the [MIT] license.
-
-## NodeJS
-
-shadowsocks-nodejs is a high performance port maintained by [@clowwindy]. It implements all features of shadowsocks protocol, including TCP CONNECT and UDP ASSOCIATE.
-
-### NPM
-
-Install the stable version with npm
-
-```bash
-$ npm install -g shadowsocks
-```
-
-### GitHub
-
-Fetch and run the scripts
-
-```bash
-$ npm install -g coffee-script
-$ git clone https://github.com/shadowsocks/shadowsocks-nodejs.git
-$ cd shadowsocks-nodejs
-$ cake build
-```
-
-shadowsocks-nodejs is released under the [MIT] license.
+shadowsocks-python is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Go
 
@@ -70,7 +45,7 @@ Use `go get` to install the scripts.
 $ go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
 ```
 
-shadowsocks-go is released under the [MIT] license
+shadowsocks-go is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 ## C with libev
 
@@ -119,7 +94,7 @@ $ ./configure && make
 $ make install
 ```
 
-shadowsocks-libev is released under the [GPLv3] license
+shadowsocks-libev is licensed under the [GNU General Public License v3.0](https://www.gnu.org/copyleft/gpl.html).
 
 ## C++ with Qt
 
@@ -141,12 +116,9 @@ $ make -j4
 $ sudo make install
 ```
 
-libQtShadowsocks is released under the [LGPLv3] license
+libQtShadowsocks is licensed under the [GNU Lesser General Public License, version 3.0](https://www.gnu.org/licenses/lgpl.html)
 
 [@clowwindy]: https://github.com/clowwindy
 [@cyfdecyf]: https://github.com/cyfdecyf
 [@madeye]: https://github.com/madeye
 [@librehat]: https://github.com/librehat
-[MIT]: http://opensource.org/licenses/MIT
-[GPLv3]: http://www.gnu.org/licenses/gpl.html
-[LGPLv3]: https://www.gnu.org/licenses/lgpl.html
