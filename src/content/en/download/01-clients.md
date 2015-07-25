@@ -7,64 +7,44 @@
       <li>shadowsocks-csharp:
         <ul>
           <li>
-            Windows 8 or above: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-dotnet4.0-2.3.zip">dotnet4.0-2.3.zip</a>
+            Windows 8 or above: <a href="https://github.com/shadowsocks/shadowsocks-csharp/releases/download/2.4/Shadowsocks-win-dotnet4.0-2.4.zip">dotnet4.0-2.4.zip</a>
           </li>
           <li>
-            Windows 7 or below: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/Shadowsocks-win-2.3.zip">2.3.zip</a>
+            Windows 7 or below: <a href="https://github.com/shadowsocks/shadowsocks-csharp/releases/download/2.4/Shadowsocks-win-2.4.zip">2.4.zip</a>
           </li>
         </ul>
       </li>
       <li>Shadowsocks-Qt5: <a href="https://github.com/librehat/shadowsocks-qt5/releases">latest release</a></li>
-    </ul>
-    <p><strong>Command-line Client</strong></p>
-    <ul>
-      <li>shadowsocks-go: <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-win32-1.1.3.zip">win32-1.1.3.zip</a></li>
-      <li>shadowsocks-libqss: <a href="https://github.com/librehat/libQtShadowsocks/releases">latest release</a></li>
     </ul>
   </div>
   <div class="one-third column">
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; Mac OS X</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>ShadowsocksX: <a href="http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-2.6.1.dmg">2.6.1.dmg</a></li>
+      <li>ShadowsocksX: <a href="https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/ShadowsocksX-2.6.3.dmg">2.6.3.dmg</a></li>
       <li>GoAgentX: <a href="https://goagentx.googlecode.com/files/GoAgentX-v2.2.9.dmg">v2.2.9.dmg</a></li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
       <li>
-        shadowsocks-go: <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-mac64-1.1.3.gz">mac64-1.1.3.gz</a>
-      </li>  
+        <code>brew install shadowsocks-libev</code>
+      </li>
     </ul>
   </div>
   <div class="one-third column">
     <h3><i class="fa fa-linux fa-3x"></i> &nbsp; Linux</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>Shadowsocks-Qt5: <a href="https://github.com/librehat/shadowsocks-qt5/wiki/Installation">Installation Guide</a></li>
+      <li>Shadowsocks-Qt5: <a
+      href="https://github.com/librehat/shadowsocks-qt5/wiki/Installation">latest release</a></li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
-      <li>shadowsocks-go:
-        <ul>
-          <li>
-            <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-linux32-1.1.3.gz">linux32-1.1.3.gz</a>
-          </li>
-          <li>
-            <a href="http://dl.chenyufei.info/shadowsocks/shadowsocks-local-linux64-1.1.3.gz">linux64-1.1.3.gz</a>
-          </li>
-        </ul>
-      </li>
-      <li>shadowsocks-python: <a href="https://pypi.python.org/pypi/shadowsocks">2.4.3.tar.gz</a>
+      <li>shadowsocks-go:<a href="http://dl.chenyufei.info/shadowsocks/">latest release</a> </li>
+      <li>shadowsocks-python:
         <ul>
           <li>
             <code>pip install shadowsocks</code>
-          </li>
-        </ul>
-      </li>
-      <li>shadowsocks-nodejs: <a href="https://github.com/clowwindy/shadowsocks-nodejs/archive/1.4.3.tar.gz">1.4.3.tar.gz</a>
-        <ul>
-          <li>
-            <code>npm install -g shadowsocks</code>
           </li>
         </ul>
       </li>
@@ -95,20 +75,17 @@
   <div class="one-third column last">
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; iOS</h3>
     <ul>
-      <li>shadowsocks-iOS (only built-in browser works):
+      <li>shadowsocks-iOS:
         <ul>
           <li>
             <a href="https://itunes.apple.com/tc/app/shadowsocks/id665729974?mt=8">App Store</a>
           </li>
         </ul>
       </li>
-      <li>MobileShadowSocks (for Jailbroken devices):
+      <li>MobileShadowSocks:
         <ul>
           <li>
             <a href="http://apt.thebigboss.org/onepackage.php?bundleid=com.linusyang.shadowsocks">Big Boss</a>
-          </li>
-          <li>
-            <a href="http://apt.thebigboss.org/repofiles/cydia/debs2.0/shadowsocks_0.3.2-3.deb">0.3.2-3.deb</a>
           </li>
         </ul>
       </li>
@@ -117,26 +94,14 @@
   <div class="one-third column last">
     <h3><i class="fa fa-rss fa-flip-horizontal fa-3x"></i> &nbsp; OpenWRT</h3>
     <ul>
-      <li>shadowsocks-libev-polarssl:</li>
+      <li>shadowsocks-libev</li>
       <ul>
-        <li>
-          <a href="/dist/shadowsocks-libev-polarssl_1.6.1_ar71xx.ipk">1.6.1_ar71xx.ipk</a>
-        </li>
-        <li>
-          <a href="/dist/shadowsocks-libev-polarssl_1.6.1_brcm47xx.ipk">1.6.1_brcm47xx.ipk</a>
-        </li>
-        <li>
-          <a href="/dist/shadowsocks-libev-polarssl_1.6.1_brcm63xx.ipk">1.6.1_brcm63xx.ipk</a>
-        </li>
-        <li>
-          <a href="/dist/shadowsocks-libev-polarssl_1.6.1_ramips_24kec.ipk">1.6.1_ramips_24kec.ipk</a>
-        </li>
-      </ul>
-      <li>shadowsocks-libev-spec:</li>
-      <ul>
-        <li>
-          <a href="http://sourceforge.net/projects/openwrt-dist/files/shadowsocks-libev">OpenWRT-dist</a>
-        </li>
+          <li>
+            <code>opkg install shadowsocks-libev</code>
+          </li>
+          <li>
+            <code>opkg install shadowsocks-libev-polarssl</code>
+          </li>
       </ul>
     </ul>
   </div>
