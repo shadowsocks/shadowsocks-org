@@ -99,6 +99,9 @@
           <li>
             <code>opkg install shadowsocks-libev</code>
           </li>
+      </ul>
+      <li>shadowsocks-libev-polarssl</li>
+      <ul>
           <li>
             <code>opkg install shadowsocks-libev-polarssl</code>
           </li>
