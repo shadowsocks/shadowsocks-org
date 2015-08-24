@@ -4,17 +4,20 @@
     <h3><i class="fa fa-windows fa-3x"></i> &nbsp; Windows</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>shadowsocks-csharp:
+      <li>shadowsocks-win:
         <ul>
           <li>
-            Windows 8 or above: <a href="https://github.com/shadowsocks/shadowsocks-csharp/releases/download/2.4/Shadowsocks-win-dotnet4.0-2.4.zip">dotnet4.0-2.4.zip</a>
-          </li>
-          <li>
-            Windows 7 or below: <a href="https://github.com/shadowsocks/shadowsocks-csharp/releases/download/2.4/Shadowsocks-win-2.4.zip">2.4.zip</a>
+            Windows 7 or above: <a href="https://github.com/shadowsocks/shadowsocks-csharp/releases/download/2.5.6/Shadowsocks-win-2.5.6.zip">2.5.6.zip</a>
           </li>
         </ul>
       </li>
-      <li>Shadowsocks-Qt5: <a href="https://github.com/librehat/shadowsocks-qt5/releases">latest release</a></li>
+      <li>Shadowsocks-Qt5: 
+        <ul>
+          <li>
+            <a href="https://github.com/librehat/shadowsocks-qt5/releases">Latest release</a>
+          </li>
+        </ul>
+      </li>
     </ul>
   </div>
   <div class="one-third column">
@@ -35,12 +38,16 @@
     <h3><i class="fa fa-linux fa-3x"></i> &nbsp; Linux</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>Shadowsocks-Qt5: <a
-      href="https://github.com/librehat/shadowsocks-qt5/wiki/Installation">latest release</a></li>
+      <li>Shadowsocks-Qt5:
+        <ul>
+          <li>
+          <a href="https://github.com/librehat/shadowsocks-qt5/wiki/Installation">Latest release</a>
+          </li>
+        </ul>
+      </li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
-      <li>shadowsocks-go:<a href="http://dl.chenyufei.info/shadowsocks/">latest release</a> </li>
       <li>shadowsocks-python:
         <ul>
           <li>
