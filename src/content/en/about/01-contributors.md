@@ -2,37 +2,37 @@
 
 [@clowwindy]
 
-The creator of shadowsocks and the maintainor of shadowsocks-python/nodejs/gui/iOS.
+The creator of shadowsocks and the maintainer of shadowsocks-python/nodejs/gui/iOS.
 
 [@cyfdecyf]
 
-The maintainor of shadowsocks-go and [cow].
+The maintainer of shadowsocks-go and [cow].
 
 [@madeye]
 
-The maintainor of shadowsocks-libev/android and this project site.
+The maintainer of shadowsocks-libev/android and this project site.
 
 [@linusyang]
 
-The maintainor of shadowsocks-libev and [MobileShadowSocks].
+The maintainer of shadowsocks-libev and [MobileShadowSocks].
 
 [@aa65535]
 
-The maintainor of [openwrt-shadowsocks].
+The maintainer of [openwrt-shadowsocks].
 
 [@librehat]
 
-The maintainor of shadowsocks-qt and libQtShadowsocks
+The maintainer of shadowsocks-qt and libQtShadowsocks
 
 ## Other Contributors
 
 [@ohdarling]
 
-The maintainor of [GoAgentX].
+The maintainer of [GoAgentX].
 
 [@fqrouter]
 
-The maintainor of [fqrouter].
+The maintainer of [fqrouter].
 
 [@clowwindy]: https://github.com/clowwindy
 [@cyfdecyf]: https://github.com/cyfdecyf
