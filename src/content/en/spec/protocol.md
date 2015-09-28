@@ -10,7 +10,7 @@ Below is the structure of a shadowsocks request (sent from client-side), which i
 +--------------+---------------------+------------------+----------+
 ```
 
-Possible values of address type are 1 (IPv4), 4 (IPv6), 3 (hostname). The length of hostname may not exceed 255 for some shadowsocks ports. For IPv4 address, it's packed as a [32-bit (4-byte)](https://tools.ietf.org/html/rfc791#section-2.3) big-endian integer. For IPv6 address, [a compact representation](https://tools.ietf.org/html/rfc1924) (16-byte array) is used. The destination port is also a big-endian integer.
+Possible values of address type are 1 (IPv4), 4 (IPv6), 3 (hostname). For IPv4 address, it's packed as a [32-bit (4-byte)](https://tools.ietf.org/html/rfc791#section-2.3) big-endian integer. For IPv6 address, [a compact representation](https://tools.ietf.org/html/rfc1924) (16-byte array) is used. For hostname, the first byte of destination address indicates the length, which limits the length of hostname to 255. The destination port is also a big-endian integer.
 
 The request is encrypted using the speficied cipher with a random IV and the pre-shared key, it then becomes so-called _payload_.
 
