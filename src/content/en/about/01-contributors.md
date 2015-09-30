@@ -22,7 +22,7 @@ The maintainer of [openwrt-shadowsocks].
 
 [@librehat]
 
-The maintainer of shadowsocks-qt and libQtShadowsocks
+The maintainer of shadowsocks-qt5 and libQtShadowsocks
 
 ## Other Contributors
 

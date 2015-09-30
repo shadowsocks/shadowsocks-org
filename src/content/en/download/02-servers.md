@@ -104,12 +104,12 @@ is maintained by [@librehat].
 
 ### Prebuilt binaries
 
-Download pre-built binaries from https://github.com/librehat/libQtShadowsocks/releases
+Download pre-built binaries from https://github.com/shadowsocks/libQtShadowsocks/releases
 
 ### GitHub
 
 ```bash
-$ git clone https://github.com/librehat/libQtShadowsocks.git
+$ git clone https://github.com/shadowsocks/libQtShadowsocks.git
 $ cd libQtShadowsocks
 $ qmake
 $ make -j4

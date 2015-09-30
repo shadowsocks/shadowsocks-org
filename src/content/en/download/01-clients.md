@@ -14,7 +14,7 @@
       <li>Shadowsocks-Qt5: 
         <ul>
           <li>
-            <a href="https://github.com/librehat/shadowsocks-qt5/releases">Latest release</a>
+            <a href="https://github.com/shadowsocks/shadowsocks-qt5/releases">Latest release</a>
           </li>
         </ul>
       </li>
@@ -41,7 +41,7 @@
       <li>Shadowsocks-Qt5:
         <ul>
           <li>
-          <a href="https://github.com/librehat/shadowsocks-qt5/wiki/Installation">Latest release</a>
+          <a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation">Latest release</a>
           </li>
         </ul>
       </li>
