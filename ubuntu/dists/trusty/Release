@@ -1,0 +1,28 @@
+Origin: shadowsocks-libev
+Label: shadowsocks-libev
+Codename: trusty
+Date: Wed, 14 Oct 2015 09:03:37 UTC
+Architectures: i386 amd64
+Components: main
+Description: Apt repository for project shadowsocks-libev
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ f698470eeb175d1725a0c20ab995dea3 144 main/binary-i386/Release
+ 5a9a80d097b29a15b8e75d9d00efb6fa 740 main/binary-amd64/Packages
+ 808ce7bb1397c14a24f0120d5d6740bf 477 main/binary-amd64/Packages.gz
+ 67eb4a32aafc7e1ddee9d83083972677 145 main/binary-amd64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ 918119e74566c58e9ca4b2cca049680b5c132143 144 main/binary-i386/Release
+ a547d74997b458f5d484159dd0dea9c62c60d1ae 740 main/binary-amd64/Packages
+ d82679f2413dedc26491f13ba8162233d7238001 477 main/binary-amd64/Packages.gz
+ e808e80cd3bf97e92ed717c2758899a68174cbe7 145 main/binary-amd64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 7fa76326f8203f5eb21e68d8f14957b4744475d768b956f6081c386552ead158 144 main/binary-i386/Release
+ b47a90bdd8272f542db94de712e74a245e16cf9a5e1a85edf4294483240f043b 740 main/binary-amd64/Packages
+ 29006afa448de53be4dd312f3e042f3556aed8026eb564f628b28459fb83909f 477 main/binary-amd64/Packages.gz
+ 5bbc3b8bb32b875e7b2193733da1ef540031f02b803f120c6e7e0e9328b990fc 145 main/binary-amd64/Release

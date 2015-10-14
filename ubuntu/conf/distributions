@@ -1,0 +1,7 @@
+Origin: shadowsocks-libev
+Label: shadowsocks-libev
+Codename: trusty
+Architectures: amd64
+Components: main
+Description: Apt repository for project shadowsocks-libev
+SignWith: max.c.lv@gmail.com
