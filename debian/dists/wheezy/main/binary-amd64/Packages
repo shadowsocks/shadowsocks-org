@@ -10,10 +10,10 @@ Homepage: http://www.shadowsocks.org
 Priority: extra
 Section: net
 Filename: pool/main/s/shadowsocks-libev/shadowsocks-libev_2.4.0-1_amd64.deb
-Size: 399490
-SHA256: f5d9593db4d3f13dea326f8f901b0df853a21115447f20538fdd7b699a867d5f
-SHA1: 51879e37ccd6a22ece486f702c745b6e95d45896
-MD5sum: f1458c50e5c23baab2275409dc7945e1
+Size: 399260
+SHA256: 9b6ebc3714ab7970e40532bf706164a5d9ca0de8c0aae95d919c62aa987c983d
+SHA1: 2ac962338015aa76cf0a4c1ff71f054baffca301
+MD5sum: 329505b77933df6b590eeb3f3dd98f1c
 Description: lightweight and secure socks5 proxy
  Shadowsocks-libev is a lightweight and secure socks5 proxy for
  embedded devices and low end boxes.
