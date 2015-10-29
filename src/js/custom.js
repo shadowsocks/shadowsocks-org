@@ -5,7 +5,7 @@
 (function($) {
   $(document).ready(function(){
 
-    $("head").append("<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700|Iceland|Titillium+Web:400,600,600italic' rel='stylesheet' type='text/css'>");
+    $("head").append("<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700|Iceland|Titillium+Web:400,600,600italic' rel='stylesheet' type='text/css'>");
 
     // Navigational Menu ddsmoothmenu
     ddsmoothmenu.init({
