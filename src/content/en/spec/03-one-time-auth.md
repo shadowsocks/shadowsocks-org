@@ -4,6 +4,7 @@ By default, the server that supports OTA should run in the compatible mode. OTA 
 
 The authentication method is **HMAC-SHA1** which has wide supports among all major platforms and fairly good speed.
 
+##TCP
 The structure of an OTA-enabled request (unencrypted) is shown below:
 
 ```
@@ -18,9 +19,7 @@ ATYP is a 8-bit char where the rightmost four bits, 0b00001111 (0xf), are reserv
 
 The key of HMAC-SHA1 is (IV + KEY), and the input is the whole header (not including HMAC-SHA1). The output of HMAC-SHA1 is truncated to leftmost 80 bits (10 bytes) according to [RFC 2104](https://tools.ietf.org/html/rfc2104#page-5).
 
-The header verification is enabled for both TCP and UDP relays, but only TCP has data chunk authentication.
-
-##TCP Request's Chunk Authentication
+###TCP Request's Chunk Authentication
 The structure of OTA-enabled TCP request's chunk (decrypted) is shown below:
 
 ```
@@ -41,3 +40,16 @@ Tips:
 
 - The server must check the completeness of a TCP request before verifying HMAC-SHA1 and forwarding.
 - The chunk authentication is only applied for the packets sent from client-side shadowsocks.
+
+##UDP
+There is no _session_ in UDP relay, each UDP packet contains both header and data. Therefore, for an OTA-enabled UDP packet, the datagram structure (unencrypted) is slightly different:
+
+```
++------+---------------------+------------------+----------+-----------+
+| ATYP | Destination Address | Destination Port |   DATA   | HMAC-SHA1 |
++------+---------------------+------------------+----------+-----------+
+|  1   |       Variable      |         2        | Variable |     10    |
++------+---------------------+------------------+----------+-----------+
+```
+
+The key of HMAC-SHA1 is (IV + KEY), and the input is the header plus data.
