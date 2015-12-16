@@ -19,8 +19,8 @@ ATYP is a 8-bit char where the rightmost four bits, 0b00001111 (0xf), are reserv
 
 The key of HMAC-SHA1 is (IV + KEY), and the input is the whole header (not including HMAC-SHA1). The output of HMAC-SHA1 is truncated to leftmost 80 bits (10 bytes) according to [RFC 2104](https://tools.ietf.org/html/rfc2104#page-5).
 
-###TCP Request's Chunk Authentication
-The structure of OTA-enabled TCP request's chunk (decrypted) is shown below:
+###Chunk Authentication
+The structure of an OTA-enabled chunk (decrypted) of shadowsocks TCP relay is shown below:
 
 ```
 +----------+-----------+----------+----
@@ -38,7 +38,7 @@ For a client, after constructing an OTA-enabled request, the whole chunk is encr
 
 Tips:
 
-- The server must check the completeness of a TCP request before verifying HMAC-SHA1 and forwarding.
+- The server must check the completeness of a shadowsocks TCP request before verifying HMAC-SHA1 and forwarding.
 - The chunk authentication is only applied for the packets sent from client-side shadowsocks.
 
 ##UDP
