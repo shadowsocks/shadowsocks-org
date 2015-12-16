@@ -122,3 +122,7 @@
 Ready to use? Just navigate to [Quick Guide](/en/config/quick-guide.html).
 
 Or plan to deploy your own server? See [Servers](/en/download/servers.html).
+
+## Have a Minute?
+
+Take one minute to complete [a survey about shadowsocks user base](https://docs.google.com/forms/d/16r2DCmEwwSGyBNZ_DsGDdIhcDJ74ZPCJTxrgFQvdNO0/viewform?c=0&w=1). It's totally anonymous and no login required.
