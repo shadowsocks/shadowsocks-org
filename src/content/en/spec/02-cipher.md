@@ -55,6 +55,11 @@
     <td>8</td>
   </tr>
   <tr>
+    <td>chacha20-ietf</td>
+    <td>32</td> 
+    <td>12</td>
+  </tr>
+  <tr>
     <td>des-cfb</td>
     <td>8</td> 
     <td>8</td>
