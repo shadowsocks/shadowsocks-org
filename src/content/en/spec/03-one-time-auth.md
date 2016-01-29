@@ -15,7 +15,7 @@ The structure of an OTA-enabled request (unencrypted) is shown below:
 +------+---------------------+------------------+-----------+
 ```
 
-ATYP is a 8-bit char where the rightmost four bits, 0b00001111 (0xf), are reserved for address types, the flag bit of OTA is 0b00010000 (0x10). In C/C++, simply check if `ATYP & 0x10 == 1`, then OTA is enabled.
+ATYP is a 8-bit char where the rightmost four bits, 0b00001111 (0xf), are reserved for address types, the flag bit of OTA is 0b00010000 (0x10). In C/C++, simply check if `ATYP & 0x10 == 0x10`, then OTA is enabled.
 
 The key of HMAC-SHA1 is (IV + KEY), and the input is the whole header (not including HMAC-SHA1). The output of HMAC-SHA1 is truncated to leftmost 80 bits (10 bytes) according to [RFC 2104](https://tools.ietf.org/html/rfc2104#page-5).
 
