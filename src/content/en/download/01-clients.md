@@ -70,13 +70,6 @@
           </li>
         </ul>
       </li>
-      <li>fqrouter2:
-        <ul>
-          <li>
-            <a href="https://play.google.com/store/apps/details?id=fq.router2">Google Play</a>
-          </li>
-        </ul>
-      </li>
     </ul>
   </div>
   <div class="one-third column last">
