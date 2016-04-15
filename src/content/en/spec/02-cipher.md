@@ -5,7 +5,7 @@
     <th>IV Length</th>
   </tr>
   <tr>
-    <td>table</td>
+    <td>table\*</td>
     <td>0</td> 
     <td>0</td>
   </tr>
@@ -55,6 +55,11 @@
     <td>8</td>
   </tr>
   <tr>
+    <td>chacha20-ietf</td>
+    <td>32</td> 
+    <td>12</td>
+  </tr>
+  <tr>
     <td>des-cfb</td>
     <td>8</td> 
     <td>8</td>
@@ -70,7 +75,7 @@
     <td>8</td>
   </tr>
   <tr>
-    <td>rc4</td>
+    <td>rc4\*</td>
     <td>16</td> 
     <td>0</td>
   </tr>
@@ -90,3 +95,5 @@
     <td>16</td>
   </tr>
 </table>
+
+\*: Table and RC4 are insecure and incompatible with one-time authentication, hence disabled/removed in latest releases of major shadowsocks ports.
