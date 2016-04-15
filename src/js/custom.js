@@ -32,7 +32,7 @@
   $('[data-tooltip]').colorTip({color:'white'});
 
   // Initialize the QR codes
-  $('#qrcode-1').qrcode("ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4");
+  $('#qrcode-1').qrcode("ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg");
 
   // Register QR generator
   $('#uri-plain').on('keyup change', function() {

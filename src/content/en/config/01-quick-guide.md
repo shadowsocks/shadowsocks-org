@@ -9,7 +9,8 @@ Shadowsocks accepts [JSON] format configs like this:
     "local_port":1080,
     "password":"barfoo!",
     "timeout":600,
-    "method":"table"
+    "method":"table",
+    "auth": true
 }
 ```
 
@@ -21,6 +22,7 @@ Explanation of each field:
 * `password`: a password used to encrypt transfer.
 * `timeout`: connections timeout in seconds.
 * `method`: encryption method, "bf-cfb", "aes-256-cfb", "des-cfb", "rc4", etc. Default is table, which is not secure. "aes-256-cfb" is recommended.
+* `auth`: one-time authentication, set true to enable one-time authentication feature.
 
 [JSON]: http://www.json.org/
 
@@ -35,13 +37,13 @@ Shadowsocks for Android / iOS also accepts BASE64 encoded URI format configs:
 Where the plain URI should be:
 
 ```
-	ss://method:password@hostname:port
+	ss://method[-auth]:password@hostname:port
 ```
 
-For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption method and password `test`. Then, with the plain URI `ss://bf-cfb:test@192.168.100.1:8888`, we can generate the BASE64 encoded URI:
+For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption method and password `test` with onetime authentication enabled. Then, with the plain URI `ss://bf-cfb-auth:test@192.168.100.1:8888`, we can generate the BASE64 encoded URI:
 
 ```
-	ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4
+	ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg
 ```
 
 This URI can also be encoded to QR code. Then, just scan it with your Android / iOS devices:
