@@ -67,6 +67,7 @@
         <ul>
           <li>
             <a href="https://play.google.com/store/apps/details?id=com.github.shadowsocks">Google Play</a>
+            (<a href="https://play.google.com/apps/testing/com.github.shadowsocks">beta</a>)
           </li>
         </ul>
       </li>
