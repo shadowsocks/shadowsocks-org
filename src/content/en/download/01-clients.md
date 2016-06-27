@@ -76,10 +76,10 @@
   <div class="one-third column last">
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; iOS</h3>
     <ul>
-      <li>shadowsocks-iOS:
+      <li>Potatso:
         <ul>
           <li>
-            <a href="https://itunes.apple.com/tc/app/shadowsocks/id665729974?mt=8">App Store</a>
+            <a href="https://itunes.apple.com/us/app/id1070901416">App Store</a>
           </li>
         </ul>
       </li>
