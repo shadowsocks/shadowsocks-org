@@ -79,7 +79,7 @@
       <li>Potatso:
         <ul>
           <li>
-            <a href="https://itunes.apple.com/us/app/id1070901416">App Store</a>
+            <a href="https://itunes.apple.com/app/apple-store/id1070901416?pt=2305194&ct=shadowsocks.org&mt=8">App Store</a>
           </li>
         </ul>
       </li>
