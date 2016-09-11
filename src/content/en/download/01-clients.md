@@ -4,19 +4,15 @@
     <h3><i class="fa fa-windows fa-3x"></i> &nbsp; Windows</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>shadowsocks-win:
-        <ul>
-          <li>
-            Windows 7 or above: <a href="https://github.com/shadowsocks/shadowsocks-csharp/releases/download/2.5.6/Shadowsocks-win-2.5.6.zip">2.5.6.zip</a>
-          </li>
-        </ul>
+      <li>shadowsocks-win: <a href="https://github.com/shadowsocks/shadowsocks-windows/releases">GitHub</a>
       </li>
-      <li>Shadowsocks-Qt5: 
-        <ul>
-          <li>
-            <a href="https://github.com/shadowsocks/shadowsocks-qt5/releases">Latest release</a>
-          </li>
-        </ul>
+      <li>Shadowsocks-Qt5: <a href="https://github.com/shadowsocks/shadowsocks-qt5/releases">GitHub</a>
+      </li>
+    </ul>
+    <p><strong>Command-line Client</strong></p>
+    <ul>
+      <li>
+        <code>pip install shadowsocks</code>
       </li>
     </ul>
   </div>
@@ -24,11 +20,13 @@
     <h3><i class="fa fa-apple fa-3x"></i> &nbsp; Mac OS X</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>ShadowsocksX: <a href="https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/ShadowsocksX-2.6.3.dmg">2.6.3.dmg</a></li>
-      <li>GoAgentX: <a href="https://goagentx.googlecode.com/files/GoAgentX-v2.2.9.dmg">v2.2.9.dmg</a></li>
+      <li>ShadowsocksX-NG: <a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases">GitHub</a></li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
+      <li>
+        <code>pip install shadowsocks</code>
+      </li>
       <li>
         <code>brew install shadowsocks-libev</code>
       </li>
@@ -38,23 +36,13 @@
     <h3><i class="fa fa-linux fa-3x"></i> &nbsp; Linux</h3>
     <p><strong>GUI Client</strong></p>
     <ul>
-      <li>Shadowsocks-Qt5:
-        <ul>
-          <li>
-          <a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation">Latest release</a>
-          </li>
-        </ul>
+      <li>Shadowsocks-Qt5: <a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation">GitHub</a>
       </li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
-      <li>shadowsocks-python:
-        <ul>
-          <li>
-            <code>pip install shadowsocks</code>
-          </li>
-        </ul>
-      </li>
+      <li> <code>pip install shadowsocks</code> </li>
+      <li> <code>apt-get install shadowsocks-libev</code> </li>
     </ul>
   </div>
 
