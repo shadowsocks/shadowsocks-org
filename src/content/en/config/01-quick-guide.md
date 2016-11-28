@@ -31,7 +31,7 @@ Explanation of each field:
 Shadowsocks for Android / iOS also accepts BASE64 encoded URI format configs:
 
 ```
-	ss://BASE64-ENCODED-STRING-WITHOUT-PADDING
+	ss://BASE64-ENCODED-STRING-WITHOUT-PADDING#TAG
 ```	
 
 Where the plain URI should be:
@@ -44,6 +44,12 @@ For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption 
 
 ```
 	ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg
+```
+
+To help organize and identify these URIs, you can append a tag after the BASE64 encoded string:
+
+```
+    ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg#example-server
 ```
 
 This URI can also be encoded to QR code. Then, just scan it with your Android / iOS devices:
