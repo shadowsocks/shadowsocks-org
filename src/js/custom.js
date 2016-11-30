@@ -36,7 +36,7 @@
 
   // Register QR generator
   $('#uri-plain').on('keyup change', function() {
-    var encoded = 'ss://' + Base64.encode($(this).val().replace('ss://','')).replace(/=/g,'');
+    var encoded = 'ss://' + Base64.encode($(this).val().replace('ss://','')).replace(/=/g,'') + "#example-server";
     $('#uri-encoded').val(encoded);
     $('#qrcode-gen').empty();
     $('#qrcode-gen').qrcode(encoded);
