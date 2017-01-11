@@ -1,4 +1,4 @@
-One-time authentication (shortened as _OTA_) is a new experimental feature designed to improve the security against [CCA](https://en.wikipedia.org/wiki/Chosen-ciphertext_attack). You should understand the [protocol](protocol.html) before reading this document.
+One-time authentication (shortened as _OTA_) is a feature designed to protect encryption against tampering and therefore become IND-CCA2-secure ([proof](https://pdfs.semanticscholar.org/3d3a/a72c6b95a9efdcbe9b4e42c0a9006f8d2d42.pdf)). You should understand the [protocol](protocol.html) before reading this document.
 
 By default, the server that supports OTA should run in the compatible mode. OTA is only applied if the client's request header has a flag set. However, if the server switch on OTA explicitly, all clients must switch on OTA, otherwise connections will be denied.
 
