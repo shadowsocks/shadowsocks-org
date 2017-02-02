@@ -1,6 +1,6 @@
 This is [SIP004](https://github.com/shadowsocks/shadowsocks-org/issues/30) proposed by @Mygod, the design of TCP chunk is from @breakwa11 and @Noisyfox. This first version of this document is written by @wongsyrone.
 
-SIP004 aims to ensure IND-CCA2 for shadowsocks protocol, by using well known AEADs. There are 6 AEADs supported by shadowsocks:
+SIP004 aims to ensure IND-CCA2 for shadowsocks protocol by using well known AEADs. There are 6 AEADs supported by shadowsocks:
 
 * AES-128-GCM
 * AES-192-GCM
