@@ -21,8 +21,7 @@ Explanation of each field:
 * `local_port`: local port number.
 * `password`: a password used to encrypt transfer.
 * `timeout`: connections timeout in seconds.
-* `method`: encryption method, "bf-cfb", "aes-256-cfb", "des-cfb", "rc4", etc. Default is table, which is not secure. "aes-256-cfb" is recommended.
-* `auth`: one-time authentication, set true to enable one-time authentication feature.
+* `method`: encryption method, "bf-cfb", "aes-256-cfb", "des-cfb", "rc4", etc. Default is table, which is not secure. "aes-256-gcm" is recommended.
 
 [JSON]: http://www.json.org/
 
