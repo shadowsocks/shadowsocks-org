@@ -9,7 +9,7 @@ Shadowsocks accepts [JSON] format configs like this:
     "local_port":1080,
     "password":"barfoo!",
     "timeout":600,
-    "method":"table",
+    "method":"rc4-md5"
 }
 ```
 
