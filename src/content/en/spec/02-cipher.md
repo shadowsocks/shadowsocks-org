@@ -1,5 +1,4 @@
-Here is the list of ciphers used in shadowsocks.
-
+<br/>
 <table style="width:100%">
   <tr>
     <th>Method Name</th>
