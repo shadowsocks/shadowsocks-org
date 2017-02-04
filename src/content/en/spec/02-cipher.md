@@ -51,7 +51,7 @@ The following AEAD ciphers are recommended.
 
 
 
-## Deprecated
+## Not Recommended
 
 The following stream ciphers still work and provide reasonable safety margin.
 However, users should use the above recommended AEAD ciphers if possible.
@@ -117,7 +117,7 @@ However, users should use the above recommended AEAD ciphers if possible.
 </table>
 
 
-## Dangerous
+## Deprecated
 
 The following stream ciphers are vulnerable to various attacks. Please DO NOT use them.
 Implementors are advised to remove them as soon as possible.
