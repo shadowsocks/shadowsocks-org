@@ -1,5 +1,11 @@
 # (Deprecated)
 
+
+OTA is deprecated. DO NOT USE. Please use AEAD ciphers instead.
+
+
+---
+
 One-time authentication (shortened as _OTA_) is a new experimental feature designed to improve the security against [CCA](https://en.wikipedia.org/wiki/Chosen-ciphertext_attack). You should understand the [protocol](protocol.html) before reading this document.
 
 By default, the server that supports OTA should run in the compatible mode. OTA is only applied if the client's request header has a flag set. However, if the server switch on OTA explicitly, all clients must switch on OTA, otherwise connections will be denied.
