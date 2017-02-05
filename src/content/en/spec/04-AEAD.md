@@ -74,18 +74,8 @@ Data is (Atyp + Dst.addr + Dst.port + Data)
 
 ## Key and Nonce 
 
-The key is generated from a password using Argon2i with default salt `shadowsocks hash`. The
-recommended parameters for Argon2i is:
-
-```
-        const unsigned char salt[crypto_pwhash_SALTBYTES] = {
-            's', 'h', 'a', 'd', 'o', 'w', 's', 'o',
-            'c', 'k', 's', ' ', 'h', 'a', 's', 'h'
-        };
-        int err = crypto_pwhash (key, nkey, (char*)pass, strlen(pass), salt,
-                crypto_pwhash_OPSLIMIT_INTERACTIVE, crypto_pwhash_MEMLIMIT_INTERACTIVE,
-                crypto_pwhash_ALG_DEFAULT);
-```
+No more key derivation for AEAD. The user needs to provide a 32-byte random key encoded with URL-safe Base64.
+If an invalid key is provided, the shadowsocks server should show a warning and generate a random key for the user.
 
 For TCP, the first nonce is either from client or server side, it is generated randomly, and
 the subsequent nonces are increased by 1.
