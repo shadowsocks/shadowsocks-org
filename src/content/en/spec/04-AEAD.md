@@ -74,8 +74,7 @@ Data is (Atyp + Dst.addr + Dst.port + Data)
 
 ## Key and Nonce 
 
-No more key derivation for AEAD. The user needs to provide a 32-byte random key encoded with URL-safe Base64.
-If an invalid key is provided, the shadowsocks server should show a warning and generate a random key for the user.
+For AEAD, it's recommended to use a 32-byte random key. The key can be passed to shadowsocks in a Base64-URL encoded string.  If an invalid key provided, the shadowsocks server should show a warning and generate a random key for the user.
 
 For TCP, the first nonce is either from client or server side, it is generated randomly, and
 the subsequent nonces are increased by 1.
