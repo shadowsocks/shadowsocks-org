@@ -108,10 +108,48 @@ $ qmake
 $ make -j4
 $ sudo make install
 ```
-
 libQtShadowsocks is licensed under the [GNU Lesser General Public License, version 3.0](https://www.gnu.org/licenses/lgpl.html)
+
+## Perl
+
+Net::Shadowsocks is an asynchronous, non-blocking Shadowsocks client and server Perl module maintained by [@zhou0]. 
+
+### Setting up
+
+You need a Perl interpreter to execute Perl program. Any Unix like system , including Linux and Mac OS X, has Perl pre-installed. Windows does not have Perl installed by default, you need to install Strawberry Perl.The source code is available on CPAN and github. Download from CPAN https://metacpan.org/release/Net-Shadowsocks or download from github https://github.com/zhou0/shadowsocks-perl
+
+### Installing 
+
+On Unix like systems,either
+
+ ```bash
+$ perl Build.PL
+$ ./Build
+$ ./Build test
+$ ./Build install
+```
+or
+```bash
+$ perl Makefile.PL
+$ make
+$ make test
+$ make install
+```
+You might need to change make to dmake or nmake depending on the compiler toolchain used on Windows. If You have cpan, you can also install using this command 
+```bash 
+$ cpan Net::Shadowsocks
+```  
+### Running
+
+There is a server.pl script under the eg directory. Put your config.json in the same directory as server.pl and
+run the server.pl script there.
+
+Net::Shadowsocks is licensed under the [Artistic License (2.0)] (http://www.perlfoundation.org/artistic_license_2_0). 
+
 
 [@clowwindy]: https://github.com/clowwindy
 [@cyfdecyf]: https://github.com/cyfdecyf
 [@madeye]: https://github.com/madeye
 [@librehat]: https://github.com/librehat
+[@zhou0]: https://github.com/zhou0
+

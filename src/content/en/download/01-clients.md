@@ -30,6 +30,9 @@
       <li>
         <code>brew install shadowsocks-libev</code>
       </li>
+      <li>
+        <code>cpan Net::Shadowsocks</code>
+      </li>
     </ul>
   </div>
   <div class="one-third column">
@@ -43,6 +46,7 @@
     <ul>
       <li> <code>pip install shadowsocks</code> </li>
       <li> <code>apt-get install shadowsocks-libev</code> </li>
+      <li> <code>cpan Net::Shadowsocks</code> </li>
     </ul>
   </div>
 
