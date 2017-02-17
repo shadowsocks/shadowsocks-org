@@ -15,6 +15,8 @@ AEADs. Currently, the following AEAD ciphers are supported by shadowsocks:
 
 TCP stream is organized into chunks. Each chunk is encrypted and authenticated with AEAD.
 
+Part 1: The first chunk should only contain the header of shadowsocks protocol.
+
 ```
 TCP request (before encryption)
 +------+---------------------+------------------+
@@ -29,11 +31,13 @@ TCP request (after encryption, *ciphertext*)
 +--------+--------------+------------------+--------------+---------------+
 | Fixed  |       2      |       Fixed      |   Variable   |     Fixed     |
 +--------+--------------+------------------+--------------+---------------+
-```
 
 Header is (Atyp + Dst.addr + Dst.port).
+HeaderLen is length of (Atyp + Dst.addr + Dst.port).
+HeaderLen should be smaller than 0x3FFF.
+```
 
-HeaderLen is length of (Atyp + Dst.addr + Dst.port). It should be smaller than 0x3FFF.
+Part 2: Then the subsequent stream is divided into chunks.
 
 ```
 TCP Chunk (before encryption)
@@ -49,9 +53,10 @@ TCP Chunk (after encryption, *ciphertext*)
 +--------------+---------------+--------------+------------+
 |      2       |     Fixed     |   Variable   |   Fixed    |
 +--------------+---------------+--------------+------------+
-```
 
-Data.Len is a 16-bit big-endian integer indicating the length of Data. It should be smaller than 0x3FFF.
+DataLen is a 16-bit big-endian integer indicating the length of Data.
+DataLen should be smaller than 0x3FFF.
+```
 
 ## UDP Protocol
 
@@ -71,9 +76,10 @@ UDP (after encryption, *ciphertext*)
 +--------+-----------+-----------+
 | Fixed  | Variable  |   Fixed   |
 +--------+-----------+-----------+
-```
 
 Data is (Atyp + Dst.addr + Dst.port + Data)
+```
+
 
 ## Session key (SIP007)
 
