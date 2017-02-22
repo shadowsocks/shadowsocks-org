@@ -2,55 +2,55 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://shadowsocks.org/en/about/contributors.html</loc>
-    <lastmod>2017-02-22T01:32:04.216Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.853Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/config/advanced.html</loc>
-    <lastmod>2017-02-22T01:32:04.225Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.859Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/config/quick-guide.html</loc>
-    <lastmod>2017-02-22T01:32:04.236Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.869Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/download/clients.html</loc>
-    <lastmod>2017-02-22T01:32:04.241Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.874Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/download/servers.html</loc>
-    <lastmod>2017-02-22T01:32:04.246Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.878Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/</loc>
-    <lastmod>2017-02-22T01:32:04.250Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.881Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/AEAD-Ciphers.html</loc>
-    <lastmod>2017-02-22T01:32:04.254Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.886Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/Protocol.html</loc>
-    <lastmod>2017-02-22T01:32:04.258Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.889Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/Stream-Ciphers.html</loc>
-    <lastmod>2017-02-22T01:32:04.262Z</lastmod>
+    <lastmod>2017-02-22T01:48:30.894Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
