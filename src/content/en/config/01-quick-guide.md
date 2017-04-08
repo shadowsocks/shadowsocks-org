@@ -9,7 +9,7 @@ Shadowsocks accepts [JSON] format configs like this:
     "local_port":1080,
     "password":"barfoo!",
     "timeout":600,
-    "method":"rc4-md5"
+    "method":"chacha20-ietf-poly1305"
 }
 ```
 
@@ -20,9 +20,17 @@ Explanation of each field:
 * `local_port`: local port number.
 * `password`: a password used to encrypt transfer.
 * `timeout`: connections timeout in seconds.
-* `method`: encryption method, "bf-cfb", "aes-256-cfb", "des-cfb", "rc4", etc. Default is table, which is not secure. "aes-256-gcm" is recommended.
+* `method`: encryption method.
 
 [JSON]: http://www.json.org/
+
+## Encryption Method
+
+The strongest option is an [AEAD cipher](/en/spec/AEAD-ciphers.html). The recommended
+choice is "chacha20-ietf-poly1305" or "aes-256-gcm". Other
+[stream ciphers](/en/spec/Stream-Ciphers.html) are implemented but do not provide
+integrity and authenticity. Unless otherwise specified the encryption method
+defaults to "table", which is **not secure**.
 
 ## URI and QR code
 
