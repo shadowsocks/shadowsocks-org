@@ -7,7 +7,7 @@ main"</span> &gt; /etc/apt/sources.<span class="hljs-built_in">list</span>.d/jes
 sudo apt-<span class="hljs-keyword">get</span> update
 sudo apt-<span class="hljs-keyword">get</span> -t jessie-backports install shadowsocks-libev</code></pre><h3>GitHub</h3><p>Build and install the project from source codes.</p><pre><code class="language-bash">$ sudo apt-get install --no-install-recommends build-essential autoconf libtool \
         libssl-dev gawk debhelper dh-systemd init-system-helpers pkg-config asciidoc \
-        xmlto apg libpcre3-dev zlib1g-dev libev-dev libudns-dev libsodium-dev libmbedtls-dev automake libc-ares-dev
+        xmlto apg libpcre3-dev zlib1g-dev libev-dev libudns-dev libsodium-dev 
 $ git <span class="hljs-built_in">clone</span> https://github.com/shadowsocks/shadowsocks-libev.git
 $ <span class="hljs-built_in">cd</span> shadowsocks-libev
 $ git submodule update --init
