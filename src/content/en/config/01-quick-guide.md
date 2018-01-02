@@ -46,7 +46,9 @@ Where the plain URI should be:
 	ss://method:password@hostname:port
 ```
 
-For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption method and password `test`. Then, with the plain URI `ss://bf-cfb:test@192.168.100.1:8888`, we can generate the BASE64 encoded URI:
+Note that the above URI doesn't follow RFC3986. It means the password here should be plain text, not percent-encoded.
+
+For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption method and password `test/!@#:`. Then, with the plain URI `ss://bf-cfb:test/!@#:@192.168.100.1:8888`, we can generate the BASE64 encoded URI:
 
 ```
 	ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4Cg
@@ -84,4 +86,8 @@ This URI can also be encoded to QR code. Then, just scan it with your Android / 
 </fieldset>
 </form>
 </div>
+
+## SIP002
+
+There is also a new URI scheme purposed in <a ref="https://shadowsocks.org/en/spec/SIP002-URI-Scheme.html">SIP002</a>. Any client or server supports SIP003 plugin should use SIP002 URI scheme instead.
 
