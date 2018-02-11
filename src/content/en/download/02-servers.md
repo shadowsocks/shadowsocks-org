@@ -49,8 +49,8 @@ shadowsocks-go is licensed under the [MIT license](http://opensource.org/license
 
 ## C with libev
 
-shadowsocks-libev is a lightweight and full featured port for embedded devices 
-and low end boxes. It's a pure C implementation and has a very small footprint 
+shadowsocks-libev is a lightweight and full featured port for embedded devices
+and low end boxes. It's a pure C implementation and has a very small footprint
 (several megabytes) for thousands of connections. This port is maintained by [@madeye].
 
 ### Debian/Ubuntu:
@@ -123,13 +123,13 @@ libQtShadowsocks is licensed under the [GNU Lesser General Public License, versi
 
 ## Perl
 
-Net::Shadowsocks is an asynchronous, non-blocking Shadowsocks client and server Perl module maintained by [@zhou0]. 
+Net::Shadowsocks is an asynchronous, non-blocking Shadowsocks client and server Perl module maintained by [@zhou0].
 
 ### Setting up
 
 You need a Perl interpreter to execute Perl program. Any Unix like system , including Linux and Mac OS X, has Perl pre-installed. Windows does not have Perl installed by default, you need to install Strawberry Perl.The source code is available on CPAN and github. Download from CPAN https://metacpan.org/release/Net-Shadowsocks or download from github https://github.com/zhou0/shadowsocks-perl
 
-### Installing 
+### Installing
 
 On Unix like systems,either
 
@@ -146,8 +146,8 @@ $ make
 $ make test
 $ make install
 ```
-You might need to change make to dmake or nmake depending on the compiler toolchain used on Windows. If You have cpan, you can also install using this command 
-```bash 
+You might need to change make to dmake or nmake depending on the compiler toolchain used on Windows. If You have cpan, you can also install using this command
+```bash
 $ cpan Net::Shadowsocks
 ```  
 ### Running
@@ -155,7 +155,7 @@ $ cpan Net::Shadowsocks
 There is a server.pl script under the eg directory. Put your config.json in the same directory as server.pl and
 run the server.pl script there.
 
-Net::Shadowsocks is licensed under the [Artistic License (2.0)] (http://www.perlfoundation.org/artistic_license_2_0). 
+Net::Shadowsocks is licensed under the [Artistic License (2.0)] (http://www.perlfoundation.org/artistic_license_2_0).
 
 
 [@clowwindy]: https://github.com/clowwindy
