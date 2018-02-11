@@ -72,6 +72,17 @@ sudo apt-get update
 sudo apt-get -t jessie-backports install shadowsocks-libev
 ```
 
+### Docker
+
+shadowsocks-libev is shipped also in containers, which makes it a great choice if your cloud provider is Docker-ready or if you aim to build a scalable solution.
+
+```
+docker pull shadowsocks/shadowsocks-libev
+docker run -e PASSWORD=<password> -p<server-port>:8388 -p<server-port>:8388/udp -d shadowsocks/shadowsocks-libev
+```
+
+More information about the image can be found [here](https://github.com/shadowsocks/shadowsocks-libev/blob/master/docker/alpine/README.md).
+
 ### GitHub
 
 Build and install the project from source codes.
