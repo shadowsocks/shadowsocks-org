@@ -55,7 +55,7 @@ and low end boxes. It's a pure C implementation and has a very small footprint
 
 ### Debian/Ubuntu:
 
-Shadowsocks-libev is available in the official repository for Debian
+shadowsocks-libev is available in the official repository for Debian
 9("Stretch"), unstable, Ubuntu 16.10 and later derivatives:
 
 ```
