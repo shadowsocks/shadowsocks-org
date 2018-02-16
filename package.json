@@ -14,6 +14,8 @@
     "grunt-contrib-cssmin": "~0.12.2",
     "grunt-contrib-htmlmin": "~0.3.0",
     "grunt-sitemap": "~1.2.1",
+    "grunt-cli": "~0.1.11",
+    "grunt-gh-pages": "~v2.0.0",
     "q": "0.8.12",
     "q-io": "1.5.2",
     "namp": "0.2.25",

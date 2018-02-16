@@ -1,0 +1,8 @@
+sudo: false
+language: node_js
+branches:
+  only:
+  - master
+script:
+  - grunt build
+  - grunt gh-pages
