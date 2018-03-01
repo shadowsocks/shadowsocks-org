@@ -58,6 +58,20 @@ module.exports = (grunt) ->
       jade:
         files: ['src/content/**/*.md', 'src/jade/**/*.jade']
         tasks: ['static:docs']
+    'gh-pages':
+      options:
+        add: false
+        repo: 'https://' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git',
+        message: 'Site updated by commit: ' + process.env.TRAVIS_COMMIT
+        silent: true
+      src: [
+        '**/*.html'
+        'assets/**/*'
+        '**/sitemap.xml'
+        'CNAME'
+        '!b/**/*'
+        '!node_modules/**/*'
+      ]
 
   grunt.loadNpmTasks 'grunt-contrib-cssmin'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
@@ -66,6 +80,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-htmlmin'
   grunt.loadNpmTasks 'grunt-sitemap'
+  grunt.loadNpmTasks 'grunt-gh-pages'
   grunt.loadTasks 'tasks'
 
   grunt.registerTask 'build', [
