@@ -65,4 +65,4 @@ Of course, remember to execute `sysctl -p` to reload the config at runtime.
 
 Use munin or any server monitor tools to generate the graph of your TCP connections. A well tuned server should look like this
 
-![one month munin TCP graph](one_month_munin_tcp_graph.jpg)
+![one month munin TCP graph](/assets/img/one_month_munin_tcp_graph.jpg)
