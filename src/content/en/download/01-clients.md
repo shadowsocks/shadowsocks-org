@@ -8,6 +8,12 @@
       </li>
       <li>Shadowsocks-Qt5: <a href="https://github.com/shadowsocks/shadowsocks-qt5/releases">GitHub</a>
       </li>
+      <li>Outline Windows
+        <ul>
+          <li><a href="https://github.com/Jigsaw-Code/outline-client/">GitHub</a></li>
+          <li><a href="https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/Outline-Client.exe">Direct Download</a></li>
+        </ul>
+      </li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
@@ -21,6 +27,12 @@
     <p><strong>GUI Client</strong></p>
     <ul>
       <li>ShadowsocksX-NG: <a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases">GitHub</a></li>
+      <li>Outline macOS
+        <ul>
+          <li><a href="https://github.com/Jigsaw-Code/outline-client/">GitHub</a></li>
+          <li><a href="https://itunes.apple.com/app/outline-app/id1356178125">App Store</a></li>
+        </ul>
+      </li>
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
@@ -63,6 +75,13 @@
           </li>
         </ul>
       </li>
+       <li>Outline Android
+        <ul>
+          <li><a href="https://github.com/Jigsaw-Code/outline-client/">GitHub</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=org.outline.android.client">Play Store</a></li>
+          <li><a href="https://github.com/Jigsaw-Code/outline-releases/blob/master/client/Outline.apk?raw=true">Direct Download</a></li>
+        </ul>
+      </li>
     </ul>
   </div>
   <div class="one-third column last">
@@ -80,6 +99,12 @@
           <li>
             <a href="http://apt.thebigboss.org/onepackage.php?bundleid=com.linusyang.shadowsocks">Big Boss</a>
           </li>
+        </ul>
+      </li>
+      <li>Outline iOS
+        <ul>
+          <li><a href="https://github.com/Jigsaw-Code/outline-client/">GitHub</a></li>
+          <li><a href="https://itunes.apple.com/app/outline-app/id1356177741">App Store</a></li>
         </ul>
       </li>
     </ul>
