@@ -26,7 +26,7 @@ Explanation of each field:
 
 ## Encryption Method
 
-The strongest option is an [AEAD cipher](/en/spec/AEAD-ciphers.html). The recommended
+The strongest option is an [AEAD cipher](/en/spec/AEAD-Ciphers.html). The recommended
 choice is "chacha20-ietf-poly1305" or "aes-256-gcm". Other
 [stream ciphers](/en/spec/Stream-Ciphers.html) are implemented but do not provide
 integrity and authenticity. Unless otherwise specified the encryption method
