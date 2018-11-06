@@ -21,21 +21,13 @@ $ pip install shadowsocks
 
 Checkout the source codes and run the scripts directly.
 
-```bash
-$ git clone https://github.com/shadowsocks/shadowsocks.git
-$ cd shadowsocks
-$ python setup.py
-```
+https://github.com/shadowsocks
 
 shadowsocks-python is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Go
 
 shadowsocks-go is a state-of-the-art port written in Go language, designed for large-scale system. It implements the multi-ports-multi-password feature, which is suitable for paid service providers with user management and traffic statistics support. This port is maintained by [@cyfdecyf].
-
-### Pre-built Binaries
-
-Download archives from http://dl.chenyufei.info/shadowsocks/.
 
 ### GitHub
 
