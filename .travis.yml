@@ -4,5 +4,7 @@ branches:
   only:
   - master
 script:
+  - npm i npm@latest -g
+  - npm i grunt-cli@latest -g
   - grunt build
   - grunt gh-pages
