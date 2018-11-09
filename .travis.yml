@@ -1,10 +1,10 @@
 sudo: false
 language: node_js
+node_js:
+  - '10'
 branches:
   only:
   - master
 script:
-  - npm i npm@latest -g
-  - npm i grunt-cli@latest -g
   - grunt build
   - grunt gh-pages
