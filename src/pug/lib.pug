@@ -1,0 +1,21 @@
+mixin navigation(self, menu)
+  - var sections = ['download', 'config', 'spec', 'about'];
+
+  for section in sections
+    - var active = section == self.section ? 'active' : '';
+
+    li
+      a(href='javascript:void', class='#{active}')= section
+      ul
+        for item in menu[section]
+          li
+            a(href='/'+item.url)
+              = item.menuTitle
+
+mixin versionDropdown(versions, current)
+  li
+    a(href='javascript:void')= current
+    ul
+      each version in versions
+        li
+          a(href='/'+version+'/index.html')= version
