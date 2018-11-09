@@ -31,7 +31,7 @@ module.exports = (grunt) ->
           keepalive: true
     static:
       options:
-        template: 'src/jade'
+        template: 'src/pug'
       docs:
         files:
           'b': 'src/content'
@@ -55,8 +55,8 @@ module.exports = (grunt) ->
       js:
         files: 'src/js/*.js'
         tasks: ['uglify:docs']
-      jade:
-        files: ['src/content/**/*.md', 'src/jade/**/*.jade']
+      pug:
+        files: ['src/content/**/*.md', 'src/pug/**/*.pug']
         tasks: ['static:docs']
     'gh-pages':
       options:

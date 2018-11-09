@@ -9,7 +9,7 @@ var path = require('path');
 var q = require('q');
 var fs = require('q-io/fs');
 var namp = require('namp');
-var jade = require('jade-legacy');
+var pug = require('pug');
 var semver = require('semver');
 
 
@@ -58,10 +58,10 @@ module.exports = function(grunt) {
     var tplCache = Object.create(null);
     var getJadeTpl = function(name) {
       if (!tplCache[name]) {
-        var tplFileName = path.join(template, name + '.jade');
+        var tplFileName = path.join(template, name + '.pug');
 
         tplCache[name] = fs.read(tplFileName).then(function(content) {
-          return jade.compile(content, {filename: tplFileName, cache: true, pretty: true});
+          return pug.compile(content, {filename: tplFileName, cache: true, pretty: true});
         });
       }
       return tplCache[name];
@@ -121,9 +121,9 @@ module.exports = function(grunt) {
         return q.all(files.map(function(file) {
           var fileUrl = path.join(destination, file.url);
           return q.all([getJadeTpl(file.layout), fs.makeTree(path.dirname(fileUrl))]).then(function(args) {
-            var jadeTpl = args[0];
+            var pugTpl = args[0];
 
-            return fs.write(fileUrl, jadeTpl({
+            return fs.write(fileUrl, pugTpl({
               versions: versions,
               menu: menu[file.version],
               self: file
