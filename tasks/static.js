@@ -9,7 +9,7 @@ var path = require('path');
 var q = require('q');
 var fs = require('q-io/fs');
 var namp = require('namp');
-var jade = require('jade');
+var jade = require('jade-legacy');
 var semver = require('semver');
 
 
