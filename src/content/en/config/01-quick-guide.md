@@ -79,7 +79,7 @@ This URI can also be encoded to QR code. Then, just scan it with your Android / 
 </fieldset>
 <fieldset>
 <label>Encoded:</label>
-<input id="uri-encoded" type="text" disabled="disabled" value=""/>
+<input id="uri-encoded" type="text" readonly="readonly" value=""/>
 </fieldset>
 <fieldset>
 <label>QR Code:</label>
