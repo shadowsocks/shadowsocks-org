@@ -59,6 +59,10 @@ net.ipv4.tcp_congestion_control = hybla
 Of course, remember to execute `sysctl -p` to reload the config at runtime.
 
 ```
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+```
+
+```
 sudo uname -r
 sudo sysctl net.ipv4.tcp_available_congestion_control
 sudo sysctl net.ipv4.tcp_congestion_control
