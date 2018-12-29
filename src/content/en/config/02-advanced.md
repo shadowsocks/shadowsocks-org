@@ -37,15 +37,12 @@ Here is an example `/etc/sysctl.conf` of our production servers:
 
 ```
 fs.file-max = 51200
-
 net.core.rmem_max = 67108864
 net.core.wmem_max = 67108864
 net.core.netdev_max_backlog = 250000
 net.core.somaxconn = 4096
-
 net.ipv4.tcp_syncookies = 1
 net.ipv4.tcp_tw_reuse = 1
-net.ipv4.tcp_tw_recycle = 0
 net.ipv4.tcp_fin_timeout = 30
 net.ipv4.tcp_keepalive_time = 1200
 net.ipv4.ip_local_port_range = 10000 65000
@@ -61,6 +58,13 @@ net.ipv4.tcp_congestion_control = hybla
 
 Of course, remember to execute `sysctl -p` to reload the config at runtime.
 
+```
+sudo uname -r
+sudo sysctl net.ipv4.tcp_available_congestion_control
+sudo sysctl net.ipv4.tcp_congestion_control
+sudo sysctl net.core.default_qdisc
+sudo lsmod | grep bbr
+```
 ### How to verify your optimizations work
 
 Use munin or any server monitor tools to generate the graph of your TCP connections. A well tuned server should look like this
