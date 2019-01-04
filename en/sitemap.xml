@@ -2,73 +2,73 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://shadowsocks.org/en/about/contributors.html</loc>
-    <lastmod>2019-01-04T07:33:32.592Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.623Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/config/advanced.html</loc>
-    <lastmod>2019-01-04T07:33:32.596Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.627Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/config/quick-guide.html</loc>
-    <lastmod>2019-01-04T07:33:32.604Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.635Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/download/clients.html</loc>
-    <lastmod>2019-01-04T07:33:32.612Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.643Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/download/servers.html</loc>
-    <lastmod>2019-01-04T07:33:32.616Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.651Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/</loc>
-    <lastmod>2019-01-04T07:33:32.620Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.659Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/AEAD-Ciphers.html</loc>
-    <lastmod>2019-01-04T07:33:32.636Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.671Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/Implementations.html</loc>
-    <lastmod>2019-01-04T07:33:32.660Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.691Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/Plugin.html</loc>
-    <lastmod>2019-01-04T07:33:32.664Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.699Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/Protocol.html</loc>
-    <lastmod>2019-01-04T07:33:32.672Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.703Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/SIP002-URI-Scheme.html</loc>
-    <lastmod>2019-01-04T07:33:32.676Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.707Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/spec/Stream-Ciphers.html</loc>
-    <lastmod>2019-01-04T07:33:32.684Z</lastmod>
+    <lastmod>2019-01-04T08:07:19.711Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
