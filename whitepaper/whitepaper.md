@@ -310,7 +310,7 @@ ss://cmM0LW1kNTpwYXNzd2Q=@192.168.100.1:8888/
 | QR Code Scan       | Y      | Y      | Y      | Y          |
 | QR Code Generation | Y      | Y      | Y      | Y          |
 | AEAD ciphers       | Y      | Y      | N      | Y          |
-| Plugin             | N      | Y      | N      | N          |
+| Plugin             | Y      | Y      | N      | Y          |
 
 
 [ss]: https://github.com/shadowsocks/shadowsocks
