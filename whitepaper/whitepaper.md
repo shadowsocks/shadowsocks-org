@@ -268,7 +268,7 @@ ss://cmM0LW1kNTpwYXNzd2Q=@192.168.100.1:8888/
     ?plugin=obfs-local%3Bobfs%3Dhttp#Example2
 ```
 
-# Official Shadowsocks implementations
+# Official implementations
 
 ## Servers
 

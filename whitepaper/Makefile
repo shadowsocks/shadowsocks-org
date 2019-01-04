@@ -4,4 +4,4 @@ all: ../assets/whitepaper.pdf
 	pandoc -N --template=template.tex --variable fontsize=10pt --variable version=2.0 whitepaper.md --pdf-engine=xelatex -o ../assets/whitepaper.pdf
 
 clean:
-	rm -f whitepaper.pdf
+	rm -f ../assets/whitepaper.pdf
