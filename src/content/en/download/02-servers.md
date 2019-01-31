@@ -39,6 +39,24 @@ $ go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
 
 shadowsocks-go is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
+## Go from Outline
+
+[outline-ss-server](https://github.com/Jigsaw-Code/outline-ss-server) is the shadowsocks implementation used by the Outline Server, but it can be used standalone. Main features:
+* Multiple users on a single port and multiple ports.
+* Whitebox monitoring of the service using [prometheus.io](https://prometheus.io)
+* Live updates via config change + SIGHUP
+* Prohibits unsafe access to localhost ports and usage of non-AEAD ciphers
+
+#### Github
+
+Download pre-built binaries from the [Github releases](https://github.com/Jigsaw-Code/outline-ss-server/releases) or build it from source:
+```
+go get github.com/Jigsaw-code/outline-ss-server
+$(go env GOPATH)/bin/outline-ss-server -config=config.yml -metrics=127.0.0.1:9091
+```
+
+outline-ss-server is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
 ## C with libev
 
 shadowsocks-libev is a lightweight and full featured port for embedded devices

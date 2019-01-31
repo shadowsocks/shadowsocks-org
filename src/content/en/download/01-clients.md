@@ -53,6 +53,12 @@
     <ul>
       <li>Shadowsocks-Qt5: <a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation">GitHub</a>
       </li>
+      <li>Outline Linux
+        <ul>
+          <li><a href="https://github.com/Jigsaw-Code/outline-client/">GitHub</a></li>
+          <li><a href="https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage">Direct Download</a></li>
+        </ul>
+      </li>  
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
