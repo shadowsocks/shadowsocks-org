@@ -274,21 +274,20 @@ ss://cmM0LW1kNTpwYXNzd2Q=@192.168.100.1:8888/
 
 - [shadowsocks][ss]: The original Python implementation.
 - [shadowsocks-libev][ss-libev]: Lightweight C implementation for embedded devices and low end boxes. Very small footprint (several megabytes) for thousands of connections.
-- [shadowsocks-go][ss-go]: Go implementation with multi-port, multi-password, user management and traffic statistics support for commercial deployments.
-- [go-shadowsocks2][go-ss2]: Another Go implementation focusing on core features and code reusability.
+- [go-shadowsocks2][go-ss2]: Go implementation focusing on core features and code reusability.
 
 ### Feature comparison
 
-|                | ss | ss-libev | ss-go | go-ss2 |
-|----------------|----|----------|-------|--------|
-| TCP Fast Open  | Y  | Y        | N     | N      |
-| Multiuser      | Y  | Y        | Y     | N      |
-| Management API | Y  | Y        | N     | N      |
-| Redirect mode  | N  | Y        | N     | Y      |
-| Tunnel mode    | Y  | Y        | N     | Y      |
-| UDP Relay      | Y  | Y        | Y     | Y      |
-| AEAD ciphers   | Y  | Y        | N     | Y      |
-| Plugin         | N  | Y        | N     | N      |
+|                | ss | ss-libev | go-ss2 |
+|----------------|----|----------|--------|
+| TCP Fast Open  | Y  | Y        | N      |
+| Multiuser      | Y  | Y        | N      |
+| Management API | Y  | Y        | N      |
+| Redirect mode  | N  | Y        | Y      |
+| Tunnel mode    | Y  | Y        | Y      |
+| UDP Relay      | Y  | Y        | Y      |
+| AEAD ciphers   | Y  | Y        | Y      |
+| Plugin         | N  | Y        | N      |
 
 
 ## Clients
