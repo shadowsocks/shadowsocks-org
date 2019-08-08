@@ -69,6 +69,7 @@ module.exports = (grunt) ->
         'assets/**/*'
         '**/sitemap.xml'
         'CNAME'
+        'app-ads.txt'
         '!b/**/*'
         '!node_modules/**/*'
       ]
