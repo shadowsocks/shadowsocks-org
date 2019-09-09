@@ -52,13 +52,13 @@ For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption 
 
 ```
 	> console.log( "ss://" + btoa("bf-cfb:test/!@#:@192.168.100.1:8888") )
-	ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4Cg
+	ss://YmYtY2ZiOnRlc3QvIUAjOkAxOTIuMTY4LjEwMC4xOjg4ODg
 ```
 
 To help organize and identify these URIs, you can append a tag after the BASE64 encoded string:
 
 ```
-    ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4Cg#example-server
+    ss://YmYtY2ZiOnRlc3QvIUAjOkAxOTIuMTY4LjEwMC4xOjg4ODg#example-server
 ```
 
 This URI can also be encoded to QR code. Then, just scan it with your Android / iOS devices:
