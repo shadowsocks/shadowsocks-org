@@ -37,9 +37,6 @@
     <p><strong>Command-line Client</strong></p>
     <ul>
       <li>
-        <code>pip install shadowsocks</code>
-      </li>
-      <li>
         <code>brew install shadowsocks-libev</code>
       </li>
       <li>
