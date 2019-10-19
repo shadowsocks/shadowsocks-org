@@ -59,7 +59,6 @@
     </ul>
     <p><strong>Command-line Client</strong></p>
     <ul>
-      <li> <code>pip install shadowsocks</code> </li>
       <li> <code>apt-get install shadowsocks-libev</code> </li>
       <li> <code>cpan Net::Shadowsocks</code> </li>
     </ul>
