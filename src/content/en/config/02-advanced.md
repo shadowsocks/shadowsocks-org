@@ -17,6 +17,10 @@ Add these two lines
 ```
 * soft nofile 51200
 * hard nofile 51200
+
+# for server running in root:
+root soft nofile 51200
+root hard nofile 51200
 ```
 
 Then, before you start the shadowsocks server, set the ulimit first
