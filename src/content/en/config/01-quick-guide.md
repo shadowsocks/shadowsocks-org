@@ -8,7 +8,6 @@ Shadowsocks accepts [JSON] format configs like this:
     "server_port":8388,
     "local_port":1080,
     "password":"barfoo!",
-    "timeout":600,
     "method":"chacha20-ietf-poly1305"
 }
 ```
@@ -19,7 +18,6 @@ Explanation of each field:
 * `server_port`: server port number.
 * `local_port`: local port number.
 * `password`: a password used to encrypt transfer.
-* `timeout`: connections timeout in seconds.
 * `method`: encryption method.
 
 [JSON]: http://www.json.org/
