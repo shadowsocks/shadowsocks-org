@@ -18,7 +18,7 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-gh-pages": "^4.0.0",
     "grunt-sitemap": "^2.0.1",
-    "marked": "^1.2.3",
+    "marked": "^2.0.0",
     "namp": "0.2.26",
     "pug": "2.0.3",
     "q": "1.5.1",
