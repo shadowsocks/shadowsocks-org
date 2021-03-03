@@ -89,7 +89,8 @@ module.exports = function(grunt) {
             var version = parts[0];
             var section = parts[1] || null;
             var basePath = parts.join('/') + '/';
-            var parsed = namp(content);
+            var string = new TextDecoder("utf-8").decode(content);
+            var parsed = namp(string);
 
             return {
               url: basePath + urlFromFilename(fileName),
