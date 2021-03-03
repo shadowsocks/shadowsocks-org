@@ -2,85 +2,85 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://shadowsocks.org/en/about/contributors.html</loc>
-    <lastmod>2021-03-03T05:10:58.993Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.715Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/config/advanced.html</loc>
-    <lastmod>2021-03-03T05:10:58.997Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.727Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/config/quick-guide.html</loc>
-    <lastmod>2021-03-03T05:10:59.001Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.739Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/download/clients.html</loc>
-    <lastmod>2021-03-03T05:10:59.009Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.763Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/download/servers.html</loc>
-    <lastmod>2021-03-03T05:10:59.013Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.771Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/</loc>
-    <lastmod>2021-03-03T05:10:59.017Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.783Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/wiki/AEAD-Ciphers.html</loc>
-    <lastmod>2021-03-03T05:10:59.029Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.795Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/wiki/Implementations.html</loc>
-    <lastmod>2021-03-03T05:10:59.045Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.827Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/wiki/Plugin.html</loc>
-    <lastmod>2021-03-03T05:10:59.053Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.859Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/wiki/Protocol.html</loc>
-    <lastmod>2021-03-03T05:10:59.061Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.879Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/wiki/Setup-fail2ban.html</loc>
-    <lastmod>2021-03-03T05:10:59.069Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.895Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/wiki/SIP002-URI-Scheme.html</loc>
-    <lastmod>2021-03-03T05:10:59.077Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.895Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/wiki/SIP008-Online-Configuration-Delivery.html</loc>
-    <lastmod>2021-03-03T05:10:59.081Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.899Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://shadowsocks.org/en/wiki/Stream-Ciphers.html</loc>
-    <lastmod>2021-03-03T05:10:59.085Z</lastmod>
+    <lastmod>2021-03-03T05:51:11.903Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
