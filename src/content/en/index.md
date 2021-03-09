@@ -1,2 +1,2 @@
 layout: homepage
-pageTitle: A secure socks5 proxy
+pageTitle: A simple socks5 proxy
