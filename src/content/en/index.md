@@ -1,2 +1,3 @@
 layout: homepage
-pageTitle: A simple socks5 proxy
+pageTitle: A fast tunnel proxy that helps you bypass firewalls
+
