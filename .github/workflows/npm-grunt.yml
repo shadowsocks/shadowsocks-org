@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16]
-    
+
     steps:
     - uses: actions/checkout@v2
       with:
@@ -28,4 +28,10 @@ jobs:
       run: |
         npm ci
         grunt build
-        grunt gh-pages
+        grunt copy
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public

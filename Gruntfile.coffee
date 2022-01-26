@@ -58,30 +58,28 @@ module.exports = (grunt) ->
       pug:
         files: ['src/content/**/*.md', 'src/pug/**/*.pug']
         tasks: ['static:docs']
-    'gh-pages':
-      options:
-        add: false
-        repo: 'https://' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git',
-        message: 'Site updated by commit: ' + process.env.TRAVIS_COMMIT
-        silent: true
-      src: [
-        '**/*.html'
-        'assets/**/*'
-        '**/sitemap.xml'
-        'CNAME'
-        'app-ads.txt'
-        '!b/**/*'
-        '!node_modules/**/*'
-      ]
+    copy:
+      main:
+        expand: true
+        dest: 'public/'
+        src: [
+          '**/*.html'
+          'assets/**/*'
+          '**/sitemap.xml'
+          'CNAME'
+          'app-ads.txt'
+          '!b/**/*'
+          '!node_modules/**/*'
+        ]
 
   grunt.loadNpmTasks 'grunt-contrib-cssmin'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-connect'
+  grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-htmlmin'
   grunt.loadNpmTasks 'grunt-sitemap'
-  grunt.loadNpmTasks 'grunt-gh-pages'
   grunt.loadTasks 'tasks'
 
   grunt.registerTask 'build', [
