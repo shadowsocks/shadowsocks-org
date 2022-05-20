@@ -27,7 +27,7 @@ shadowsocks-python is licensed under the [Apache License, Version 2.0](https://w
 
 ## Go
 
-[go-shadowsocks2](https://github.com/shadowsocks/go-shadowsocks2) is the next-generation Shadowsocks in Go, maintained by [@riobard], superseds the discontinued [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go).
+[go-shadowsocks2](https://github.com/shadowsocks/go-shadowsocks2) is the next-generation Shadowsocks in Go, maintained by [@riobard], supersedes the discontinued [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go).
 
 #### GitHub
 
@@ -95,7 +95,7 @@ More information about the image can be found [here](https://github.com/shadowso
 
 #### GitHub
 
-Build and install the project from source codes.
+Build and install the project from source code.
 
 ```bash
 $ sudo apt-get install --no-install-recommends build-essential autoconf libtool \
@@ -137,11 +137,11 @@ Net::Shadowsocks is an asynchronous, non-blocking Shadowsocks client and server 
 
 #### Setting up
 
-You need a Perl interpreter to execute Perl program. Any Unix like system , including Linux and Mac OS X, has Perl pre-installed. Windows does not have Perl installed by default, you need to install Strawberry Perl.The source code is available on CPAN and github. Download from CPAN https://metacpan.org/release/Net-Shadowsocks or download from github https://github.com/zhou0/shadowsocks-perl
+You need a Perl interpreter to execute Perl program. Any Unix-like system, including Linux and Mac OS X, has Perl pre-installed. Windows does not have Perl installed by default, so you need to install Strawberry Perl. The source code is available on CPAN and github. Download from CPAN https://metacpan.org/release/Net-Shadowsocks or download from github https://github.com/zhou0/shadowsocks-perl
 
 #### Installing
 
-On Unix like systems,either
+On Unix-like systems, either
 
  ```bash
 $ perl Build.PL
@@ -156,15 +156,15 @@ $ make
 $ make test
 $ make install
 ```
-You might need to change make to dmake or nmake depending on the compiler toolchain used on Windows. If You have cpan, you can also install using this command
+You might need to change `make` to `dmake` or `nmake` depending on the compiler toolchain used on Windows. If you have cpan, you can also install using this command:
 ```bash
 $ cpan Net::Shadowsocks
 ```
 
 #### Running
 
-There is a server.pl script under the eg directory. Put your config.json in the same directory as server.pl and
-run the server.pl script there.
+There is a server.pl script under the `eg` directory. Put your `config.json` in the same directory as `server.pl` and
+run the `server.pl` script there.
 
 Net::Shadowsocks is licensed under the [Artistic License (2.0)] (http://www.perlfoundation.org/artistic_license_2_0).
 
