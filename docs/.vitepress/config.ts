@@ -32,7 +32,7 @@ export default defineConfig({
 
     algolia: {
       appId: '63UAAQ8ZPC',
-      apiKey: '2dd2b673c4f69aa844a0997c2a745911',
+      apiKey: '6807c68bb3792d05a235f3f7eb93a0cf',
       indexName: 'shadowsocks_org'
     },
   }
