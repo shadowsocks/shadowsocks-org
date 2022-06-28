@@ -24,7 +24,7 @@ jobs:
 
     - name: Build
       run: |
-        npm ci
+        yarn install
         yarn docs:build
         cp CNAME docs/.vitepress/dist/
         cp googlece4e3889b18bc841.html docs/.vitepress/dist/
