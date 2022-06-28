@@ -21,7 +21,7 @@ features:
   - title: Flexible Encryption
     details: Secured with industry level encryption algorithm. Flexible to support custom algorithms.
   - title: Mobile Ready
-    details: Optimized for mobile device and wireless network, without any keep-alive connections.
+    details: Optimized for mobile device and wireless network, with low CPU and bandwidth usage.
   - title: Cross Platform
     details: Available on most platforms, including Windows, Linux, Mac, Android, iOS, and OpenWRT.
 ---
