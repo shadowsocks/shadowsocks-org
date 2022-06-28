@@ -42,6 +42,7 @@ function nav() {
   return [
     { text: 'Guide', link: '/guide/what-is-shadowsocks', activeMatch: '/guide/' },
     { text: 'Configs', link: '/config/quick-guide', activeMatch: '/config/' },
+    { text: 'SIPs', link: '/sips/what-is-sip', activeMatch: '/sips/' },
     {
       text: 'Github Issues',
       link: 'https://github.com/shadowsocks/shadowsocks-org/issues'
@@ -94,6 +95,10 @@ function sidebarGuide() {
       collapsible: true,
       items: [
         {
+          text: 'What is SIP?',
+          link: '/sips/what-is-sip'
+        },
+        {
           text: 'SIP002 URI Scheme',
           link: '/sips/sip002'
         },
@@ -127,6 +132,7 @@ function sidebarSIPs() {
     {
       text: 'SIPs',
       items: [
+        { text: 'What is SIP?', link: '/sips/what-is-sip' },
         { text: 'SIP002 URI Scheme', link: '/sips/sip002' },
         { text: 'SIP003 Plugin', link: '/sips/sip003' },
         { text: 'SIP008 Outline Configuration Delivery', link: '/sips/sip008' }
