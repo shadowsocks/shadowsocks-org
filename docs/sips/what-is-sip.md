@@ -4,7 +4,7 @@ SIP stands for Shadowsocks Improvement Proposal. SIPs are standards specifying p
 
 ## How to submit a SIP?
 
-Shadowsocks is a community open to any reasonable improvements. To submit a SIP, please open an SIP issue on our GitHub [issue tracker](https://github.com/shadowsocks/shadowsocks-org/issues).
+Shadowsocks is a community open to any reasonable improvements. To submit a SIP, please open a SIP issue on our GitHub [issue tracker](https://github.com/shadowsocks/shadowsocks-org/issues).
 
 ## When will a SIP be accepted?
 
