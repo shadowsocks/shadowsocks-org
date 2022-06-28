@@ -24,6 +24,4 @@ features:
     details: Optimized for mobile device and wireless network, without any keep-alive connections.
   - title: Cross Platform
     details: Available on most platforms, including Windows, Linux, Mac, Android, iOS, and OpenWRT.
-  - title: Open Source
-    details: Totally free and open source. A worldwide community devoted to deliver bug-free code and long-term support.
 ---
