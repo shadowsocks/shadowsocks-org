@@ -37,13 +37,13 @@ defaults to "table", which is **not secure**.
 Shadowsocks for Android / iOS also accepts BASE64 encoded URI format configs:
 
 ```
-	ss://BASE64-ENCODED-STRING-WITHOUT-PADDING#TAG
+ss://BASE64-ENCODED-STRING-WITHOUT-PADDING#TAG
 ```	
 
 Where the plain URI should be:
 
 ```
-	ss://method:password@hostname:port
+ss://method:password@hostname:port
 ```
 
 Note that the above URI doesn't follow RFC3986. It means the password here should be plain text, not percent-encoded.
@@ -51,14 +51,14 @@ Note that the above URI doesn't follow RFC3986. It means the password here shoul
 For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption method and password `test/!@#:`. Then, with the plain URI `ss://bf-cfb:test/!@#:@192.168.100.1:8888`, we can generate the BASE64 encoded URI:
 
 ```
-	> console.log( "ss://" + btoa("bf-cfb:test/!@#:@192.168.100.1:8888") )
-	ss://YmYtY2ZiOnRlc3QvIUAjOkAxOTIuMTY4LjEwMC4xOjg4ODg
+> console.log( "ss://" + btoa("bf-cfb:test/!@#:@192.168.100.1:8888") )
+ss://YmYtY2ZiOnRlc3QvIUAjOkAxOTIuMTY4LjEwMC4xOjg4ODg
 ```
 
 To help organize and identify these URIs, you can append a tag after the BASE64 encoded string:
 
 ```
-    ss://YmYtY2ZiOnRlc3QvIUAjOkAxOTIuMTY4LjEwMC4xOjg4ODg#example-server
+ss://YmYtY2ZiOnRlc3QvIUAjOkAxOTIuMTY4LjEwMC4xOjg4ODg#example-server
 ```
 
 This URI can also be encoded to QR code. Then, just scan it with your Android / iOS devices:

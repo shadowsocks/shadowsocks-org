@@ -9,13 +9,13 @@ This historic document is for educational purposes only.
 Stream_encrypt is a function that takes a secret key, an initialization vector, a message, and produces a ciphertext with the same length as the message.
 
 ```
-    Stream_encrypt(key, IV, message) => ciphertext
+Stream_encrypt(key, IV, message) => ciphertext
 ```
 
 Stream_decrypt is a function that takes a secret key, an initializaiton vector, a ciphertext, and produces the original message.
 
 ```
-    Stream_decrypt(key, IV, ciphertext) => message
+Stream_decrypt(key, IV, ciphertext) => message
 ```
 
 The key can be input directly from user or generated from a password. The key derivation is following `EVP_BytesToKey(3)` in OpenSSL. The detailed spec can be found here: https://wiki.openssl.org/index.php/Manual:EVP_BytesToKey(3)
@@ -25,22 +25,18 @@ The key can be input directly from user or generated from a password. The key de
 A stream cipher encrypted TCP stream starts with a randomly generated initializaiton vector, followed by encrypted payload data.
 
 ```
-    [IV][encrypted payload]
+[IV][encrypted payload]
 ```
-
-
 
 ## UDP
 
 A stream cipher encrypted UDP packet has the following structure
 
 ```
-    [IV][encrypted payload]
+[IV][encrypted payload]
 ```
 
  Each UDP packet is encrypted/decrypted independently with a randomly generated initialization vector.
-
-
 
 ## Historic stream ciphers
 
@@ -61,8 +57,6 @@ A stream cipher encrypted UDP packet has the following structure
   <tr><td>salsa20</td><td>32</td><td>8</td></tr>
   <tr><td>rc4-md5</td><td>16</td><td>16</td></tr>
 </table>
-
-
 
 [Stream ciphers]: https://en.wikipedia.org/wiki/Stream_cipher
 [#36]: https://github.com/shadowsocks/shadowsocks-org/issues/36
