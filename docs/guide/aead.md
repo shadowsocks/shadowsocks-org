@@ -21,7 +21,7 @@ The way Shadowsocks using AEAD ciphers is specified in [SIP004] and amended in [
 
 ## Key Derivation
 
-The master key can be input directly from user or generated from a password. The key derivation is still following EVP_BytesToKey(3) in OpenSSL. The detailed spec can be found here: https://wiki.openssl.org/index.php/Manual:EVP_BytesToKey(3)
+The master key can be input directly from user or generated from a password. The key derivation is still following EVP_BytesToKey(3) in OpenSSL. The detailed spec can be found [here](https://wiki.openssl.org/index.php/Manual:EVP_BytesToKey(3))
 
 [HKDF_SHA1] is a function that takes a secret key, a non-secret salt, an info string, and produces a subkey that is cryptographically strong even if the input secret key is weak.
 
