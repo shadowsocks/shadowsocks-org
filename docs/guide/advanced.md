@@ -1,3 +1,5 @@
+# Advanced configurations
+
 ## Optimize the shadowsocks server on Linux
 
 First of all, upgrade your Linux kernel to 3.5 or later.

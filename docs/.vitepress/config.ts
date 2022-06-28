@@ -11,9 +11,7 @@ export default defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/guide': sidebarGuide(),
-      '/config': sidebarConfig(),
-      '/sips': sidebarSIPs()
+      '/guide': sidebarGuide()
     },
 
     editLink: {
@@ -41,11 +39,13 @@ export default defineConfig({
 function nav() {
   return [
     { text: 'Guide', link: '/guide/what-is-shadowsocks', activeMatch: '/guide/' },
-    { text: 'Configs', link: '/config/quick-guide', activeMatch: '/config/' },
-    { text: 'SIPs', link: '/sips/what-is-sip', activeMatch: '/sips/' },
     {
       text: 'Github Issues',
       link: 'https://github.com/shadowsocks/shadowsocks-org/issues'
+    },
+    {
+      text: 'Community',
+      link: 'https://github.com/shadowsocks/shadowsocks-org/discussions'
     }
   ]
 }
@@ -65,15 +65,8 @@ function sidebarGuide() {
       text: 'Configuration',
       collapsible: true,
       items: [
-        { text: 'Quick Guide', link: '/config/quick-guide' },
-        { text: 'Advanced', link: '/config/advanced' }
-      ]
-    },
-    {
-      text: 'About',
-      collapsible: true,
-      items: [
-        { text: 'Contributors', link: '/guide/contributors' }
+        { text: 'Config Format', link: '/guide/configs' },
+        { text: 'Advanced', link: '/guide/advanced' }
       ]
     },
     {
@@ -96,46 +89,27 @@ function sidebarGuide() {
       items: [
         {
           text: 'What is SIP?',
-          link: '/sips/what-is-sip'
+          link: '/guide/what-is-sip'
         },
         {
           text: 'SIP002 URI Scheme',
-          link: '/sips/sip002'
+          link: '/guide/sip002'
         },
         {
           text: 'SIP003 Plugin',
-          link: '/sips/sip003'
+          link: '/guide/sip003'
         },
         {
-          text: 'SIP008 Outline Configuration Delivery',
-          link: '/sips/sip008'
+          text: 'SIP008 Online Configuration Delivery',
+          link: '/guide/sip008'
         }
       ]
-    }
-  ]
-}
-
-function sidebarConfig() {
-  return [
+    },
     {
-      text: 'Config',
+      text: 'About',
+      collapsible: true,
       items: [
-        { text: 'Quick Guide', link: '/config/quick-guide' },
-        { text: 'Advanced', link: '/config/advanced' }
-      ]
-    }
-  ]
-}
-
-function sidebarSIPs() {
-  return [
-    {
-      text: 'SIPs',
-      items: [
-        { text: 'What is SIP?', link: '/sips/what-is-sip' },
-        { text: 'SIP002 URI Scheme', link: '/sips/sip002' },
-        { text: 'SIP003 Plugin', link: '/sips/sip003' },
-        { text: 'SIP008 Outline Configuration Delivery', link: '/sips/sip008' }
+        { text: 'Contributors', link: '/guide/contributors' }
       ]
     }
   ]

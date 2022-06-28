@@ -1,3 +1,5 @@
+# Config Format
+
 ## Config File
 
 Shadowsocks accepts [JSON] format configs like this:
@@ -22,7 +24,7 @@ Explanation of each field:
 
 [JSON]: http://www.json.org/
 
-## Encryption Method
+### Encryption Method
 
 The strongest option is an [AEAD cipher](/guide/aead.html). The recommended
 choice is "chacha20-ietf-poly1305" or "aes-256-gcm". Other
@@ -61,6 +63,6 @@ To help organize and identify these URIs, you can append a tag after the BASE64 
 
 This URI can also be encoded to QR code. Then, just scan it with your Android / iOS devices:
 
-## SIP002
+### SIP002
 
 There is also a new URI scheme proposed in <a href="/sips/sip002.html">SIP002</a>. Any client or server which supports SIP003 plugin should use SIP002 URI scheme instead.

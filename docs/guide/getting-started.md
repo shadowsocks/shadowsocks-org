@@ -1,3 +1,7 @@
+# Getting Started
+
+First, you need to pick a shadowsocks server and client implementation. Any implementation below is compatible with each other.
+
 ## Servers
 
 - [shadowsocks][ss]: The original Python implementation.

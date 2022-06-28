@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/getting-started
+      link: /guide/what-is-shadowsocks
     - theme: alt
       text: View on GitHub
       link: https://github.com/shadowsocks
