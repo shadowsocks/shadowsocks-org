@@ -2,7 +2,7 @@
 
 First, you need to pick a shadowsocks server and client implementation. Any implementation below is compatible with each other.
 
-## Servers
+## CLI implementations
 
 - [shadowsocks][ss]: The original Python implementation.
 - [shadowsocks-libev][ss-libev]: Lightweight C implementation for embedded devices and low end boxes. Very small footprint (several megabytes) for thousands of connections.
@@ -83,7 +83,7 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 </tbody>
 </table>
 
-## Clients
+## GUI Clients
 
 - [shadowsocks-android][ss-android]: Android client.
 - [shadowsocks-windows][ss-win]: Windows client.
