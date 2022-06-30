@@ -70,7 +70,7 @@ function sidebarGuide() {
       ]
     },
     {
-      text: 'Protocols',
+      text: 'Ciphers',
       collapsible: true,
       items: [
         {
