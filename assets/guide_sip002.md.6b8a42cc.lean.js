@@ -1,1 +1,0 @@
-import{_ as e,c as s,o,a}from"./app.6a261ded.js";const f=JSON.parse('{"title":"SIP002 URI scheme","description":"","frontmatter":{},"headers":[],"relativePath":"guide/sip002.md","lastUpdated":1656631567000}'),t={name:"guide/sip002.md"},n=a("",20),p=[n];function r(c,i,l,d,u,h){return o(),s("div",null,p)}var g=e(t,[["render",r]]);export{f as __pageData,g as default};
