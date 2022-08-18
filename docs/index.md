@@ -16,7 +16,7 @@ hero:
       link: https://github.com/shadowsocks
     - theme: alt
       text: Download from IPFS
-      link: https://cloudflare-ipfs.com/ipfs/QmY3AeDm4nhsAZuJ65d4xWWtJFCRPwnqabHbZ6BXwzCZnC
+      link: https://cloudflare-ipfs.com/ipfs/QmZZUw2SAYE38xdF47se8QbnUtviY1dobWC6FHSiaJ6791
 
 features:
   - title: "Super Fast"
