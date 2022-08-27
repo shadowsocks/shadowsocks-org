@@ -1,6 +1,4 @@
-import { defineConfig } from 'vite'
-
-export default defineConfig({
+export default {
   lang: 'en-US',
   title: 'Shadowsocks',
   description: 'A fast tunnel proxy that helps you bypass firewalls.',
@@ -34,7 +32,7 @@ export default defineConfig({
       indexName: 'shadowsocks_org'
     },
   }
-})
+}
 
 function nav() {
   return [
