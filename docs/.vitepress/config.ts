@@ -6,11 +6,11 @@ export default {
   lastUpdated: true,
 
   head: [
-    ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-37082941-2'}],
+    ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=G-NX48EZF634'}],
     ['script', {}, `window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'UA-37082941-2');`]
+    gtag('config', 'G-NX48EZF634');`]
   ],
 
   themeConfig: {
