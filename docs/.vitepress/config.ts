@@ -5,6 +5,14 @@ export default {
 
   lastUpdated: true,
 
+  head: [
+    ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-37082941-2'}],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-37082941-2');`]
+  ],
+
   themeConfig: {
     nav: nav(),
 
