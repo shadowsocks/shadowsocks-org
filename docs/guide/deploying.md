@@ -1,5 +1,15 @@
 # Deploying
 
+## Setup your own server
+
+### Buy a server from any cloud provider
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=b7f5848a6ce2&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
+### Install Linux on your servers
+
+Ubuntu 20.04 is recommended.
+
 ## Python
 
 shadowsocks-python is the initial version written by [@clowwindy]. It aims to provide a simple-to-use and easy-to-deploy implementation with basic features of shadowsocks.
