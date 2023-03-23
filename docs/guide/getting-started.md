@@ -67,14 +67,21 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <td>✓</td>
 </tr>
 <tr>
-<td><a href="AEAD-Ciphers">AEAD ciphers</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Multipath_TCP">MPTCP</a></td>
+<td>✗</td>
+<td>✓</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr>
+<td><a href="aead.html">AEAD ciphers</a></td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td><a href="Plugin">Plugin</a></td>
+<td><a href="sip003.html">Plugin</a></td>
 <td>✗</td>
 <td>✓</td>
 <td>✗</td>
