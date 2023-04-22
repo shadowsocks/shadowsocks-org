@@ -71,7 +71,7 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <td>✗</td>
 <td>✓</td>
 <td>✗</td>
-<td>✗</td>
+<td>✓</td>
 </tr>
 <tr>
 <td><a href="aead.html">AEAD ciphers</a></td>
@@ -84,6 +84,13 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <td><a href="sip003.html">Plugin</a></td>
 <td>✗</td>
 <td>✓</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+<tr>
+<td><a href="https://github.com/shadowsocks/shadowsocks-org/issues/180">Plugin UDP (Experimental)</a></td>
+<td>✗</td>
+<td>✗</td>
 <td>✗</td>
 <td>✓</td>
 </tr>
