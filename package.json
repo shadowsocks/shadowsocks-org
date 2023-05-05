@@ -13,7 +13,6 @@
   "author": "Max Lv",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.75",
-    "vue": "^3.2.37"
+    "vitepress": "^1.0.0-alpha.75"
   }
 }
