@@ -108,6 +108,10 @@ function sidebarGuide() {
         {
           text: 'SIP008 Online Configuration Delivery',
           link: '/guide/sip008'
+        },
+        {
+          text: 'SIP022 AEAD-2022 Ciphers',
+          link: '/guide/sip022'
         }
       ]
     },

@@ -5,3 +5,4 @@ b/
 en/
 public/
 docs/.vitepress/dist
+docs/.vitepress/cache
