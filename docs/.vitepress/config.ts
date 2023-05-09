@@ -17,7 +17,7 @@ export default {
     nav: nav(),
 
     sidebar: {
-      '/guide': sidebarGuide()
+      '/doc': sidebardoc()
     },
 
     editLink: {
@@ -44,7 +44,7 @@ export default {
 
 function nav() {
   return [
-    { text: 'Guide', link: '/guide/what-is-shadowsocks', activeMatch: '/guide/' },
+    { text: 'Documentation', link: '/doc/what-is-shadowsocks', activeMatch: '/doc/' },
     {
       text: 'Github Issues',
       link: 'https://github.com/shadowsocks/shadowsocks-org/issues'
@@ -56,23 +56,23 @@ function nav() {
   ]
 }
 
-function sidebarGuide() {
+function sidebardoc() {
   return [
     {
       text: 'Introduction',
       collapsible: true,
       items: [
-        { text: 'What is Shadowsocks?', link: '/guide/what-is-shadowsocks' },
-        { text: 'Getting Started', link: '/guide/getting-started' },
-        { text: 'Deploying', link: '/guide/deploying' }
+        { text: 'What is Shadowsocks?', link: '/doc/what-is-shadowsocks' },
+        { text: 'Getting Started', link: '/doc/getting-started' },
+        { text: 'Deploying', link: '/doc/deploying' }
       ]
     },
     {
       text: 'Configuration',
       collapsible: true,
       items: [
-        { text: 'Config Format', link: '/guide/configs' },
-        { text: 'Advanced', link: '/guide/advanced' }
+        { text: 'Config Format', link: '/doc/configs' },
+        { text: 'Advanced', link: '/doc/advanced' }
       ]
     },
     {
@@ -81,11 +81,11 @@ function sidebarGuide() {
       items: [
         {
           text: 'AEAD',
-          link: '/guide/aead'
+          link: '/doc/aead'
         },
         {
           text: 'Stream',
-          link: '/guide/stream'
+          link: '/doc/stream'
         }
       ]
     },
@@ -95,23 +95,27 @@ function sidebarGuide() {
       items: [
         {
           text: 'What is SIP?',
-          link: '/guide/what-is-sip'
+          link: '/doc/what-is-sip'
         },
         {
           text: 'SIP002 URI Scheme',
-          link: '/guide/sip002'
+          link: '/doc/sip002'
         },
         {
           text: 'SIP003 Plugin',
-          link: '/guide/sip003'
+          link: '/doc/sip003'
         },
         {
           text: 'SIP008 Online Configuration Delivery',
-          link: '/guide/sip008'
+          link: '/doc/sip008'
         },
         {
           text: 'SIP022 AEAD-2022 Ciphers',
-          link: '/guide/sip022'
+          link: '/doc/sip022'
+        },
+        {
+          text: 'SIP023 Extensible Identity Headers',
+          link: '/doc/sip023'
         }
       ]
     },
@@ -119,7 +123,7 @@ function sidebarGuide() {
       text: 'About',
       collapsible: true,
       items: [
-        { text: 'Contributors', link: '/guide/contributors' }
+        { text: 'Contributors', link: '/doc/contributors' }
       ]
     }
   ]
