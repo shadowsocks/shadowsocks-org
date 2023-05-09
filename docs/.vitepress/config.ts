@@ -35,9 +35,9 @@ export default {
     },
 
     algolia: {
-      appId: '63UAAQ8ZPC',
-      apiKey: '6807c68bb3792d05a235f3f7eb93a0cf',
-      indexName: 'shadowsocks_org'
+      appId: 'NCNKXBRNNU',
+      apiKey: '56f1b2465364d7fb7a61745427467c43',
+      indexName: 'shadowsocks'
     },
   }
 }
