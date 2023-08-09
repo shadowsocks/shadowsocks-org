@@ -65,4 +65,4 @@ This URI can also be encoded to QR code. Then, just scan it with your Android / 
 
 ### SIP002
 
-There is also a new URI scheme proposed in <a href="/sips/sip002.html">SIP002</a>. Any client or server which supports SIP003 plugin should use SIP002 URI scheme instead.
+There is also a new URI scheme proposed in <a href="/doc/sip002.html">SIP002</a>. Any client or server which supports SIP003 plugin should use SIP002 URI scheme instead.
