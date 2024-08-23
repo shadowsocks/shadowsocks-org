@@ -33,9 +33,9 @@ ulimit -n 51200
 
 ### Step 2, Tune the kernel parameters
 
-The priciples of tuning parameters for shadowsocks are
+The principles of tuning parameters for shadowsocks are
 
-1. Reuse ports and conections as soon as possible.
+1. Reuse ports and connections as soon as possible.
 2. Enlarge the queues and buffers as large as possible.
 3. Choose the TCP congestion algorithm for large latency and high throughput.
 
