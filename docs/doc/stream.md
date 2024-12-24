@@ -12,7 +12,7 @@ Stream_encrypt is a function that takes a secret key, an initialization vector, 
 Stream_encrypt(key, IV, message) => ciphertext
 ```
 
-Stream_decrypt is a function that takes a secret key, an initializaiton vector, a ciphertext, and produces the original message.
+Stream_decrypt is a function that takes a secret key, an initialization vector, a ciphertext, and produces the original message.
 
 ```
 Stream_decrypt(key, IV, ciphertext) => message
@@ -22,7 +22,7 @@ The key can be input directly from user or generated from a password. The key de
 
 ## TCP
 
-A stream cipher encrypted TCP stream starts with a randomly generated initializaiton vector, followed by encrypted payload data.
+A stream cipher encrypted TCP stream starts with a randomly generated initialization vector, followed by encrypted payload data.
 
 ```
 [IV][encrypted payload]
