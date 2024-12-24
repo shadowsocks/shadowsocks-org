@@ -12,9 +12,6 @@ hero:
       text: Get Started
       link: /doc/what-is-shadowsocks
     - theme: alt
-      text: Forum
-      link: https://discourse.shadowsocks.org/
-    - theme: alt
       text: View on GitHub
       link: https://github.com/shadowsocks
     - theme: alt

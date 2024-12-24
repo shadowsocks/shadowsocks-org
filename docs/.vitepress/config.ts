@@ -51,7 +51,7 @@ function nav() {
     },
     {
       text: 'Community',
-      link: 'https://github.com/shadowsocks/shadowsocks-org/discussions'
+      link: 'https://discourse.shadowsocks.org/'
     }
   ]
 }
