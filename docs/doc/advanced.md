@@ -2,7 +2,7 @@
 
 ## Optimize the shadowsocks server on Linux
 
-First of all, upgrade your Linux kernel to 3.5 or later.
+First of all, make sure your Linux kernel is reasonably up to date (4.9 or later recommended).
 
 ### Step 1, increase the maximum number of open file descriptors
 
@@ -51,7 +51,6 @@ net.core.somaxconn = 4096
 
 net.ipv4.tcp_syncookies = 1
 net.ipv4.tcp_tw_reuse = 1
-net.ipv4.tcp_tw_recycle = 0
 net.ipv4.tcp_fin_timeout = 30
 net.ipv4.tcp_keepalive_time = 1200
 net.ipv4.ip_local_port_range = 10000 65000

@@ -14,5 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.75"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
   }
 }

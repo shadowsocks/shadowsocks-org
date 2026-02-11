@@ -26,11 +26,10 @@ Explanation of each field:
 
 ### Encryption Method
 
-The strongest option is an [AEAD cipher](/doc/aead.html). The recommended
-choice is "chacha20-ietf-poly1305" or "aes-256-gcm". Other
-[stream ciphers](/doc/stream.html) are implemented but do not provide
-integrity and authenticity. Unless otherwise specified the encryption method
-defaults to "table", which is **not secure**.
+The strongest option is an [AEAD cipher](/doc/aead). The recommended
+choice is "chacha20-ietf-poly1305" or "aes-256-gcm". For the latest
+AEAD-2022 ciphers, see [SIP022](/doc/sip022). [Stream ciphers](/doc/stream)
+are deprecated and do not provide integrity or authenticity.
 
 ## URI and QR code
 
@@ -48,21 +47,21 @@ ss://method:password@hostname:port
 
 Note that the above URI doesn't follow RFC3986. It means the password here should be plain text, not percent-encoded.
 
-For example, we have a server at `192.168.100.1:8888` using `bf-cfb` encryption method and password `test/!@#:`. Then, with the plain URI `ss://bf-cfb:test/!@#:@192.168.100.1:8888`, we can generate the BASE64 encoded URI:
+For example, we have a server at `192.168.100.1:8888` using `chacha20-ietf-poly1305` encryption method and password `test/!@#:`. Then, with the plain URI `ss://chacha20-ietf-poly1305:test/!@#:@192.168.100.1:8888`, we can generate the BASE64 encoded URI:
 
 ```
-> console.log( "ss://" + btoa("bf-cfb:test/!@#:@192.168.100.1:8888") )
-ss://YmYtY2ZiOnRlc3QvIUAjOkAxOTIuMTY4LjEwMC4xOjg4ODg
+> console.log( "ss://" + btoa("chacha20-ietf-poly1305:test/!@#:@192.168.100.1:8888") )
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0ZXN0LyFAIzpAMTkyLjE2OC4xMDAuMTo4ODg4
 ```
 
 To help organize and identify these URIs, you can append a tag after the BASE64 encoded string:
 
 ```
-ss://YmYtY2ZiOnRlc3QvIUAjOkAxOTIuMTY4LjEwMC4xOjg4ODg#example-server
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0ZXN0LyFAIzpAMTkyLjE2OC4xMDAuMTo4ODg4#example-server
 ```
 
 This URI can also be encoded to QR code. Then, just scan it with your Android / iOS devices:
 
 ### SIP002
 
-There is also a new URI scheme proposed in <a href="/doc/sip002.html">SIP002</a>. Any client or server which supports SIP003 plugin should use SIP002 URI scheme instead.
+There is also a new URI scheme proposed in [SIP002](/doc/sip002). Any client or server which supports SIP003 plugin should use the SIP002 URI scheme instead.
