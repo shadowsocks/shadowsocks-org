@@ -6,34 +6,7 @@ First, buy a server from any cloud provider. DigitalOcean is recommended by us:
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=b7f5848a6ce2&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
-Then, install Linux on your servers, Ubuntu 20.04 is recommended.
-
-## Python
-
-shadowsocks-python is the initial version written by [@clowwindy]. It aims to provide a simple-to-use and easy-to-deploy implementation with basic features of shadowsocks.
-
-#### PyPI
-
-First, make sure you have Python 2.6 or 2.7.
-
-```bash
-$ python --version
-Python 2.6.8
-```
-
-Then install from PIP
-
-```bash
-$ pip install shadowsocks
-```
-
-#### GitHub
-
-Checkout the source codes and run the scripts directly.
-
-https://github.com/shadowsocks
-
-shadowsocks-python is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Then, install Linux on your servers, Ubuntu 22.04 or later is recommended.
 
 ## Go
 
@@ -41,10 +14,10 @@ shadowsocks-python is licensed under the [Apache License, Version 2.0](https://w
 
 #### GitHub
 
-Use `go get` to install.
+Use `go install` to install.
 
 ```bash
-$ go get -u -v github.com/shadowsocks/go-shadowsocks2
+$ go install github.com/shadowsocks/go-shadowsocks2@latest
 ```
 
 go-shadowsocks2 is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
@@ -61,7 +34,7 @@ go-shadowsocks2 is licensed under the [Apache License, Version 2.0](https://www.
 
 Download pre-built binaries from the [GitHub releases](https://github.com/Jigsaw-Code/outline-ss-server/releases) or build it from source:
 ```
-go get github.com/Jigsaw-code/outline-ss-server
+go install github.com/Jigsaw-Code/outline-ss-server@latest
 $(go env GOPATH)/bin/outline-ss-server -config=config.yml -metrics=127.0.0.1:9091
 ```
 
@@ -75,21 +48,11 @@ and low end boxes. It's a pure C implementation and has a very small footprint
 
 #### Debian/Ubuntu:
 
-shadowsocks-libev is available in the official repository for Debian
-9("Stretch"), unstable, Ubuntu 16.10 and later derivatives:
+shadowsocks-libev is available in the official repository for Debian and Ubuntu:
 
 ```
 sudo apt update
 sudo apt install shadowsocks-libev
-```
-
-For Debian Jessie users, please install it from jessie-backports:
-
-```
-sudo sh -c 'printf "deb http://httpredir.debian.org/debian jessie-backports
-main" > /etc/apt/sources.list.d/jessie-backports.list'
-sudo apt-get update
-sudo apt-get -t jessie-backports install shadowsocks-libev
 ```
 
 #### Docker
@@ -176,11 +139,9 @@ $ cpan Net::Shadowsocks
 There is a server.pl script under the `eg` directory. Put your `config.json` in the same directory as `server.pl` and
 run the `server.pl` script there.
 
-Net::Shadowsocks is licensed under the [Artistic License (2.0)] (http://www.perlfoundation.org/artistic_license_2_0).
+Net::Shadowsocks is licensed under the [Artistic License (2.0)](http://www.perlfoundation.org/artistic_license_2_0).
 
 
-[@clowwindy]: https://github.com/clowwindy
-[@cyfdecyf]: https://github.com/cyfdecyf
 [@madeye]: https://github.com/madeye
 [@librehat]: https://github.com/librehat
 [@zhou0]: https://github.com/zhou0

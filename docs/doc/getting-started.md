@@ -4,7 +4,6 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 ## CLI implementations
 
-- [shadowsocks][ss]: The original Python implementation.
 - [shadowsocks-libev][ss-libev]: Lightweight C implementation for embedded devices and low end boxes. Very small footprint (several megabytes) for thousands of connections.
 - [go-shadowsocks2][go-ss2]: Go implementation focusing on core features and code reusability.
 - [shadowsocks-rust][ss-rust]: A rust port of shadowsocks.
@@ -17,7 +16,6 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <thead>
 <tr>
 <th></th>
-<th><a href="https://github.com/shadowsocks/shadowsocks">ss</a></th>
 <th><a href="https://github.com/shadowsocks/shadowsocks-libev">ss-libev</a></th>
 <th><a href="https://github.com/shadowsocks/go-shadowsocks2">go-ss2</a></th>
 <th><a href="https://github.com/shadowsocks/shadowsocks-rust">ss-rust</a></th>
@@ -27,27 +25,23 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <tr>
 <td><a href="https://en.wikipedia.org/wiki/TCP_Fast_Open">TCP Fast Open</a></td>
 <td>✓</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Multiuser</td>
 <td>✓</td>
 <td>✗</td>
 <td>✓</td>
 </tr>
 <tr>
-<td><a href="https://github.com/shadowsocks/shadowsocks/wiki/Configure-Multiple-Users">Multiuser</a></td>
-<td>✓</td>
-<td>✓</td>
-<td>✗</td>
-<td>✓</td>
-</tr>
-<tr>
-<td><a href="https://github.com/shadowsocks/shadowsocks/wiki/Manage-Multiple-Users">Management API</a></td>
-<td>✓</td>
+<td>Management API</td>
 <td>✓</td>
 <td>✗</td>
 <td>✓</td>
 </tr>
 <tr>
 <td>Redirect mode</td>
-<td>✗</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -57,39 +51,33 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
-<td>✓</td>
 </tr>
 <tr>
 <td>UDP Relay</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
-<td>✓</td>
 </tr>
 <tr>
 <td><a href="https://en.wikipedia.org/wiki/Multipath_TCP">MPTCP</a></td>
-<td>✗</td>
 <td>✓</td>
 <td>✗</td>
 <td>✓</td>
 </tr>
 <tr>
-<td><a href="aead.html">AEAD ciphers</a></td>
-<td>✓</td>
+<td><a href="aead">AEAD ciphers</a></td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td><a href="sip003.html">Plugin</a></td>
-<td>✗</td>
+<td><a href="sip003">Plugin</a></td>
 <td>✓</td>
 <td>✗</td>
 <td>✓</td>
 </tr>
 <tr>
 <td><a href="https://github.com/shadowsocks/shadowsocks-org/issues/180">Plugin UDP (Experimental)</a></td>
-<td>✗</td>
 <td>✗</td>
 <td>✗</td>
 <td>✓</td>
@@ -167,7 +155,6 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 
 
-[ss]: https://github.com/shadowsocks/shadowsocks
 [ss-libev]: https://github.com/shadowsocks/shadowsocks-libev
 [go-ss2]: https://github.com/shadowsocks/go-shadowsocks2
 [ss-rust]: https://github.com/shadowsocks/shadowsocks-rust
