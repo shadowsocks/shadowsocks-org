@@ -13,7 +13,7 @@
   "author": "Max Lv",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.75"
+    "vitepress": "^1.6.4"
   },
   "dependencies": {
     "qrcode": "^1.5.4"
