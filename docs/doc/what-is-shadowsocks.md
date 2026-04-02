@@ -3,7 +3,8 @@
 Shadowsocks is a secure split proxy loosely based on [SOCKS5](https://tools.ietf.org/html/rfc1928).
 
 ```
-client <---> ss-local <--[encrypted]--> ss-remote <---> target
+client <---> ss-localyarn install
+yarn docs🏗️ <--[encrypted]--> ss-remote <---> target
 ```
 
 
