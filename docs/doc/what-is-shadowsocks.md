@@ -2,7 +2,7 @@
 
 Shadowsocks is a secure split proxy loosely based on [SOCKS5](https://tools.ietf.org/html/rfc1928).
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 70" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="Shadowsocks data flow: client to ss-local to ss-remote to target, with encrypted link between ss-local and ss-remote">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 70" style="display:block;margin:1em auto;width:100%;height:auto;max-width:720px" role="img" aria-label="Shadowsocks data flow: client to ss-local to ss-remote to target, with encrypted link between ss-local and ss-remote">
   <defs>
     <marker id="ss-arr-1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
@@ -33,7 +33,7 @@ The Shadowsocks local component (ss-local) acts like a traditional SOCKS5 server
 
 Addresses used in Shadowsocks follow the [SOCKS5 address format](https://tools.ietf.org/html/rfc1928#section-5):
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 60" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="SOCKS5 address format: 1-byte type, variable-length host, 2-byte port">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 60" style="display:block;margin:1em auto;width:100%;height:auto;max-width:540px" role="img" aria-label="SOCKS5 address format: 1-byte type, variable-length host, 2-byte port">
   <g fill="none" stroke="currentColor">
     <rect x="10" y="10" width="520" height="40" rx="3"/>
     <line x1="130" y1="10" x2="130" y2="50"/>
@@ -62,7 +62,7 @@ The port number is a 2-byte big-endian unsigned integer.
 
 ss-local initiates a TCP connection to ss-remote by sending an encrypted data stream starting with the target address followed by payload data. The exact encryption scheme differs depending on the cipher used.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="TCP stream payload format: target address followed by payload">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;width:100%;height:auto;max-width:480px" role="img" aria-label="TCP stream payload format: target address followed by payload">
   <g fill="none" stroke="currentColor">
     <rect x="10" y="5" width="460" height="30" rx="3"/>
     <line x1="210" y1="5" x2="210" y2="35"/>
@@ -81,7 +81,7 @@ For better obfuscation purposes, both local and remote SHOULD send the handshake
 
 ss-local sends an encrypted data packet containing the target address and payload to ss-remote.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="UDP packet payload format: target address followed by payload">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;width:100%;height:auto;max-width:480px" role="img" aria-label="UDP packet payload format: target address followed by payload">
   <g fill="none" stroke="currentColor">
     <rect x="10" y="5" width="460" height="30" rx="3"/>
     <line x1="210" y1="5" x2="210" y2="35"/>
@@ -94,7 +94,7 @@ ss-local sends an encrypted data packet containing the target address and payloa
 
 Upon receiving the encrypted packet, ss-remote decrypts and parses the target address. It then sends a new data packet containing only the payload to the target. ss-remote receives data packets back from target and prepends the target address to the payload in each packet, then sends encrypted copies back to ss-local.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="UDP reply packet format: target address followed by payload">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;width:100%;height:auto;max-width:480px" role="img" aria-label="UDP reply packet format: target address followed by payload">
   <g fill="none" stroke="currentColor">
     <rect x="10" y="5" width="460" height="30" rx="3"/>
     <line x1="210" y1="5" x2="210" y2="35"/>
