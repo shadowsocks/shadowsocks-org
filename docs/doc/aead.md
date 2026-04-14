@@ -51,7 +51,7 @@ AE_decrypt(key, nonce, ciphertext, tag) => message
 
 An AEAD encrypted TCP stream starts with a randomly generated salt to derive the per-session subkey, followed by any number of encrypted chunks. Each chunk has the following structure:
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="AEAD TCP chunk: encrypted payload length, length tag, encrypted payload, payload tag">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 40" style="display:block;margin:1em auto;width:100%;height:auto;max-width:720px" role="img" aria-label="AEAD TCP chunk: encrypted payload length, length tag, encrypted payload, payload tag">
   <g fill="none" stroke="currentColor">
     <rect x="10" y="5" width="700" height="30" rx="3"/>
     <line x1="230" y1="5" x2="230" y2="35"/>
@@ -75,7 +75,7 @@ The first AEAD encrypt/decrypt operation uses a counting nonce starting from 0. 
 
 An AEAD encrypted UDP packet has the following structure
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="AEAD UDP packet: salt, encrypted payload, tag">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 40" style="display:block;margin:1em auto;width:100%;height:auto;max-width:500px" role="img" aria-label="AEAD UDP packet: salt, encrypted payload, tag">
   <g fill="none" stroke="currentColor">
     <rect x="10" y="5" width="480" height="30" rx="3"/>
     <line x1="110" y1="5" x2="110" y2="35"/>
