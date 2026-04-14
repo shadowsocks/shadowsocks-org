@@ -35,9 +35,9 @@ Addresses used in Shadowsocks follow the [SOCKS5 address format](https://tools.i
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 60" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="SOCKS5 address format: 1-byte type, variable-length host, 2-byte port">
   <g fill="none" stroke="currentColor">
-    <rect x="10" y="10" width="120" height="40" rx="3"/>
-    <rect x="130" y="10" width="280" height="40" rx="3"/>
-    <rect x="410" y="10" width="120" height="40" rx="3"/>
+    <rect x="10" y="10" width="520" height="40" rx="3"/>
+    <line x1="130" y1="10" x2="130" y2="50"/>
+    <line x1="410" y1="10" x2="410" y2="50"/>
   </g>
   <g fill="currentColor" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
     <text x="70" y="28" font-size="13">type</text>
@@ -64,8 +64,8 @@ ss-local initiates a TCP connection to ss-remote by sending an encrypted data st
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="TCP stream payload format: target address followed by payload">
   <g fill="none" stroke="currentColor">
-    <rect x="10" y="5" width="200" height="30" rx="3"/>
-    <rect x="210" y="5" width="260" height="30" rx="3"/>
+    <rect x="10" y="5" width="460" height="30" rx="3"/>
+    <line x1="210" y1="5" x2="210" y2="35"/>
   </g>
   <g fill="currentColor" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="middle">
     <text x="110" y="24">target address</text>
@@ -83,8 +83,8 @@ ss-local sends an encrypted data packet containing the target address and payloa
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="UDP packet payload format: target address followed by payload">
   <g fill="none" stroke="currentColor">
-    <rect x="10" y="5" width="200" height="30" rx="3"/>
-    <rect x="210" y="5" width="260" height="30" rx="3"/>
+    <rect x="10" y="5" width="460" height="30" rx="3"/>
+    <line x1="210" y1="5" x2="210" y2="35"/>
   </g>
   <g fill="currentColor" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="middle">
     <text x="110" y="24">target address</text>
@@ -96,8 +96,8 @@ Upon receiving the encrypted packet, ss-remote decrypts and parses the target ad
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="UDP reply packet format: target address followed by payload">
   <g fill="none" stroke="currentColor">
-    <rect x="10" y="5" width="200" height="30" rx="3"/>
-    <rect x="210" y="5" width="260" height="30" rx="3"/>
+    <rect x="10" y="5" width="460" height="30" rx="3"/>
+    <line x1="210" y1="5" x2="210" y2="35"/>
   </g>
   <g fill="currentColor" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="middle">
     <text x="110" y="24">target address</text>
