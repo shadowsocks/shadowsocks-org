@@ -53,10 +53,10 @@ An AEAD encrypted TCP stream starts with a randomly generated salt to derive the
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="AEAD TCP chunk: encrypted payload length, length tag, encrypted payload, payload tag">
   <g fill="none" stroke="currentColor">
-    <rect x="10" y="5" width="220" height="30" rx="3"/>
-    <rect x="230" y="5" width="100" height="30" rx="3"/>
-    <rect x="330" y="5" width="240" height="30" rx="3"/>
-    <rect x="570" y="5" width="140" height="30" rx="3"/>
+    <rect x="10" y="5" width="700" height="30" rx="3"/>
+    <line x1="230" y1="5" x2="230" y2="35"/>
+    <line x1="330" y1="5" x2="330" y2="35"/>
+    <line x1="570" y1="5" x2="570" y2="35"/>
   </g>
   <g fill="currentColor" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="middle">
     <text x="120" y="24">encrypted payload length</text>
@@ -77,9 +77,9 @@ An AEAD encrypted UDP packet has the following structure
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="AEAD UDP packet: salt, encrypted payload, tag">
   <g fill="none" stroke="currentColor">
-    <rect x="10" y="5" width="100" height="30" rx="3"/>
-    <rect x="110" y="5" width="280" height="30" rx="3"/>
-    <rect x="390" y="5" width="100" height="30" rx="3"/>
+    <rect x="10" y="5" width="480" height="30" rx="3"/>
+    <line x1="110" y1="5" x2="110" y2="35"/>
+    <line x1="390" y1="5" x2="390" y2="35"/>
   </g>
   <g fill="currentColor" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="middle">
     <text x="60" y="24">salt</text>
