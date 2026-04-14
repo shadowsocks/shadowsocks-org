@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import SIP002Generator from './components/SIP002Generator.vue'
+import './custom.css'
 
 export default {
   ...DefaultTheme,

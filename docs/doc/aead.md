@@ -51,9 +51,20 @@ AE_decrypt(key, nonce, ciphertext, tag) => message
 
 An AEAD encrypted TCP stream starts with a randomly generated salt to derive the per-session subkey, followed by any number of encrypted chunks. Each chunk has the following structure:
 
-```
-[encrypted payload length][length tag][encrypted payload][payload tag]
-```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="AEAD TCP chunk: encrypted payload length, length tag, encrypted payload, payload tag">
+  <g fill="none" stroke="currentColor">
+    <rect x="10" y="5" width="220" height="30" rx="3"/>
+    <rect x="230" y="5" width="100" height="30" rx="3"/>
+    <rect x="330" y="5" width="240" height="30" rx="3"/>
+    <rect x="570" y="5" width="140" height="30" rx="3"/>
+  </g>
+  <g fill="currentColor" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="middle">
+    <text x="120" y="24">encrypted payload length</text>
+    <text x="280" y="24">length tag</text>
+    <text x="450" y="24">encrypted payload</text>
+    <text x="640" y="24">payload tag</text>
+  </g>
+</svg>
 
 Payload length is a 2-byte big-endian unsigned integer capped at 0x3FFF. The higher two bits are reserved and must be set to zero. Payload is therefore limited to 16*1024 - 1 bytes. 
 
@@ -64,9 +75,18 @@ The first AEAD encrypt/decrypt operation uses a counting nonce starting from 0. 
 
 An AEAD encrypted UDP packet has the following structure
 
-```
-[salt][encrypted payload][tag]
-```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 40" style="display:block;margin:1em auto;max-width:100%" role="img" aria-label="AEAD UDP packet: salt, encrypted payload, tag">
+  <g fill="none" stroke="currentColor">
+    <rect x="10" y="5" width="100" height="30" rx="3"/>
+    <rect x="110" y="5" width="280" height="30" rx="3"/>
+    <rect x="390" y="5" width="100" height="30" rx="3"/>
+  </g>
+  <g fill="currentColor" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" text-anchor="middle">
+    <text x="60" y="24">salt</text>
+    <text x="250" y="24">encrypted payload</text>
+    <text x="440" y="24">tag</text>
+  </g>
+</svg>
 
 The salt is used to derive the per-session subkey and must be generated randomly to ensure uniqueness. Each UDP packet is encrypted/decrypted independently, using the derived subkey and a nonce with all zero bytes.
 
