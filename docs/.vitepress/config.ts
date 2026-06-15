@@ -106,6 +106,10 @@ function sidebardoc() {
           link: '/doc/sip003'
         },
         {
+          text: 'SIP003u UDP Extension',
+          link: '/doc/sip003u'
+        },
+        {
           text: 'SIP008 Online Configuration Delivery',
           link: '/doc/sip008'
         },
