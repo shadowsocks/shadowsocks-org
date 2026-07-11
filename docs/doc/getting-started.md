@@ -87,7 +87,7 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 ## GUI Clients
 
-- [meow][meow-ios]: iOS client (default iOS client).
+- [meow][meow-ios]: iOS client.
 - [shadowsocks-android][ss-android]: Android client.
 - [shadowsocks-windows][ss-win]: Windows client.
 - [shadowsocksX-NG][ssx-ng]: MacOS client.
@@ -95,7 +95,7 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 ### Default iOS client: meow
 
-[meow][meow-ios] is the default Shadowsocks client for iOS. Core features for Shadowsocks:
+[meow][meow-ios] is the default Shadowsocks client for iOS. Its core Shadowsocks-related features are:
 
 - Shadowsocks outbound protocol support, powered by the meow-rs engine (Trojan and VLESS outbounds are also available).
 - AEAD ciphers (aes-128-gcm, aes-192-gcm, aes-256-gcm, chacha20-ietf-poly1305, xchacha20-ietf-poly1305) and [SIP022](sip022) AEAD-2022 ciphers (2022-blake3-aes-128-gcm, 2022-blake3-aes-256-gcm, 2022-blake3-chacha20-poly1305).
@@ -113,6 +113,7 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 ### Feature comparison
 
+The table below compares the desktop and Android clients; meow's iOS feature set is described in the section above.
 
 <table>
 <thead>
