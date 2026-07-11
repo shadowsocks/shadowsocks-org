@@ -87,10 +87,24 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 ## GUI Clients
 
+- [meow][meow-ios]: iOS client (default iOS client).
 - [shadowsocks-android][ss-android]: Android client.
 - [shadowsocks-windows][ss-win]: Windows client.
 - [shadowsocksX-NG][ssx-ng]: MacOS client.
 - [shadowsocks-qt5][ss-qt5]: Cross-platform client for Windows/MacOS/Linux.
+
+### Default iOS client: meow
+
+[meow][meow-ios] is the default Shadowsocks client for iOS. Core features for Shadowsocks:
+
+- Shadowsocks outbound protocol support, powered by the meow-rs engine (Trojan and VLESS outbounds are also available).
+- System-wide VPN via a NetworkExtension packet tunnel — no per-app configuration required.
+- UDP relay (QUIC/HTTP3 reliability depends on the outbound proxy and may fall back to TCP).
+- Rule-based routing with domain, IP, GeoIP, and GeoSITE rules, plus CN-IP TCP bypass for split routing.
+- DNS over HTTPS.
+- Clash-style YAML subscriptions with profile switching, per-app proxy group selection, and latency testing.
+- Live traffic throughput monitoring and per-day usage charts.
+- Runs fully on-device with no data collection. Requires iOS 17+; distributed via TestFlight.
 
 
 
@@ -162,3 +176,4 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 [ssx-ng]: https://github.com/shadowsocks/ShadowsocksX-NG
 [ss-qt5]: https://github.com/shadowsocks/shadowsocks-qt5
 [ss-android]: https://github.com/shadowsocks/shadowsocks-android
+[meow-ios]: https://madeye.github.io/meow-ios/
