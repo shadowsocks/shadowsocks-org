@@ -87,15 +87,33 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 ## GUI Clients
 
+- [meow][meow-ios]: iOS client.
 - [shadowsocks-android][ss-android]: Android client.
 - [shadowsocks-windows][ss-win]: Windows client.
 - [shadowsocksX-NG][ssx-ng]: MacOS client.
 - [shadowsocks-qt5][ss-qt5]: Cross-platform client for Windows/MacOS/Linux.
 
+### Recommended iOS client: meow
+
+[meow][meow-ios] is the recommended Shadowsocks client for iOS. Its core Shadowsocks-related features are:
+
+- Shadowsocks outbound protocol support, powered by the meow-rs engine (Trojan and VLESS outbounds are also available).
+- AEAD ciphers (aes-128-gcm, aes-192-gcm, aes-256-gcm, chacha20-ietf-poly1305, xchacha20-ietf-poly1305) and [SIP022](sip022) AEAD-2022 ciphers (2022-blake3-aes-128-gcm, 2022-blake3-aes-256-gcm, 2022-blake3-chacha20-poly1305).
+- [SIP002](sip002) `ss://` share links via manual paste or QR code scan, including the plain `method:password` userinfo form used by AEAD-2022, and the legacy base64 form. Servers and subscription URLs can also be exported as QR codes for sharing.
+- [SIP003](sip003) plugins, implemented natively in-process (iOS does not allow plugin subprocesses): simple-obfs (`obfs-local`, http and tls modes) and v2ray-plugin (WebSocket with optional TLS).
+- System-wide VPN via a NetworkExtension packet tunnel — no per-app configuration required.
+- UDP relay (QUIC/HTTP3 reliability depends on the outbound proxy and may fall back to TCP).
+- Rule-based routing with domain, IP, GeoIP, and GeoSITE rules, plus CN-IP TCP bypass for split routing.
+- DNS over HTTPS.
+- Clash-style YAML subscriptions with profile switching, per-app proxy group selection, and latency testing.
+- Live traffic throughput monitoring and per-day usage charts.
+- Runs fully on-device with no data collection. Requires iOS 17+; distributed via TestFlight.
+
 
 
 ### Feature comparison
 
+For meow's full iOS feature set, see the section above.
 
 <table>
 <thead>
@@ -105,6 +123,7 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <th><a href="https://github.com/shadowsocks/ShadowsocksX-NG">ssx-ng</a></th>
 <th><a href="https://github.com/shadowsocks/shadowsocks-qt5">ss-qt5</a></th>
 <th><a href="https://github.com/shadowsocks/shadowsocks-android">ss-android</a></th>
+<th><a href="https://madeye.github.io/meow-ios/">meow</a></th>
 </tr>
 </thead>
 <tbody>
@@ -114,12 +133,14 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <td>✓</td>
 <td>✗</td>
 <td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>CHNRoutes</td>
 <td>✓</td>
 <td>✓</td>
 <td>✗</td>
+<td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
@@ -128,9 +149,11 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <td>✓</td>
 <td>✗</td>
 <td>✗</td>
+<td>✗</td>
 </tr>
 <tr>
 <td>Profile Switching</td>
+<td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -142,9 +165,11 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>QR Code Generation</td>
+<td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -162,3 +187,4 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 [ssx-ng]: https://github.com/shadowsocks/ShadowsocksX-NG
 [ss-qt5]: https://github.com/shadowsocks/shadowsocks-qt5
 [ss-android]: https://github.com/shadowsocks/shadowsocks-android
+[meow-ios]: https://madeye.github.io/meow-ios/
