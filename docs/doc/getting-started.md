@@ -99,7 +99,7 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 - Shadowsocks outbound protocol support, powered by the meow-rs engine (Trojan and VLESS outbounds are also available).
 - AEAD ciphers (aes-128-gcm, aes-192-gcm, aes-256-gcm, chacha20-ietf-poly1305, xchacha20-ietf-poly1305) and [SIP022](sip022) AEAD-2022 ciphers (2022-blake3-aes-128-gcm, 2022-blake3-aes-256-gcm, 2022-blake3-chacha20-poly1305).
-- [SIP002](sip002) `ss://` share links via manual paste or QR code scan, including the plain `method:password` userinfo form used by AEAD-2022, and the legacy base64 form.
+- [SIP002](sip002) `ss://` share links via manual paste or QR code scan, including the plain `method:password` userinfo form used by AEAD-2022, and the legacy base64 form. Servers and subscription URLs can also be exported as QR codes for sharing.
 - [SIP003](sip003) plugins, implemented natively in-process (iOS does not allow plugin subprocesses): simple-obfs (`obfs-local`, http and tls modes) and v2ray-plugin (WebSocket with optional TLS).
 - System-wide VPN via a NetworkExtension packet tunnel — no per-app configuration required.
 - UDP relay (QUIC/HTTP3 reliability depends on the outbound proxy and may fall back to TCP).
@@ -173,7 +173,7 @@ For meow's full iOS feature set, see the section above.
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
-<td>✗</td>
+<td>✓</td>
 </tr>
 </tbody>
 </table>
