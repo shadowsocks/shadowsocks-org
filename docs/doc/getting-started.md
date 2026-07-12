@@ -113,7 +113,7 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 
 ### Feature comparison
 
-The table below compares the desktop and Android clients; meow's iOS feature set is described in the section above.
+For meow's full iOS feature set, see the section above.
 
 <table>
 <thead>
@@ -123,6 +123,7 @@ The table below compares the desktop and Android clients; meow's iOS feature set
 <th><a href="https://github.com/shadowsocks/ShadowsocksX-NG">ssx-ng</a></th>
 <th><a href="https://github.com/shadowsocks/shadowsocks-qt5">ss-qt5</a></th>
 <th><a href="https://github.com/shadowsocks/shadowsocks-android">ss-android</a></th>
+<th><a href="https://madeye.github.io/meow-ios/">meow</a></th>
 </tr>
 </thead>
 <tbody>
@@ -132,12 +133,14 @@ The table below compares the desktop and Android clients; meow's iOS feature set
 <td>✓</td>
 <td>✗</td>
 <td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>CHNRoutes</td>
 <td>✓</td>
 <td>✓</td>
 <td>✗</td>
+<td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
@@ -146,9 +149,11 @@ The table below compares the desktop and Android clients; meow's iOS feature set
 <td>✓</td>
 <td>✗</td>
 <td>✗</td>
+<td>✗</td>
 </tr>
 <tr>
 <td>Profile Switching</td>
+<td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -160,6 +165,7 @@ The table below compares the desktop and Android clients; meow's iOS feature set
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>QR Code Generation</td>
@@ -167,6 +173,7 @@ The table below compares the desktop and Android clients; meow's iOS feature set
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
+<td>✗</td>
 </tr>
 </tbody>
 </table>
