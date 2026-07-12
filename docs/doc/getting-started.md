@@ -93,9 +93,9 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 - [shadowsocksX-NG][ssx-ng]: MacOS client.
 - [shadowsocks-qt5][ss-qt5]: Cross-platform client for Windows/MacOS/Linux.
 
-### Default iOS client: meow
+### Recommended iOS client: meow
 
-[meow][meow-ios] is the default Shadowsocks client for iOS. Its core Shadowsocks-related features are:
+[meow][meow-ios] is the recommended Shadowsocks client for iOS. Its core Shadowsocks-related features are:
 
 - Shadowsocks outbound protocol support, powered by the meow-rs engine (Trojan and VLESS outbounds are also available).
 - AEAD ciphers (aes-128-gcm, aes-192-gcm, aes-256-gcm, chacha20-ietf-poly1305, xchacha20-ietf-poly1305) and [SIP022](sip022) AEAD-2022 ciphers (2022-blake3-aes-128-gcm, 2022-blake3-aes-256-gcm, 2022-blake3-chacha20-poly1305).
