@@ -91,7 +91,6 @@ First, you need to pick a shadowsocks server and client implementation. Any impl
 - [shadowsocks-android][ss-android]: Android client.
 - [shadowsocks-windows][ss-win]: Windows client.
 - [shadowsocksX-NG][ssx-ng]: MacOS client.
-- [shadowsocks-qt5][ss-qt5]: Cross-platform client for Windows/MacOS/Linux.
 
 ### Recommended iOS client: meow
 
@@ -121,7 +120,6 @@ For meow's full iOS feature set, see the section above.
 <th></th>
 <th><a href="https://github.com/shadowsocks/shadowsocks-csharp">ss-win</a></th>
 <th><a href="https://github.com/shadowsocks/ShadowsocksX-NG">ssx-ng</a></th>
-<th><a href="https://github.com/shadowsocks/shadowsocks-qt5">ss-qt5</a></th>
 <th><a href="https://github.com/shadowsocks/shadowsocks-android">ss-android</a></th>
 <th><a href="https://madeye.github.io/meow-ios/">meow</a></th>
 </tr>
@@ -131,7 +129,6 @@ For meow's full iOS feature set, see the section above.
 <td>System Proxy</td>
 <td>✓</td>
 <td>✓</td>
-<td>✗</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
@@ -139,7 +136,6 @@ For meow's full iOS feature set, see the section above.
 <td>CHNRoutes</td>
 <td>✓</td>
 <td>✓</td>
-<td>✗</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
@@ -149,11 +145,9 @@ For meow's full iOS feature set, see the section above.
 <td>✓</td>
 <td>✗</td>
 <td>✗</td>
-<td>✗</td>
 </tr>
 <tr>
 <td>Profile Switching</td>
-<td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -165,11 +159,9 @@ For meow's full iOS feature set, see the section above.
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
-<td>✓</td>
 </tr>
 <tr>
 <td>QR Code Generation</td>
-<td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -185,6 +177,5 @@ For meow's full iOS feature set, see the section above.
 [ss-rust]: https://github.com/shadowsocks/shadowsocks-rust
 [ss-win]: https://github.com/shadowsocks/shadowsocks-csharp
 [ssx-ng]: https://github.com/shadowsocks/ShadowsocksX-NG
-[ss-qt5]: https://github.com/shadowsocks/shadowsocks-qt5
 [ss-android]: https://github.com/shadowsocks/shadowsocks-android
 [meow-ios]: https://madeye.github.io/meow-ios/
