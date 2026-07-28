@@ -1,6 +1,6 @@
 # Deploying
 
-## Setup your own server
+## turkey
 
 First, buy a server from any cloud provider. DigitalOcean is recommended by us:
 
